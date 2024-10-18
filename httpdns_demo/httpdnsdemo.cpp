@@ -4,6 +4,7 @@
 #include <QNetworkRequest>
 #include <QUrlQuery>
 #include <QNetworkAccessManager>
+#include <QtConcurrent/QtConcurrent>
 #include <QNetworkReply>
 #include <QTimer>
 #include "HttpDns.h"
@@ -14,43 +15,40 @@ HttpDnsDemo::HttpDnsDemo(QWidget *parent)
     ui.setupUi(this);
     ui.centralWidget->layout();
 
-    connect(ui.pushButton, &QPushButton::clicked, this, &HttpDnsDemo::clickbutton);
+
+	connect(ui.pushButton, &QPushButton::clicked, [this]() {
+		ui.textEdit->clear();
+		if (ui.lineEdit->text().isEmpty())
+		{
+			ui.textEdit->append("地址为空");
+			return;
+		}
+		auto strurl = ui.lineEdit->text();
+		qDebug() << "ssl build:" << QSslSocket::sslLibraryBuildVersionString();
+
+
+		qDebug() << "SSL library runtime version:" << QSslSocket::sslLibraryVersionString();
+
+
+		qDebug() << "OpenSSL支持情况:" << QSslSocket::supportsSsl();
+
+		QtConcurrent::run(worker, &Worker::doWork, strurl);
+	});
+
+	worker = new Worker();
+	connect(worker, &Worker::resultReady, this, &HttpDnsDemo::clickButtonPostHandle);
+	
+  
 }
 
 HttpDnsDemo::~HttpDnsDemo()
 {}
 
-void HttpDnsDemo::clickbutton()
+
+void HttpDnsDemo::clickButtonPostHandle(QNetworkRequest req)
 {
-    ui.textEdit->clear();
-    if (ui.lineEdit->text().isEmpty())
-    {
-        ui.textEdit->append("地址为空");
-        return;
-    }
-	auto strurl = ui.lineEdit->text();
-	qDebug() << "ssl build:" << QSslSocket::sslLibraryBuildVersionString();
-
-
-	qDebug() << "SSL library runtime version:" << QSslSocket::sslLibraryVersionString();
-
-
-	qDebug() << "OpenSSL支持情况:" << QSslSocket::supportsSsl();
-
-	QUrl url(strurl);
-	
-	QNetworkRequest req(url);
-
 	QByteArray content, verb;
 	verb = "POST";
-	req.setPeerVerifyName(url.host());
-	req.setRawHeader("Host", url.host().toUtf8());
-	req.setUrl(Resolve(url));
-	qDebug() << "url:" << req.url().toString();
-	
-
-
-
 
 	QNetworkAccessManager access;
 	access.clearAccessCache();
@@ -68,7 +66,7 @@ void HttpDnsDemo::clickbutton()
 	if (!reply->isFinished())
 	{
 		ui.textEdit->append("应答超时");
-		return ;
+		return;
 	}
 	QString error;
 	error = reply->errorString();
@@ -82,7 +80,7 @@ void HttpDnsDemo::clickbutton()
 		ui.textEdit->append(error);
 		return;
 	}
-	else 
+	else
 	{
 		ui.textEdit->append(data);
 		return;

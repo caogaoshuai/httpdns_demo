@@ -562,6 +562,7 @@ int hdns_curl_transport_setup(hdns_http_transport_t* t)
 			curl_easy_setopt_safe(CURLOPT_RESOLVE, t->curl_ctx->sni);
 		}
 	}
+	curl_easy_setopt_safe(CURLOPT_PROXY, "http://127.0.0.1:7001");
 	curl_easy_setopt_safe(CURLOPT_TIMEOUT_MS, t->controller->timeout);
 	curl_easy_setopt_safe(CURLOPT_CONNECTTIMEOUT_MS, t->controller->connect_timeout);
 

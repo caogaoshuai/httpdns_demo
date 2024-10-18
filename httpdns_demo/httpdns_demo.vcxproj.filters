@@ -21,12 +21,18 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="httpdnsdemo.qrc" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="httpdnsdemo.h">
+      <Filter>头文件</Filter>
+    </QtMoc>
+    <QtMoc Include="Worker.h">
       <Filter>头文件</Filter>
     </QtMoc>
   </ItemGroup>

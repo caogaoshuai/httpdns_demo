@@ -1,11 +1,11 @@
  httpdns
 
- Timestamp is 6711ba07 (Fri Oct 18 09:29:43 2024)
+ Timestamp is 67120b6c (Fri Oct 18 15:17:00 2024)
 
  Preferred load address is 10000000
 
  Start         Length     Name                   Class
- 0001:00000000 000180b1H .text$mn                CODE
+ 0001:00000000 000180cfH .text$mn                CODE
  0002:00000000 00000104H .CRT$XCA                DATA
  0002:00000104 00000104H .CRT$XCZ                DATA
  0002:00000208 00000104H .CRT$XIA                DATA
@@ -25,8 +25,8 @@
  0002:000014a8 00000108H .rtc$TZZ                DATA
  0002:000015b0 000001a0H .xdata$x                DATA
  0002:00001750 000026a2H .edata                  DATA
- 0003:00000000 00003b68H .data                   DATA
- 0003:00003b68 00000558H .bss                    DATA
+ 0003:00000000 00003b60H .data                   DATA
+ 0003:00003b60 00000558H .bss                    DATA
  0004:00000000 0000052cH .idata$5                DATA
  0004:0000052c 0000012cH .idata$2                DATA
  0004:00000658 00000014H .idata$3                DATA
@@ -229,326 +229,326 @@
  0001:0000ef20       _hdns_str_start_with       1000ff20 f   hdns_string.obj
  0001:0000f120       _hdns_http_transport_create 10010120 f   hdns_transport.obj
  0001:0000f250       _hdns_http_transport_perform 10010250 f   hdns_transport.obj
- 0001:000108c0       _hdns_curl_response_headers_parse 100118c0 f   hdns_transport.obj
- 0001:00010f90       _hdns_get_user_home_dir    10011f90 f   hdns_utils.obj
- 0001:00011050       _hdns_is_valid_ipv6        10012050 f   hdns_utils.obj
- 0001:000110b0       _hdns_is_valid_ipv4        100120b0 f   hdns_utils.obj
- 0001:00011100       _hdns_md5                  10012100 f   hdns_utils.obj
- 0001:00011160       _hdns_encode_hex           10012160 f   hdns_utils.obj
- 0001:000112e0       ___local_stdio_scanf_options 100122e0 f i cjson:cJSON.c.obj
- 0001:000112f0       __vsscanf_l                100122f0 f i cjson:cJSON.c.obj
- 0001:00011490       _cJSON_AddArrayToObject@8  10012490 f   cjson:cJSON.c.obj
- 0001:000114e0       _cJSON_AddBoolToObject@12  100124e0 f   cjson:cJSON.c.obj
- 0001:00011530       _cJSON_AddFalseToObject@8  10012530 f   cjson:cJSON.c.obj
- 0001:00011580       _cJSON_AddItemReferenceToArray@8 10012580 f   cjson:cJSON.c.obj
- 0001:000115c0       _cJSON_AddItemReferenceToObject@12 100125c0 f   cjson:cJSON.c.obj
- 0001:00011610       _cJSON_AddItemToArray@8    10012610 f   cjson:cJSON.c.obj
- 0001:00011630       _cJSON_AddItemToObject@12  10012630 f   cjson:cJSON.c.obj
- 0001:00011660       _cJSON_AddItemToObjectCS@12 10012660 f   cjson:cJSON.c.obj
- 0001:00011690       _cJSON_AddNullToObject@8   10012690 f   cjson:cJSON.c.obj
- 0001:000116e0       _cJSON_AddNumberToObject@16 100126e0 f   cjson:cJSON.c.obj
- 0001:00011740       _cJSON_AddObjectToObject@8 10012740 f   cjson:cJSON.c.obj
- 0001:00011790       _cJSON_AddRawToObject@12   10012790 f   cjson:cJSON.c.obj
- 0001:000117e0       _cJSON_AddStringToObject@12 100127e0 f   cjson:cJSON.c.obj
- 0001:00011830       _cJSON_AddTrueToObject@8   10012830 f   cjson:cJSON.c.obj
- 0001:00011880       _cJSON_Compare@12          10012880 f   cjson:cJSON.c.obj
- 0001:00011bc0       _cJSON_CreateArray@0       10012bc0 f   cjson:cJSON.c.obj
- 0001:00011be0       _cJSON_CreateArrayReference@4 10012be0 f   cjson:cJSON.c.obj
- 0001:00011c20       _cJSON_CreateBool@4        10012c20 f   cjson:cJSON.c.obj
- 0001:00011c50       _cJSON_CreateDoubleArray@8 10012c50 f   cjson:cJSON.c.obj
- 0001:00011d10       _cJSON_CreateFalse@0       10012d10 f   cjson:cJSON.c.obj
- 0001:00011d30       _cJSON_CreateFloatArray@8  10012d30 f   cjson:cJSON.c.obj
- 0001:00011e00       _cJSON_CreateIntArray@8    10012e00 f   cjson:cJSON.c.obj
- 0001:00011ed0       _cJSON_CreateNull@0        10012ed0 f   cjson:cJSON.c.obj
- 0001:00011ef0       _cJSON_CreateNumber@8      10012ef0 f   cjson:cJSON.c.obj
- 0001:00011f70       _cJSON_CreateObject@0      10012f70 f   cjson:cJSON.c.obj
- 0001:00011f90       _cJSON_CreateObjectReference@4 10012f90 f   cjson:cJSON.c.obj
- 0001:00011fd0       _cJSON_CreateRaw@4         10012fd0 f   cjson:cJSON.c.obj
- 0001:00012030       _cJSON_CreateString@4      10013030 f   cjson:cJSON.c.obj
- 0001:00012090       _cJSON_CreateStringArray@8 10013090 f   cjson:cJSON.c.obj
- 0001:00012130       _cJSON_CreateStringReference@4 10013130 f   cjson:cJSON.c.obj
- 0001:00012170       _cJSON_CreateTrue@0        10013170 f   cjson:cJSON.c.obj
- 0001:00012190       _cJSON_Delete@4            10013190 f   cjson:cJSON.c.obj
- 0001:00012230       _cJSON_DeleteItemFromArray@8 10013230 f   cjson:cJSON.c.obj
- 0001:00012250       _cJSON_DeleteItemFromObject@8 10013250 f   cjson:cJSON.c.obj
- 0001:00012270       _cJSON_DeleteItemFromObjectCaseSensitive@8 10013270 f   cjson:cJSON.c.obj
- 0001:00012290       _cJSON_DetachItemFromArray@8 10013290 f   cjson:cJSON.c.obj
- 0001:000122d0       _cJSON_DetachItemFromObject@8 100132d0 f   cjson:cJSON.c.obj
- 0001:000122f0       _cJSON_DetachItemFromObjectCaseSensitive@8 100132f0 f   cjson:cJSON.c.obj
- 0001:00012310       _cJSON_DetachItemViaPointer@8 10013310 f   cjson:cJSON.c.obj
- 0001:000123a0       _cJSON_Duplicate@8         100133a0 f   cjson:cJSON.c.obj
- 0001:000124d0       _cJSON_GetArrayItem@8      100134d0 f   cjson:cJSON.c.obj
- 0001:00012500       _cJSON_GetArraySize@4      10013500 f   cjson:cJSON.c.obj
- 0001:00012530       _cJSON_GetErrorPtr@0       10013530 f   cjson:cJSON.c.obj
- 0001:00012540       _cJSON_GetNumberValue@4    10013540 f   cjson:cJSON.c.obj
- 0001:00012570       _cJSON_GetObjectItem@8     10013570 f   cjson:cJSON.c.obj
- 0001:00012590       _cJSON_GetObjectItemCaseSensitive@8 10013590 f   cjson:cJSON.c.obj
- 0001:000125b0       _cJSON_GetStringValue@4    100135b0 f   cjson:cJSON.c.obj
- 0001:000125d0       _cJSON_HasObjectItem@8     100135d0 f   cjson:cJSON.c.obj
- 0001:000125f0       _cJSON_InitHooks@4         100135f0 f   cjson:cJSON.c.obj
- 0001:000126a0       _cJSON_InsertItemInArray@12 100136a0 f   cjson:cJSON.c.obj
- 0001:00012730       _cJSON_IsArray@4           10013730 f   cjson:cJSON.c.obj
- 0001:00012750       _cJSON_IsBool@4            10013750 f   cjson:cJSON.c.obj
- 0001:00012770       _cJSON_IsFalse@4           10013770 f   cjson:cJSON.c.obj
- 0001:00012790       _cJSON_IsInvalid@4         10013790 f   cjson:cJSON.c.obj
- 0001:000127b0       _cJSON_IsNull@4            100137b0 f   cjson:cJSON.c.obj
- 0001:000127d0       _cJSON_IsNumber@4          100137d0 f   cjson:cJSON.c.obj
- 0001:000127f0       _cJSON_IsObject@4          100137f0 f   cjson:cJSON.c.obj
- 0001:00012810       _cJSON_IsRaw@4             10013810 f   cjson:cJSON.c.obj
- 0001:00012830       _cJSON_IsString@4          10013830 f   cjson:cJSON.c.obj
- 0001:00012850       _cJSON_IsTrue@4            10013850 f   cjson:cJSON.c.obj
- 0001:00012870       _cJSON_Minify@4            10013870 f   cjson:cJSON.c.obj
- 0001:000129c0       _cJSON_Parse@4             100139c0 f   cjson:cJSON.c.obj
- 0001:000129e0       _cJSON_ParseWithLength@8   100139e0 f   cjson:cJSON.c.obj
- 0001:00012a00       _cJSON_ParseWithLengthOpts@16 10013a00 f   cjson:cJSON.c.obj
- 0001:00012b70       _cJSON_ParseWithOpts@12    10013b70 f   cjson:cJSON.c.obj
- 0001:00012bb0       _cJSON_Print@4             10013bb0 f   cjson:cJSON.c.obj
- 0001:00012bd0       _cJSON_PrintBuffered@12    10013bd0 f   cjson:cJSON.c.obj
- 0001:00012c90       _cJSON_PrintPreallocated@16 10013c90 f   cjson:cJSON.c.obj
- 0001:00012d20       _cJSON_PrintUnformatted@4  10013d20 f   cjson:cJSON.c.obj
- 0001:00012d40       _cJSON_ReplaceItemInArray@12 10013d40 f   cjson:cJSON.c.obj
- 0001:00012d80       _cJSON_ReplaceItemInObject@12 10013d80 f   cjson:cJSON.c.obj
- 0001:00012da0       _cJSON_ReplaceItemInObjectCaseSensitive@12 10013da0 f   cjson:cJSON.c.obj
- 0001:00012dc0       _cJSON_ReplaceItemViaPointer@12 10013dc0 f   cjson:cJSON.c.obj
- 0001:00012e60       _cJSON_SetNumberHelper@12  10013e60 f   cjson:cJSON.c.obj
- 0001:00012ed0       _cJSON_SetValuestring@8    10013ed0 f   cjson:cJSON.c.obj
- 0001:00012f90       _cJSON_Version@0           10013f90 f   cjson:cJSON.c.obj
- 0001:00012fc0       _cJSON_free@4              10013fc0 f   cjson:cJSON.c.obj
- 0001:00012fe0       _cJSON_malloc@4            10013fe0 f   cjson:cJSON.c.obj
- 0001:00014ba0       _sscanf                    10015ba0 f i cjson:cJSON.c.obj
- 0001:00014db8       _apr_strerror@12           10015db8 f   libapr:libapr.dll
- 0001:00014dbe       _apr_initialize@0          10015dbe f   libapr:libapr.dll
- 0001:00014dc4       _apr_terminate             10015dc4 f   libapr:libapr.dll
- 0001:00014dca       _apr_allocator_max_free_set@8 10015dca f   libapr:libapr.dll
- 0001:00014dd0       _apr_thread_mutex_lock@4   10015dd0 f   libapr:libapr.dll
- 0001:00014dd6       _apr_thread_mutex_unlock@4 10015dd6 f   libapr:libapr.dll
- 0001:00014ddc       _apr_pool_create_ex@16     10015ddc f   libapr:libapr.dll
- 0001:00014de2       _apr_pool_allocator_get@4  10015de2 f   libapr:libapr.dll
- 0001:00014de8       _apr_pool_destroy@4        10015de8 f   libapr:libapr.dll
- 0001:00014dee       _apr_palloc@8              10015dee f   libapr:libapr.dll
- 0001:00014df4       _apr_table_set@12          10015df4 f   libapr:libapr.dll
- 0001:00014dfa       _apr_file_open@20          10015dfa f   libapr:libapr.dll
- 0001:00014e00       _apr_file_close@4          10015e00 f   libapr:libapr.dll
- 0001:00014e06       _apr_pstrdup@8             10015e06 f   libapr:libapr.dll
- 0001:00014e0c       _apr_hash_set@16           10015e0c f   libapr:libapr.dll
- 0001:00014e12       _apr_thread_mutex_create@12 10015e12 f   libapr:libapr.dll
- 0001:00014e18       _apr_thread_mutex_destroy@4 10015e18 f   libapr:libapr.dll
- 0001:00014e1e       _apr_hash_make@4           10015e1e f   libapr:libapr.dll
- 0001:00014e24       _apr_hash_get@12           10015e24 f   libapr:libapr.dll
- 0001:00014e2a       _apr_hash_clear@4          10015e2a f   libapr:libapr.dll
- 0001:00014e30       _apr_hash_do@12            10015e30 f   libapr:libapr.dll
- 0001:00014e36       _apr_time_now@0            10015e36 f   libapr:libapr.dll
- 0001:00014e3c       _apr_array_make@12         10015e3c f   libapr:libapr.dll
- 0001:00014e42       _apr_array_push@4          10015e42 f   libapr:libapr.dll
- 0001:00014e48       _apr_array_clear@4         10015e48 f   libapr:libapr.dll
- 0001:00014e4e       _apr_array_pstrcat@12      10015e4e f   libapr:libapr.dll
- 0001:00014e54       _apr_pstrcat               10015e54 f   libapr:libapr.dll
- 0001:00014e5a       _apr_stat@16               10015e5a f   libapr:libapr.dll
- 0001:00014e60       _apr_file_write@12         10015e60 f   libapr:libapr.dll
- 0001:00014e66       _apr_file_read_full@16     10015e66 f   libapr:libapr.dll
- 0001:00014e6c       _apr_dir_make@12           10015e6c f   libapr:libapr.dll
- 0001:00014e72       _apr_array_pop@4           10015e72 f   libapr:libapr.dll
- 0001:00014e78       _apr_table_make@8          10015e78 f   libapr:libapr.dll
- 0001:00014e7e       _apr_sockaddr_info_get@24  10015e7e f   libapr:libapr.dll
- 0001:00014e84       _apr_sockaddr_ip_get@8     10015e84 f   libapr:libapr.dll
- 0001:00014e8a       _apr_time_exp_lt@12        10015e8a f   libapr:libapr.dll
- 0001:00014e90       _apr_os_thread_current@0   10015e90 f   libapr:libapr.dll
- 0001:00014e96       _apr_snprintf              10015e96 f   libapr:libapr.dll
- 0001:00014e9c       _apr_sleep@8               10015e9c f   libapr:libapr.dll
- 0001:00014ea2       _apr_socket_create@20      10015ea2 f   libapr:libapr.dll
- 0001:00014ea8       _apr_socket_close@4        10015ea8 f   libapr:libapr.dll
- 0001:00014eae       _apr_socket_connect@8      10015eae f   libapr:libapr.dll
- 0001:00014eb4       _apr_socket_timeout_set@12 10015eb4 f   libapr:libapr.dll
- 0001:00014eba       _apr_atomic_read32@4       10015eba f   libapr:libapr.dll
- 0001:00014ec0       _apr_atomic_inc32@4        10015ec0 f   libapr:libapr.dll
- 0001:00014ec6       _apr_atomic_dec32@4        10015ec6 f   libapr:libapr.dll
- 0001:00014ecc       _apr_thread_cond_create@8  10015ecc f   libapr:libapr.dll
- 0001:00014ed2       _apr_thread_cond_timedwait@16 10015ed2 f   libapr:libapr.dll
- 0001:00014ed8       _apr_thread_cond_signal@4  10015ed8 f   libapr:libapr.dll
- 0001:00014ede       _apr_thread_cond_broadcast@4 10015ede f   libapr:libapr.dll
- 0001:00014ee4       _apr_thread_cond_destroy@4 10015ee4 f   libapr:libapr.dll
- 0001:00014eea       _apr_is_empty_table@4      10015eea f   libapr:libapr.dll
- 0001:00014ef0       _apr_table_copy@8          10015ef0 f   libapr:libapr.dll
- 0001:00014ef6       _apr_table_overlap@12      10015ef6 f   libapr:libapr.dll
- 0001:00014efc       _apr_itoa@8                10015efc f   libapr:libapr.dll
- 0001:00014f02       _apr_generate_random_bytes@8 10015f02 f   libapr:libapr.dll
- 0001:00014f08       _apr_pstrndup@12           10015f08 f   libapr:libapr.dll
- 0001:00014f0e       _apr_table_elts@4          10015f0e f   libapr:libapr.dll
- 0001:00014f14       _apr_table_addn@12         10015f14 f   libapr:libapr.dll
- 0001:00014f1a       _apr_psprintf              10015f1a f   libapr:libapr.dll
- 0001:00014f20       _apr_env_get@12            10015f20 f   libapr:libapr.dll
- 0001:00014f26       _apr_thread_pool_create@16 10015f26 f   libaprutil:libaprutil.dll
- 0001:00014f2c       _apr_thread_pool_destroy@4 10015f2c f   libaprutil:libaprutil.dll
- 0001:00014f32       _apr_thread_pool_push@20   10015f32 f   libaprutil:libaprutil.dll
- 0001:00014f38       _apr_thread_pool_schedule@24 10015f38 f   libaprutil:libaprutil.dll
- 0001:00014f3e       _apr_thread_pool_tasks_cancel@8 10015f3e f   libaprutil:libaprutil.dll
- 0001:00014f44       _apr_thread_pool_idle_wait_set@12 10015f44 f   libaprutil:libaprutil.dll
- 0001:00014f4a       _apr_md5_init@4            10015f4a f   libaprutil:libaprutil.dll
- 0001:00014f50       _apr_md5_update@12         10015f50 f   libaprutil:libaprutil.dll
- 0001:00014f56       _apr_md5_final@8           10015f56 f   libaprutil:libaprutil.dll
- 0001:00014f5c       _curl_global_init          10015f5c f   libcurl.dll:libcurl.dll
- 0001:00014f62       _curl_global_cleanup       10015f62 f   libcurl.dll:libcurl.dll
- 0001:00014f68       _curl_easy_strerror        10015f68 f   libcurl.dll:libcurl.dll
- 0001:00014f6e       _curl_easy_init            10015f6e f   libcurl.dll:libcurl.dll
- 0001:00014f74       _curl_easy_cleanup         10015f74 f   libcurl.dll:libcurl.dll
- 0001:00014f7a       _curl_easy_reset           10015f7a f   libcurl.dll:libcurl.dll
- 0001:00014f80       _curl_slist_append         10015f80 f   libcurl.dll:libcurl.dll
- 0001:00014f86       _curl_slist_free_all       10015f86 f   libcurl.dll:libcurl.dll
- 0001:00014f8c       _curl_easy_setopt          10015f8c f   libcurl.dll:libcurl.dll
- 0001:00014f92       _curl_easy_perform         10015f92 f   libcurl.dll:libcurl.dll
- 0001:00014f98       _curl_easy_getinfo         10015f98 f   libcurl.dll:libcurl.dll
- 0001:00014f9e       @__security_check_cookie@4 10015f9e f   MSVCRT:secchk.obj
- 0001:00014fb0       __allmul                   10015fb0 f   MSVCRT:llmul.obj
- 0001:00015000       __alldiv                   10016000 f   MSVCRT:lldiv.obj
- 0001:000150d4       ___raise_securityfailure   100160d4 f   MSVCRT:gs_report.obj
- 0001:00015106       ___report_gsfailure        10016106 f   MSVCRT:gs_report.obj
- 0001:0001523f       ___report_rangecheckfailure 1001623f f   MSVCRT:gs_report.obj
- 0001:0001524f       ___report_securityfailure  1001624f f   MSVCRT:gs_report.obj
- 0001:00015353       ___report_securityfailureEx 10016353 f   MSVCRT:gs_report.obj
- 0001:000154b0       __alloca_probe             100164b0 f   MSVCRT:chkstk.obj
- 0001:000154b0       __chkstk                   100164b0 f   MSVCRT:chkstk.obj
- 0001:000158f2       __CRT_INIT@12              100168f2 f   MSVCRT:dll_dllmain.obj
- 0001:000158fd       __DllMainCRTStartup@12     100168fd f   MSVCRT:dll_dllmain.obj
- 0001:00015988       ___security_init_cookie    10016988 f   MSVCRT:gs_support.obj
- 0001:000159e5       _DllMain@12                100169e5 f   MSVCRT:dll_dllmain_stub.obj
- 0001:00015a0f       ?__scrt_initialize_type_info@@YAXXZ 10016a0f f   MSVCRT:tncleanup.obj
- 0001:00015a1e       ?__scrt_uninitialize_type_info@@YAXXZ 10016a1e f   MSVCRT:tncleanup.obj
- 0001:00015a2d       ___scrt_initialize_default_local_stdio_options 10016a2d f   MSVCRT:default_local_stdio_options.obj
- 0001:00015a51       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 10016a51 f i MSVCRT:utility.obj
- 0001:00015ab6       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 10016ab6 f i MSVCRT:utility.obj
- 0001:00015afa       _NtCurrentTeb              10016afa f i MSVCRT:utility.obj
- 0001:00015b01       ___scrt_acquire_startup_lock 10016b01 f   MSVCRT:utility.obj
- 0001:00015b3f       ___scrt_dllmain_after_initialize_c 10016b3f f   MSVCRT:utility.obj
- 0001:00015b74       ___scrt_dllmain_before_initialize_c 10016b74 f   MSVCRT:utility.obj
- 0001:00015b85       ___scrt_dllmain_crt_thread_attach 10016b85 f   MSVCRT:utility.obj
- 0001:00015bab       ___scrt_dllmain_crt_thread_detach 10016bab f   MSVCRT:utility.obj
- 0001:00015bbb       ___scrt_dllmain_exception_filter 10016bbb f   MSVCRT:utility.obj
- 0001:00015bfc       ___scrt_dllmain_uninitialize_c 10016bfc f   MSVCRT:utility.obj
- 0001:00015c27       ___scrt_dllmain_uninitialize_critical 10016c27 f   MSVCRT:utility.obj
- 0001:00015c37       ___scrt_initialize_crt     10016c37 f   MSVCRT:utility.obj
- 0001:00015c7e       ___scrt_initialize_onexit_tables 10016c7e f   MSVCRT:utility.obj
- 0001:00015d26       ___scrt_is_nonwritable_in_current_image 10016d26 f   MSVCRT:utility.obj
- 0001:00015ddf       ___scrt_release_startup_lock 10016ddf f   MSVCRT:utility.obj
- 0001:00015e03       ___scrt_uninitialize_crt   10016e03 f   MSVCRT:utility.obj
- 0001:00015e35       __onexit                   10016e35 f   MSVCRT:utility.obj
- 0001:00015e6d       _at_quick_exit             10016e6d f   MSVCRT:utility.obj
- 0001:00015e98       _atexit                    10016e98 f   MSVCRT:utility.obj
- 0001:00015eb2       ___scrt_get_dyn_tls_init_callback 10016eb2 f   MSVCRT:dyn_tls_init.obj
- 0001:00015eb8       ___scrt_fastfail           10016eb8 f   MSVCRT:utility_desktop.obj
- 0001:00016012       ___scrt_get_show_window_mode 10017012 f   MSVCRT:utility_desktop.obj
- 0001:0001604f       ___scrt_initialize_mta     1001704f f   MSVCRT:utility_desktop.obj
- 0001:00016054       ___scrt_initialize_winrt   10017054 f   MSVCRT:utility_desktop.obj
- 0001:00016057       ___scrt_is_managed_app     10017057 f   MSVCRT:utility_desktop.obj
- 0001:000160a9       ___scrt_set_unhandled_exception_filter 100170a9 f   MSVCRT:utility_desktop.obj
- 0001:000160b8       ___scrt_exe_initialize_mta 100170b8 f   MSVCRT:utility_desktop.obj
- 0001:000160b8       ___scrt_stub_for_initialize_mta 100170b8 f   MSVCRT:utility_desktop.obj
- 0001:000160bb       ___scrt_unhandled_exception_filter@4 100170bb f   MSVCRT:utility_desktop.obj
- 0001:00016126       __crt_debugger_hook        10017126 f   MSVCRT:utility_desktop.obj
- 0001:00016130       __RTC_Initialize           10017130 f   MSVCRT:initsect.obj
- 0001:00016167       __RTC_Terminate            10017167 f   MSVCRT:initsect.obj
- 0001:000161a0       __SEH_prolog4              100171a0 f   MSVCRT:sehprolg4.obj
- 0001:00016200       __SEH_epilog4              10017200 f   MSVCRT:sehprolg4.obj
- 0001:00016219       __except_handler4          10017219 f   MSVCRT:chandler4gs.obj
- 0001:00016253       @_guard_check_icall_nop@4  10017253 f i MSVCRT:guard_support.obj
- 0001:00016256       _ReadNoFence               10017256 f i MSVCRT:guard_support.obj
- 0001:00016262       _ReadPointerNoFence        10017262 f i MSVCRT:guard_support.obj
- 0001:0001626e       __InlineInterlockedExchangePointer 1001726e f i MSVCRT:guard_support.obj
- 0001:0001627e       ___castguard_check_failure_debugbreak 1001727e f i MSVCRT:guard_support.obj
- 0001:0001629f       ___castguard_check_failure_fastfail 1001729f f i MSVCRT:guard_support.obj
- 0001:000162c5       ___castguard_check_failure_nop 100172c5 f i MSVCRT:guard_support.obj
- 0001:000162c8       ___castguard_check_failure_os_handled 100172c8 f i MSVCRT:guard_support.obj
- 0001:0001630c       ___castguard_check_failure_user_handled 1001730c f i MSVCRT:guard_support.obj
- 0001:00016394       ___castguard_set_user_handler 10017394 f i MSVCRT:guard_support.obj
- 0001:000163a6       ___castguard_slow_path_check_debugbreak 100173a6 f i MSVCRT:guard_support.obj
- 0001:000163de       ___castguard_slow_path_check_fastfail 100173de f i MSVCRT:guard_support.obj
- 0001:0001641b       ___castguard_slow_path_check_nop 1001741b f i MSVCRT:guard_support.obj
- 0001:0001641e       ___castguard_slow_path_check_os_handled 1001741e f i MSVCRT:guard_support.obj
- 0001:00016469       ___castguard_slow_path_check_user_handled 10017469 f i MSVCRT:guard_support.obj
- 0001:000164e1       __guard_icall_checks_enforced 100174e1 f i MSVCRT:guard_support.obj
- 0001:000164f7       ___isa_available_init      100174f7 f   MSVCRT:cpu_disp.obj
- 0001:000168ef       __get_startup_argv_mode    100178ef f   MSVCRT:argv_mode.obj
- 0001:000168f3       ___scrt_is_ucrt_dll_in_use 100178f3 f   MSVCRT:ucrt_detection.obj
- 0001:00016902       _closesocket@4             10017902 f   ws2_32:WS2_32.dll
- 0001:00016908       _socket@12                 10017908 f   ws2_32:WS2_32.dll
- 0001:0001690e       _gethostname@8             1001790e f   ws2_32:WS2_32.dll
- 0001:00016914       _WSAStartup@8              10017914 f   ws2_32:WS2_32.dll
- 0001:0001691a       _WSACleanup@0              1001791a f   ws2_32:WS2_32.dll
- 0001:00016920       _WSAGetLastError@0         10017920 f   ws2_32:WS2_32.dll
- 0001:00016926       _getaddrinfo@16            10017926 f   ws2_32:WS2_32.dll
- 0001:0001692c       _freeaddrinfo@4            1001792c f   ws2_32:WS2_32.dll
- 0001:00016932       _inet_ntop@16              10017932 f   ws2_32:WS2_32.dll
- 0001:00016938       _inet_pton@12              10017938 f   ws2_32:WS2_32.dll
- 0001:0001693e       _memcpy                    1001793e f   vcruntime:VCRUNTIME140.dll
- 0001:00016944       _memset                    10017944 f   vcruntime:VCRUNTIME140.dll
- 0001:0001694a       ___std_type_info_destroy_list 1001794a f   vcruntime:VCRUNTIME140.dll
- 0001:00016950       ___current_exception       10017950 f   vcruntime:VCRUNTIME140.dll
- 0001:00016956       ___current_exception_context 10017956 f   vcruntime:VCRUNTIME140.dll
- 0001:0001695c       __except_handler4_common   1001795c f   vcruntime:VCRUNTIME140.dll
- 0001:00016962       _srand                     10017962 f   ucrt:api-ms-win-crt-utility-l1-1-0.dll
- 0001:00016968       _rand                      10017968 f   ucrt:api-ms-win-crt-utility-l1-1-0.dll
- 0001:0001696e       _strcmp                    1001796e f   ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0001:00016974       _strcpy                    10017974 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0001:0001697a       _strlen                    1001797a f   ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0001:00016980       __time64                   10017980 f   ucrt:api-ms-win-crt-time-l1-1-0.dll
- 0001:00016986       ___acrt_iob_func           10017986 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0001:0001698c       ___stdio_common_vfprintf   1001798c f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0001:00016992       ___stdio_common_vsprintf   10017992 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0001:00016998       _strncmp                   10017998 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0001:0001699e       _strncpy                   1001799e f   ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0001:000169a4       _isalnum                   100179a4 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0001:000169aa       ___stdio_common_vsscanf    100179aa f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
- 0001:000169b0       _free                      100179b0 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0001:000169b6       _malloc                    100179b6 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0001:000169bc       _realloc                   100179bc f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
- 0001:000169c2       _strtod                    100179c2 f   ucrt:api-ms-win-crt-convert-l1-1-0.dll
- 0001:000169c8       _tolower                   100179c8 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
- 0001:000169ce       _localeconv                100179ce f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
- 0001:000169d4       __dclass                   100179d4 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
- 0001:000169da       __initterm                 100179da f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:000169e0       __initterm_e               100179e0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:000169e6       __seh_filter_dll           100179e6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:000169ec       __configure_narrow_argv    100179ec f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:000169f2       __initialize_narrow_environment 100179f2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:000169f8       __initialize_onexit_table  100179f8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:000169fe       __register_onexit_function 100179fe f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:00016a04       __execute_onexit_table     10017a04 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:00016a0a       __crt_atexit               10017a0a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:00016a10       __crt_at_quick_exit        10017a10 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:00016a16       __cexit                    10017a16 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:00016a1c       _terminate                 10017a1c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
- 0001:00016a22       _UnhandledExceptionFilter@4 10017a22 f   kernel32:KERNEL32.dll
- 0001:00016a28       _SetUnhandledExceptionFilter@4 10017a28 f   kernel32:KERNEL32.dll
- 0001:00016a2e       _GetCurrentProcess@0       10017a2e f   kernel32:KERNEL32.dll
- 0001:00016a34       _TerminateProcess@8        10017a34 f   kernel32:KERNEL32.dll
- 0001:00016a3a       _IsProcessorFeaturePresent@4 10017a3a f   kernel32:KERNEL32.dll
- 0001:00016a40       _QueryPerformanceCounter@4 10017a40 f   kernel32:KERNEL32.dll
- 0001:00016a46       _GetCurrentProcessId@0     10017a46 f   kernel32:KERNEL32.dll
- 0001:00016a4c       _GetCurrentThreadId@0      10017a4c f   kernel32:KERNEL32.dll
- 0001:00016a52       _GetSystemTimeAsFileTime@4 10017a52 f   kernel32:KERNEL32.dll
- 0001:00016a58       _DisableThreadLibraryCalls@4 10017a58 f   kernel32:KERNEL32.dll
- 0001:00016a5e       _InitializeSListHead@4     10017a5e f   kernel32:KERNEL32.dll
- 0001:00016a64       _IsDebuggerPresent@0       10017a64 f   kernel32:KERNEL32.dll
- 0001:00016a6a       _GetStartupInfoW@4         10017a6a f   kernel32:KERNEL32.dll
- 0001:00016a70       _GetModuleHandleW@4        10017a70 f   kernel32:KERNEL32.dll
- 0001:00016a76       ___acrt_initialize         10017a76 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a76       ___scrt_stub_for_acrt_initialize 10017a76 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a76       ___vcrt_initialize         10017a76 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a79       ___acrt_thread_attach      10017a79 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a79       ___scrt_stub_for_acrt_thread_attach 10017a79 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a79       ___vcrt_thread_attach      10017a79 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a7c       ___acrt_thread_detach      10017a7c f   MSVCRT:ucrt_stubs.obj
- 0001:00016a7c       ___scrt_stub_for_acrt_thread_detach 10017a7c f   MSVCRT:ucrt_stubs.obj
- 0001:00016a7c       ___vcrt_thread_detach      10017a7c f   MSVCRT:ucrt_stubs.obj
- 0001:00016a7f       ___acrt_uninitialize       10017a7f f   MSVCRT:ucrt_stubs.obj
- 0001:00016a7f       ___scrt_stub_for_acrt_uninitialize 10017a7f f   MSVCRT:ucrt_stubs.obj
- 0001:00016a7f       ___vcrt_uninitialize       10017a7f f   MSVCRT:ucrt_stubs.obj
- 0001:00016a82       ___acrt_uninitialize_critical 10017a82 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a82       ___scrt_stub_for_acrt_uninitialize_critical 10017a82 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a82       ___vcrt_uninitialize_critical 10017a82 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a85       ___scrt_stub_for_is_c_termination_complete 10017a85 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a85       __is_c_termination_complete 10017a85 f   MSVCRT:ucrt_stubs.obj
- 0001:00016a88       __filter_x86_sse2_floating_point_exception 10017a88 f   MSVCRT:x86_exception_filter.obj
- 0001:00016a88       __filter_x86_sse2_floating_point_exception_default 10017a88 f   MSVCRT:x86_exception_filter.obj
+ 0001:000108e0       _hdns_curl_response_headers_parse 100118e0 f   hdns_transport.obj
+ 0001:00010fb0       _hdns_get_user_home_dir    10011fb0 f   hdns_utils.obj
+ 0001:00011070       _hdns_is_valid_ipv6        10012070 f   hdns_utils.obj
+ 0001:000110d0       _hdns_is_valid_ipv4        100120d0 f   hdns_utils.obj
+ 0001:00011120       _hdns_md5                  10012120 f   hdns_utils.obj
+ 0001:00011180       _hdns_encode_hex           10012180 f   hdns_utils.obj
+ 0001:00011300       ___local_stdio_scanf_options 10012300 f i cjson:cJSON.c.obj
+ 0001:00011310       __vsscanf_l                10012310 f i cjson:cJSON.c.obj
+ 0001:000114b0       _cJSON_AddArrayToObject@8  100124b0 f   cjson:cJSON.c.obj
+ 0001:00011500       _cJSON_AddBoolToObject@12  10012500 f   cjson:cJSON.c.obj
+ 0001:00011550       _cJSON_AddFalseToObject@8  10012550 f   cjson:cJSON.c.obj
+ 0001:000115a0       _cJSON_AddItemReferenceToArray@8 100125a0 f   cjson:cJSON.c.obj
+ 0001:000115e0       _cJSON_AddItemReferenceToObject@12 100125e0 f   cjson:cJSON.c.obj
+ 0001:00011630       _cJSON_AddItemToArray@8    10012630 f   cjson:cJSON.c.obj
+ 0001:00011650       _cJSON_AddItemToObject@12  10012650 f   cjson:cJSON.c.obj
+ 0001:00011680       _cJSON_AddItemToObjectCS@12 10012680 f   cjson:cJSON.c.obj
+ 0001:000116b0       _cJSON_AddNullToObject@8   100126b0 f   cjson:cJSON.c.obj
+ 0001:00011700       _cJSON_AddNumberToObject@16 10012700 f   cjson:cJSON.c.obj
+ 0001:00011760       _cJSON_AddObjectToObject@8 10012760 f   cjson:cJSON.c.obj
+ 0001:000117b0       _cJSON_AddRawToObject@12   100127b0 f   cjson:cJSON.c.obj
+ 0001:00011800       _cJSON_AddStringToObject@12 10012800 f   cjson:cJSON.c.obj
+ 0001:00011850       _cJSON_AddTrueToObject@8   10012850 f   cjson:cJSON.c.obj
+ 0001:000118a0       _cJSON_Compare@12          100128a0 f   cjson:cJSON.c.obj
+ 0001:00011be0       _cJSON_CreateArray@0       10012be0 f   cjson:cJSON.c.obj
+ 0001:00011c00       _cJSON_CreateArrayReference@4 10012c00 f   cjson:cJSON.c.obj
+ 0001:00011c40       _cJSON_CreateBool@4        10012c40 f   cjson:cJSON.c.obj
+ 0001:00011c70       _cJSON_CreateDoubleArray@8 10012c70 f   cjson:cJSON.c.obj
+ 0001:00011d30       _cJSON_CreateFalse@0       10012d30 f   cjson:cJSON.c.obj
+ 0001:00011d50       _cJSON_CreateFloatArray@8  10012d50 f   cjson:cJSON.c.obj
+ 0001:00011e20       _cJSON_CreateIntArray@8    10012e20 f   cjson:cJSON.c.obj
+ 0001:00011ef0       _cJSON_CreateNull@0        10012ef0 f   cjson:cJSON.c.obj
+ 0001:00011f10       _cJSON_CreateNumber@8      10012f10 f   cjson:cJSON.c.obj
+ 0001:00011f90       _cJSON_CreateObject@0      10012f90 f   cjson:cJSON.c.obj
+ 0001:00011fb0       _cJSON_CreateObjectReference@4 10012fb0 f   cjson:cJSON.c.obj
+ 0001:00011ff0       _cJSON_CreateRaw@4         10012ff0 f   cjson:cJSON.c.obj
+ 0001:00012050       _cJSON_CreateString@4      10013050 f   cjson:cJSON.c.obj
+ 0001:000120b0       _cJSON_CreateStringArray@8 100130b0 f   cjson:cJSON.c.obj
+ 0001:00012150       _cJSON_CreateStringReference@4 10013150 f   cjson:cJSON.c.obj
+ 0001:00012190       _cJSON_CreateTrue@0        10013190 f   cjson:cJSON.c.obj
+ 0001:000121b0       _cJSON_Delete@4            100131b0 f   cjson:cJSON.c.obj
+ 0001:00012250       _cJSON_DeleteItemFromArray@8 10013250 f   cjson:cJSON.c.obj
+ 0001:00012270       _cJSON_DeleteItemFromObject@8 10013270 f   cjson:cJSON.c.obj
+ 0001:00012290       _cJSON_DeleteItemFromObjectCaseSensitive@8 10013290 f   cjson:cJSON.c.obj
+ 0001:000122b0       _cJSON_DetachItemFromArray@8 100132b0 f   cjson:cJSON.c.obj
+ 0001:000122f0       _cJSON_DetachItemFromObject@8 100132f0 f   cjson:cJSON.c.obj
+ 0001:00012310       _cJSON_DetachItemFromObjectCaseSensitive@8 10013310 f   cjson:cJSON.c.obj
+ 0001:00012330       _cJSON_DetachItemViaPointer@8 10013330 f   cjson:cJSON.c.obj
+ 0001:000123c0       _cJSON_Duplicate@8         100133c0 f   cjson:cJSON.c.obj
+ 0001:000124f0       _cJSON_GetArrayItem@8      100134f0 f   cjson:cJSON.c.obj
+ 0001:00012520       _cJSON_GetArraySize@4      10013520 f   cjson:cJSON.c.obj
+ 0001:00012550       _cJSON_GetErrorPtr@0       10013550 f   cjson:cJSON.c.obj
+ 0001:00012560       _cJSON_GetNumberValue@4    10013560 f   cjson:cJSON.c.obj
+ 0001:00012590       _cJSON_GetObjectItem@8     10013590 f   cjson:cJSON.c.obj
+ 0001:000125b0       _cJSON_GetObjectItemCaseSensitive@8 100135b0 f   cjson:cJSON.c.obj
+ 0001:000125d0       _cJSON_GetStringValue@4    100135d0 f   cjson:cJSON.c.obj
+ 0001:000125f0       _cJSON_HasObjectItem@8     100135f0 f   cjson:cJSON.c.obj
+ 0001:00012610       _cJSON_InitHooks@4         10013610 f   cjson:cJSON.c.obj
+ 0001:000126c0       _cJSON_InsertItemInArray@12 100136c0 f   cjson:cJSON.c.obj
+ 0001:00012750       _cJSON_IsArray@4           10013750 f   cjson:cJSON.c.obj
+ 0001:00012770       _cJSON_IsBool@4            10013770 f   cjson:cJSON.c.obj
+ 0001:00012790       _cJSON_IsFalse@4           10013790 f   cjson:cJSON.c.obj
+ 0001:000127b0       _cJSON_IsInvalid@4         100137b0 f   cjson:cJSON.c.obj
+ 0001:000127d0       _cJSON_IsNull@4            100137d0 f   cjson:cJSON.c.obj
+ 0001:000127f0       _cJSON_IsNumber@4          100137f0 f   cjson:cJSON.c.obj
+ 0001:00012810       _cJSON_IsObject@4          10013810 f   cjson:cJSON.c.obj
+ 0001:00012830       _cJSON_IsRaw@4             10013830 f   cjson:cJSON.c.obj
+ 0001:00012850       _cJSON_IsString@4          10013850 f   cjson:cJSON.c.obj
+ 0001:00012870       _cJSON_IsTrue@4            10013870 f   cjson:cJSON.c.obj
+ 0001:00012890       _cJSON_Minify@4            10013890 f   cjson:cJSON.c.obj
+ 0001:000129e0       _cJSON_Parse@4             100139e0 f   cjson:cJSON.c.obj
+ 0001:00012a00       _cJSON_ParseWithLength@8   10013a00 f   cjson:cJSON.c.obj
+ 0001:00012a20       _cJSON_ParseWithLengthOpts@16 10013a20 f   cjson:cJSON.c.obj
+ 0001:00012b90       _cJSON_ParseWithOpts@12    10013b90 f   cjson:cJSON.c.obj
+ 0001:00012bd0       _cJSON_Print@4             10013bd0 f   cjson:cJSON.c.obj
+ 0001:00012bf0       _cJSON_PrintBuffered@12    10013bf0 f   cjson:cJSON.c.obj
+ 0001:00012cb0       _cJSON_PrintPreallocated@16 10013cb0 f   cjson:cJSON.c.obj
+ 0001:00012d40       _cJSON_PrintUnformatted@4  10013d40 f   cjson:cJSON.c.obj
+ 0001:00012d60       _cJSON_ReplaceItemInArray@12 10013d60 f   cjson:cJSON.c.obj
+ 0001:00012da0       _cJSON_ReplaceItemInObject@12 10013da0 f   cjson:cJSON.c.obj
+ 0001:00012dc0       _cJSON_ReplaceItemInObjectCaseSensitive@12 10013dc0 f   cjson:cJSON.c.obj
+ 0001:00012de0       _cJSON_ReplaceItemViaPointer@12 10013de0 f   cjson:cJSON.c.obj
+ 0001:00012e80       _cJSON_SetNumberHelper@12  10013e80 f   cjson:cJSON.c.obj
+ 0001:00012ef0       _cJSON_SetValuestring@8    10013ef0 f   cjson:cJSON.c.obj
+ 0001:00012fb0       _cJSON_Version@0           10013fb0 f   cjson:cJSON.c.obj
+ 0001:00012fe0       _cJSON_free@4              10013fe0 f   cjson:cJSON.c.obj
+ 0001:00013000       _cJSON_malloc@4            10014000 f   cjson:cJSON.c.obj
+ 0001:00014bc0       _sscanf                    10015bc0 f i cjson:cJSON.c.obj
+ 0001:00014dd8       _apr_strerror@12           10015dd8 f   libapr:libapr.dll
+ 0001:00014dde       _apr_initialize@0          10015dde f   libapr:libapr.dll
+ 0001:00014de4       _apr_terminate             10015de4 f   libapr:libapr.dll
+ 0001:00014dea       _apr_allocator_max_free_set@8 10015dea f   libapr:libapr.dll
+ 0001:00014df0       _apr_thread_mutex_lock@4   10015df0 f   libapr:libapr.dll
+ 0001:00014df6       _apr_thread_mutex_unlock@4 10015df6 f   libapr:libapr.dll
+ 0001:00014dfc       _apr_pool_create_ex@16     10015dfc f   libapr:libapr.dll
+ 0001:00014e02       _apr_pool_allocator_get@4  10015e02 f   libapr:libapr.dll
+ 0001:00014e08       _apr_pool_destroy@4        10015e08 f   libapr:libapr.dll
+ 0001:00014e0e       _apr_palloc@8              10015e0e f   libapr:libapr.dll
+ 0001:00014e14       _apr_table_set@12          10015e14 f   libapr:libapr.dll
+ 0001:00014e1a       _apr_file_open@20          10015e1a f   libapr:libapr.dll
+ 0001:00014e20       _apr_file_close@4          10015e20 f   libapr:libapr.dll
+ 0001:00014e26       _apr_pstrdup@8             10015e26 f   libapr:libapr.dll
+ 0001:00014e2c       _apr_hash_set@16           10015e2c f   libapr:libapr.dll
+ 0001:00014e32       _apr_thread_mutex_create@12 10015e32 f   libapr:libapr.dll
+ 0001:00014e38       _apr_thread_mutex_destroy@4 10015e38 f   libapr:libapr.dll
+ 0001:00014e3e       _apr_hash_make@4           10015e3e f   libapr:libapr.dll
+ 0001:00014e44       _apr_hash_get@12           10015e44 f   libapr:libapr.dll
+ 0001:00014e4a       _apr_hash_clear@4          10015e4a f   libapr:libapr.dll
+ 0001:00014e50       _apr_hash_do@12            10015e50 f   libapr:libapr.dll
+ 0001:00014e56       _apr_time_now@0            10015e56 f   libapr:libapr.dll
+ 0001:00014e5c       _apr_array_make@12         10015e5c f   libapr:libapr.dll
+ 0001:00014e62       _apr_array_push@4          10015e62 f   libapr:libapr.dll
+ 0001:00014e68       _apr_array_clear@4         10015e68 f   libapr:libapr.dll
+ 0001:00014e6e       _apr_array_pstrcat@12      10015e6e f   libapr:libapr.dll
+ 0001:00014e74       _apr_pstrcat               10015e74 f   libapr:libapr.dll
+ 0001:00014e7a       _apr_stat@16               10015e7a f   libapr:libapr.dll
+ 0001:00014e80       _apr_file_write@12         10015e80 f   libapr:libapr.dll
+ 0001:00014e86       _apr_file_read_full@16     10015e86 f   libapr:libapr.dll
+ 0001:00014e8c       _apr_dir_make@12           10015e8c f   libapr:libapr.dll
+ 0001:00014e92       _apr_array_pop@4           10015e92 f   libapr:libapr.dll
+ 0001:00014e98       _apr_table_make@8          10015e98 f   libapr:libapr.dll
+ 0001:00014e9e       _apr_sockaddr_info_get@24  10015e9e f   libapr:libapr.dll
+ 0001:00014ea4       _apr_sockaddr_ip_get@8     10015ea4 f   libapr:libapr.dll
+ 0001:00014eaa       _apr_time_exp_lt@12        10015eaa f   libapr:libapr.dll
+ 0001:00014eb0       _apr_os_thread_current@0   10015eb0 f   libapr:libapr.dll
+ 0001:00014eb6       _apr_snprintf              10015eb6 f   libapr:libapr.dll
+ 0001:00014ebc       _apr_sleep@8               10015ebc f   libapr:libapr.dll
+ 0001:00014ec2       _apr_socket_create@20      10015ec2 f   libapr:libapr.dll
+ 0001:00014ec8       _apr_socket_close@4        10015ec8 f   libapr:libapr.dll
+ 0001:00014ece       _apr_socket_connect@8      10015ece f   libapr:libapr.dll
+ 0001:00014ed4       _apr_socket_timeout_set@12 10015ed4 f   libapr:libapr.dll
+ 0001:00014eda       _apr_atomic_read32@4       10015eda f   libapr:libapr.dll
+ 0001:00014ee0       _apr_atomic_inc32@4        10015ee0 f   libapr:libapr.dll
+ 0001:00014ee6       _apr_atomic_dec32@4        10015ee6 f   libapr:libapr.dll
+ 0001:00014eec       _apr_thread_cond_create@8  10015eec f   libapr:libapr.dll
+ 0001:00014ef2       _apr_thread_cond_timedwait@16 10015ef2 f   libapr:libapr.dll
+ 0001:00014ef8       _apr_thread_cond_signal@4  10015ef8 f   libapr:libapr.dll
+ 0001:00014efe       _apr_thread_cond_broadcast@4 10015efe f   libapr:libapr.dll
+ 0001:00014f04       _apr_thread_cond_destroy@4 10015f04 f   libapr:libapr.dll
+ 0001:00014f0a       _apr_is_empty_table@4      10015f0a f   libapr:libapr.dll
+ 0001:00014f10       _apr_table_copy@8          10015f10 f   libapr:libapr.dll
+ 0001:00014f16       _apr_table_overlap@12      10015f16 f   libapr:libapr.dll
+ 0001:00014f1c       _apr_itoa@8                10015f1c f   libapr:libapr.dll
+ 0001:00014f22       _apr_generate_random_bytes@8 10015f22 f   libapr:libapr.dll
+ 0001:00014f28       _apr_pstrndup@12           10015f28 f   libapr:libapr.dll
+ 0001:00014f2e       _apr_table_elts@4          10015f2e f   libapr:libapr.dll
+ 0001:00014f34       _apr_table_addn@12         10015f34 f   libapr:libapr.dll
+ 0001:00014f3a       _apr_psprintf              10015f3a f   libapr:libapr.dll
+ 0001:00014f40       _apr_env_get@12            10015f40 f   libapr:libapr.dll
+ 0001:00014f46       _apr_thread_pool_create@16 10015f46 f   libaprutil:libaprutil.dll
+ 0001:00014f4c       _apr_thread_pool_destroy@4 10015f4c f   libaprutil:libaprutil.dll
+ 0001:00014f52       _apr_thread_pool_push@20   10015f52 f   libaprutil:libaprutil.dll
+ 0001:00014f58       _apr_thread_pool_schedule@24 10015f58 f   libaprutil:libaprutil.dll
+ 0001:00014f5e       _apr_thread_pool_tasks_cancel@8 10015f5e f   libaprutil:libaprutil.dll
+ 0001:00014f64       _apr_thread_pool_idle_wait_set@12 10015f64 f   libaprutil:libaprutil.dll
+ 0001:00014f6a       _apr_md5_init@4            10015f6a f   libaprutil:libaprutil.dll
+ 0001:00014f70       _apr_md5_update@12         10015f70 f   libaprutil:libaprutil.dll
+ 0001:00014f76       _apr_md5_final@8           10015f76 f   libaprutil:libaprutil.dll
+ 0001:00014f7c       _curl_global_init          10015f7c f   libcurl.dll:libcurl.dll
+ 0001:00014f82       _curl_global_cleanup       10015f82 f   libcurl.dll:libcurl.dll
+ 0001:00014f88       _curl_easy_strerror        10015f88 f   libcurl.dll:libcurl.dll
+ 0001:00014f8e       _curl_easy_init            10015f8e f   libcurl.dll:libcurl.dll
+ 0001:00014f94       _curl_easy_cleanup         10015f94 f   libcurl.dll:libcurl.dll
+ 0001:00014f9a       _curl_easy_reset           10015f9a f   libcurl.dll:libcurl.dll
+ 0001:00014fa0       _curl_slist_append         10015fa0 f   libcurl.dll:libcurl.dll
+ 0001:00014fa6       _curl_slist_free_all       10015fa6 f   libcurl.dll:libcurl.dll
+ 0001:00014fac       _curl_easy_setopt          10015fac f   libcurl.dll:libcurl.dll
+ 0001:00014fb2       _curl_easy_perform         10015fb2 f   libcurl.dll:libcurl.dll
+ 0001:00014fb8       _curl_easy_getinfo         10015fb8 f   libcurl.dll:libcurl.dll
+ 0001:00014fbe       @__security_check_cookie@4 10015fbe f   MSVCRT:secchk.obj
+ 0001:00014fd0       __allmul                   10015fd0 f   MSVCRT:llmul.obj
+ 0001:00015020       __alldiv                   10016020 f   MSVCRT:lldiv.obj
+ 0001:000150f4       ___raise_securityfailure   100160f4 f   MSVCRT:gs_report.obj
+ 0001:00015126       ___report_gsfailure        10016126 f   MSVCRT:gs_report.obj
+ 0001:0001525f       ___report_rangecheckfailure 1001625f f   MSVCRT:gs_report.obj
+ 0001:0001526f       ___report_securityfailure  1001626f f   MSVCRT:gs_report.obj
+ 0001:00015373       ___report_securityfailureEx 10016373 f   MSVCRT:gs_report.obj
+ 0001:000154d0       __alloca_probe             100164d0 f   MSVCRT:chkstk.obj
+ 0001:000154d0       __chkstk                   100164d0 f   MSVCRT:chkstk.obj
+ 0001:00015912       __CRT_INIT@12              10016912 f   MSVCRT:dll_dllmain.obj
+ 0001:0001591d       __DllMainCRTStartup@12     1001691d f   MSVCRT:dll_dllmain.obj
+ 0001:000159a8       ___security_init_cookie    100169a8 f   MSVCRT:gs_support.obj
+ 0001:00015a05       _DllMain@12                10016a05 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:00015a2f       ?__scrt_initialize_type_info@@YAXXZ 10016a2f f   MSVCRT:tncleanup.obj
+ 0001:00015a3e       ?__scrt_uninitialize_type_info@@YAXXZ 10016a3e f   MSVCRT:tncleanup.obj
+ 0001:00015a4d       ___scrt_initialize_default_local_stdio_options 10016a4d f   MSVCRT:default_local_stdio_options.obj
+ 0001:00015a71       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 10016a71 f i MSVCRT:utility.obj
+ 0001:00015ad6       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 10016ad6 f i MSVCRT:utility.obj
+ 0001:00015b1a       _NtCurrentTeb              10016b1a f i MSVCRT:utility.obj
+ 0001:00015b21       ___scrt_acquire_startup_lock 10016b21 f   MSVCRT:utility.obj
+ 0001:00015b5f       ___scrt_dllmain_after_initialize_c 10016b5f f   MSVCRT:utility.obj
+ 0001:00015b94       ___scrt_dllmain_before_initialize_c 10016b94 f   MSVCRT:utility.obj
+ 0001:00015ba5       ___scrt_dllmain_crt_thread_attach 10016ba5 f   MSVCRT:utility.obj
+ 0001:00015bcb       ___scrt_dllmain_crt_thread_detach 10016bcb f   MSVCRT:utility.obj
+ 0001:00015bdb       ___scrt_dllmain_exception_filter 10016bdb f   MSVCRT:utility.obj
+ 0001:00015c1c       ___scrt_dllmain_uninitialize_c 10016c1c f   MSVCRT:utility.obj
+ 0001:00015c47       ___scrt_dllmain_uninitialize_critical 10016c47 f   MSVCRT:utility.obj
+ 0001:00015c57       ___scrt_initialize_crt     10016c57 f   MSVCRT:utility.obj
+ 0001:00015c9e       ___scrt_initialize_onexit_tables 10016c9e f   MSVCRT:utility.obj
+ 0001:00015d46       ___scrt_is_nonwritable_in_current_image 10016d46 f   MSVCRT:utility.obj
+ 0001:00015dff       ___scrt_release_startup_lock 10016dff f   MSVCRT:utility.obj
+ 0001:00015e23       ___scrt_uninitialize_crt   10016e23 f   MSVCRT:utility.obj
+ 0001:00015e55       __onexit                   10016e55 f   MSVCRT:utility.obj
+ 0001:00015e8d       _at_quick_exit             10016e8d f   MSVCRT:utility.obj
+ 0001:00015eb8       _atexit                    10016eb8 f   MSVCRT:utility.obj
+ 0001:00015ed2       ___scrt_get_dyn_tls_init_callback 10016ed2 f   MSVCRT:dyn_tls_init.obj
+ 0001:00015ed8       ___scrt_fastfail           10016ed8 f   MSVCRT:utility_desktop.obj
+ 0001:00016032       ___scrt_get_show_window_mode 10017032 f   MSVCRT:utility_desktop.obj
+ 0001:0001606f       ___scrt_initialize_mta     1001706f f   MSVCRT:utility_desktop.obj
+ 0001:00016074       ___scrt_initialize_winrt   10017074 f   MSVCRT:utility_desktop.obj
+ 0001:00016077       ___scrt_is_managed_app     10017077 f   MSVCRT:utility_desktop.obj
+ 0001:000160c9       ___scrt_set_unhandled_exception_filter 100170c9 f   MSVCRT:utility_desktop.obj
+ 0001:000160d8       ___scrt_exe_initialize_mta 100170d8 f   MSVCRT:utility_desktop.obj
+ 0001:000160d8       ___scrt_stub_for_initialize_mta 100170d8 f   MSVCRT:utility_desktop.obj
+ 0001:000160db       ___scrt_unhandled_exception_filter@4 100170db f   MSVCRT:utility_desktop.obj
+ 0001:00016146       __crt_debugger_hook        10017146 f   MSVCRT:utility_desktop.obj
+ 0001:00016150       __RTC_Initialize           10017150 f   MSVCRT:initsect.obj
+ 0001:00016187       __RTC_Terminate            10017187 f   MSVCRT:initsect.obj
+ 0001:000161c0       __SEH_prolog4              100171c0 f   MSVCRT:sehprolg4.obj
+ 0001:00016220       __SEH_epilog4              10017220 f   MSVCRT:sehprolg4.obj
+ 0001:00016239       __except_handler4          10017239 f   MSVCRT:chandler4gs.obj
+ 0001:00016273       @_guard_check_icall_nop@4  10017273 f i MSVCRT:guard_support.obj
+ 0001:00016276       _ReadNoFence               10017276 f i MSVCRT:guard_support.obj
+ 0001:00016282       _ReadPointerNoFence        10017282 f i MSVCRT:guard_support.obj
+ 0001:0001628e       __InlineInterlockedExchangePointer 1001728e f i MSVCRT:guard_support.obj
+ 0001:0001629e       ___castguard_check_failure_debugbreak 1001729e f i MSVCRT:guard_support.obj
+ 0001:000162bf       ___castguard_check_failure_fastfail 100172bf f i MSVCRT:guard_support.obj
+ 0001:000162e5       ___castguard_check_failure_nop 100172e5 f i MSVCRT:guard_support.obj
+ 0001:000162e8       ___castguard_check_failure_os_handled 100172e8 f i MSVCRT:guard_support.obj
+ 0001:0001632c       ___castguard_check_failure_user_handled 1001732c f i MSVCRT:guard_support.obj
+ 0001:000163b4       ___castguard_set_user_handler 100173b4 f i MSVCRT:guard_support.obj
+ 0001:000163c6       ___castguard_slow_path_check_debugbreak 100173c6 f i MSVCRT:guard_support.obj
+ 0001:000163fe       ___castguard_slow_path_check_fastfail 100173fe f i MSVCRT:guard_support.obj
+ 0001:0001643b       ___castguard_slow_path_check_nop 1001743b f i MSVCRT:guard_support.obj
+ 0001:0001643e       ___castguard_slow_path_check_os_handled 1001743e f i MSVCRT:guard_support.obj
+ 0001:00016489       ___castguard_slow_path_check_user_handled 10017489 f i MSVCRT:guard_support.obj
+ 0001:00016501       __guard_icall_checks_enforced 10017501 f i MSVCRT:guard_support.obj
+ 0001:00016517       ___isa_available_init      10017517 f   MSVCRT:cpu_disp.obj
+ 0001:0001690f       __get_startup_argv_mode    1001790f f   MSVCRT:argv_mode.obj
+ 0001:00016913       ___scrt_is_ucrt_dll_in_use 10017913 f   MSVCRT:ucrt_detection.obj
+ 0001:00016922       _closesocket@4             10017922 f   ws2_32:WS2_32.dll
+ 0001:00016928       _socket@12                 10017928 f   ws2_32:WS2_32.dll
+ 0001:0001692e       _gethostname@8             1001792e f   ws2_32:WS2_32.dll
+ 0001:00016934       _WSAStartup@8              10017934 f   ws2_32:WS2_32.dll
+ 0001:0001693a       _WSACleanup@0              1001793a f   ws2_32:WS2_32.dll
+ 0001:00016940       _WSAGetLastError@0         10017940 f   ws2_32:WS2_32.dll
+ 0001:00016946       _getaddrinfo@16            10017946 f   ws2_32:WS2_32.dll
+ 0001:0001694c       _freeaddrinfo@4            1001794c f   ws2_32:WS2_32.dll
+ 0001:00016952       _inet_ntop@16              10017952 f   ws2_32:WS2_32.dll
+ 0001:00016958       _inet_pton@12              10017958 f   ws2_32:WS2_32.dll
+ 0001:0001695e       _memcpy                    1001795e f   vcruntime:VCRUNTIME140.dll
+ 0001:00016964       _memset                    10017964 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001696a       ___std_type_info_destroy_list 1001796a f   vcruntime:VCRUNTIME140.dll
+ 0001:00016970       ___current_exception       10017970 f   vcruntime:VCRUNTIME140.dll
+ 0001:00016976       ___current_exception_context 10017976 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001697c       __except_handler4_common   1001797c f   vcruntime:VCRUNTIME140.dll
+ 0001:00016982       _srand                     10017982 f   ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0001:00016988       _rand                      10017988 f   ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0001:0001698e       _strcmp                    1001798e f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00016994       _strcpy                    10017994 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0001699a       _strlen                    1001799a f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169a0       __time64                   100179a0 f   ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0001:000169a6       ___acrt_iob_func           100179a6 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000169ac       ___stdio_common_vfprintf   100179ac f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000169b2       ___stdio_common_vsprintf   100179b2 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000169b8       _strncmp                   100179b8 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169be       _strncpy                   100179be f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169c4       _isalnum                   100179c4 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169ca       ___stdio_common_vsscanf    100179ca f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000169d0       _free                      100179d0 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000169d6       _malloc                    100179d6 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000169dc       _realloc                   100179dc f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000169e2       _strtod                    100179e2 f   ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0001:000169e8       _tolower                   100179e8 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169ee       _localeconv                100179ee f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0001:000169f4       __dclass                   100179f4 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:000169fa       __initterm                 100179fa f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a00       __initterm_e               10017a00 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a06       __seh_filter_dll           10017a06 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a0c       __configure_narrow_argv    10017a0c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a12       __initialize_narrow_environment 10017a12 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a18       __initialize_onexit_table  10017a18 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a1e       __register_onexit_function 10017a1e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a24       __execute_onexit_table     10017a24 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a2a       __crt_atexit               10017a2a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a30       __crt_at_quick_exit        10017a30 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a36       __cexit                    10017a36 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a3c       _terminate                 10017a3c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a42       _UnhandledExceptionFilter@4 10017a42 f   kernel32:KERNEL32.dll
+ 0001:00016a48       _SetUnhandledExceptionFilter@4 10017a48 f   kernel32:KERNEL32.dll
+ 0001:00016a4e       _GetCurrentProcess@0       10017a4e f   kernel32:KERNEL32.dll
+ 0001:00016a54       _TerminateProcess@8        10017a54 f   kernel32:KERNEL32.dll
+ 0001:00016a5a       _IsProcessorFeaturePresent@4 10017a5a f   kernel32:KERNEL32.dll
+ 0001:00016a60       _QueryPerformanceCounter@4 10017a60 f   kernel32:KERNEL32.dll
+ 0001:00016a66       _GetCurrentProcessId@0     10017a66 f   kernel32:KERNEL32.dll
+ 0001:00016a6c       _GetCurrentThreadId@0      10017a6c f   kernel32:KERNEL32.dll
+ 0001:00016a72       _GetSystemTimeAsFileTime@4 10017a72 f   kernel32:KERNEL32.dll
+ 0001:00016a78       _DisableThreadLibraryCalls@4 10017a78 f   kernel32:KERNEL32.dll
+ 0001:00016a7e       _InitializeSListHead@4     10017a7e f   kernel32:KERNEL32.dll
+ 0001:00016a84       _IsDebuggerPresent@0       10017a84 f   kernel32:KERNEL32.dll
+ 0001:00016a8a       _GetStartupInfoW@4         10017a8a f   kernel32:KERNEL32.dll
+ 0001:00016a90       _GetModuleHandleW@4        10017a90 f   kernel32:KERNEL32.dll
+ 0001:00016a96       ___acrt_initialize         10017a96 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a96       ___scrt_stub_for_acrt_initialize 10017a96 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a96       ___vcrt_initialize         10017a96 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a99       ___acrt_thread_attach      10017a99 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a99       ___scrt_stub_for_acrt_thread_attach 10017a99 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a99       ___vcrt_thread_attach      10017a99 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a9c       ___acrt_thread_detach      10017a9c f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a9c       ___scrt_stub_for_acrt_thread_detach 10017a9c f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a9c       ___vcrt_thread_detach      10017a9c f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a9f       ___acrt_uninitialize       10017a9f f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a9f       ___scrt_stub_for_acrt_uninitialize 10017a9f f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a9f       ___vcrt_uninitialize       10017a9f f   MSVCRT:ucrt_stubs.obj
+ 0001:00016aa2       ___acrt_uninitialize_critical 10017aa2 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016aa2       ___scrt_stub_for_acrt_uninitialize_critical 10017aa2 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016aa2       ___vcrt_uninitialize_critical 10017aa2 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016aa5       ___scrt_stub_for_is_c_termination_complete 10017aa5 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016aa5       __is_c_termination_complete 10017aa5 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016aa8       __filter_x86_sse2_floating_point_exception 10017aa8 f   MSVCRT:x86_exception_filter.obj
+ 0001:00016aa8       __filter_x86_sse2_floating_point_exception_default 10017aa8 f   MSVCRT:x86_exception_filter.obj
  0002:00000000       ___xc_a                    1001a000     MSVCRT:initializers.obj
  0002:00000104       ___xc_z                    1001a104     MSVCRT:initializers.obj
  0002:00000208       ___xi_a                    1001a208     MSVCRT:initializers.obj
@@ -601,21 +601,21 @@
  0003:00003a30       ___isa_inverted            10021a30     MSVCRT:cpu_disp.obj
  0003:00003a38       ___isa_enabled             10021a38     MSVCRT:cpu_disp.obj
  0003:00003a40       ___scrt_ucrt_dll_is_in_use 10021a40     MSVCRT:ucrt_stubs.obj
- 0003:00003b7c       _hdns_stdout_file          10021b7c     hdns_log.obj
- 0003:00003b80       _hdns_print_lock           10021b80     hdns_log.obj
- 0003:00004018       ?__type_info_root_node@@3U__type_info_node@@A 10022018     MSVCRT:tncleanup.obj
- 0003:00004028       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 10022028     MSVCRT:default_local_stdio_options.obj
- 0003:00004038       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 10022038     MSVCRT:default_local_stdio_options.obj
- 0003:00004044       ___scrt_current_native_startup_state 10022044     MSVCRT:utility.obj
- 0003:00004048       ___scrt_native_startup_lock 10022048     MSVCRT:utility.obj
- 0003:00004070       ___scrt_debugger_hook_flag 10022070     MSVCRT:utility_desktop.obj
- 0003:00004074       ___castguard_check_failure_user_handled_fptr 10022074     MSVCRT:guard_support.obj
- 0003:00004078       ___avx10_version           10022078     MSVCRT:cpu_disp.obj
- 0003:0000407c       ___isa_available           1002207c     MSVCRT:cpu_disp.obj
- 0003:00004080       ___favor                   10022080     MSVCRT:cpu_disp.obj
- 0003:00004088       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 10022088     <common>
- 0003:000040a0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@9 100220a0     <common>
- 0003:000040b4       ___dyn_tls_init_callback   100220b4     <common>
+ 0003:00003b74       _hdns_stdout_file          10021b74     hdns_log.obj
+ 0003:00003b78       _hdns_print_lock           10021b78     hdns_log.obj
+ 0003:00004010       ?__type_info_root_node@@3U__type_info_node@@A 10022010     MSVCRT:tncleanup.obj
+ 0003:00004020       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 10022020     MSVCRT:default_local_stdio_options.obj
+ 0003:00004030       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 10022030     MSVCRT:default_local_stdio_options.obj
+ 0003:0000403c       ___scrt_current_native_startup_state 1002203c     MSVCRT:utility.obj
+ 0003:00004040       ___scrt_native_startup_lock 10022040     MSVCRT:utility.obj
+ 0003:00004068       ___scrt_debugger_hook_flag 10022068     MSVCRT:utility_desktop.obj
+ 0003:0000406c       ___castguard_check_failure_user_handled_fptr 1002206c     MSVCRT:guard_support.obj
+ 0003:00004070       ___avx10_version           10022070     MSVCRT:cpu_disp.obj
+ 0003:00004074       ___isa_available           10022074     MSVCRT:cpu_disp.obj
+ 0003:00004078       ___favor                   10022078     MSVCRT:cpu_disp.obj
+ 0003:00004080       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 10022080     <common>
+ 0003:00004098       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@9 10022098     <common>
+ 0003:000040ac       ___dyn_tls_init_callback   100220ac     <common>
  0004:00000000       __imp__GetCurrentThreadId@0 10023000     kernel32:KERNEL32.dll
  0004:00000004       __imp__UnhandledExceptionFilter@4 10023004     kernel32:KERNEL32.dll
  0004:00000008       __imp__SetUnhandledExceptionFilter@4 10023008     kernel32:KERNEL32.dll
@@ -1067,103 +1067,103 @@
  0001:0000efa0       _hdns_strip_str_func       1000ffa0 f   hdns_string.obj
  0001:0000f0f0       _hdns_strlchr              100100f0 f   hdns_transport.obj
  0001:0000f390       _hdns_curl_transport_setup 10010390 f   hdns_transport.obj
- 0001:0000f88c       $LN23                      1001088c     hdns_transport.obj
- 0001:0000f8a0       _hdns_init_curl_headers    100108a0 f   hdns_transport.obj
- 0001:0000f9c0       _hdns_init_curl_sni        100109c0 f   hdns_transport.obj
- 0001:0000faa0       _hdns_init_curl_url        10010aa0 f   hdns_transport.obj
- 0001:0000fd60       _hdns_curl_default_header_callback 10010d60 f   hdns_transport.obj
- 0001:0000fde0       _hdns_curl_default_write_callback 10010de0 f   hdns_transport.obj
- 0001:0000ff00       _hdns_curl_default_read_callback 10010f00 f   hdns_transport.obj
- 0001:0000fff0       _hdns_curl_debug_callback  10010ff0 f   hdns_transport.obj
- 0001:000100b0       _hdns_url_encode           100110b0 f   hdns_transport.obj
- 0001:00010210       _hdns_query_params_to_string 10011210 f   hdns_transport.obj
- 0001:000104f0       _hdns_curl_transport_headers_done 100114f0 f   hdns_transport.obj
- 0001:00010640       _hdns_curl_code_to_status  10011640 f   hdns_transport.obj
- 0001:0001069c       $LN15                      1001169c     hdns_transport.obj
- 0001:000106b8       $LN14                      100116b8     hdns_transport.obj
- 0001:000106f0       _hdns_curl_transport_finish 100116f0 f   hdns_transport.obj
- 0001:00010890       _hdns_move_transport_state 10011890 f   hdns_transport.obj
- 0001:000112b0       _internal_malloc           100122b0 f   cjson:cJSON.c.obj
- 0001:000112c0       _internal_free             100122c0 f   cjson:cJSON.c.obj
- 0001:000112d0       _internal_realloc          100122d0 f   cjson:cJSON.c.obj
- 0001:00011320       _add_item_to_array         10012320 f   cjson:cJSON.c.obj
- 0001:00011380       _add_item_to_object        10012380 f   cjson:cJSON.c.obj
- 0001:00011440       _buffer_skip_whitespace    10012440 f   cjson:cJSON.c.obj
- 0001:000119f8       $LN73                      100129f8     cjson:cJSON.c.obj
- 0001:00011a00       $LN72                      10012a00     cjson:cJSON.c.obj
- 0001:00011a80       $LN75                      10012a80     cjson:cJSON.c.obj
- 0001:00011a98       $LN74                      10012a98     cjson:cJSON.c.obj
- 0001:00012914       $LN23                      10013914     cjson:cJSON.c.obj
- 0001:00012924       $LN22                      10013924     cjson:cJSON.c.obj
- 0001:00012990       _cJSON_New_Item            10013990 f   cjson:cJSON.c.obj
- 0001:00013000       _cJSON_strdup              10014000 f   cjson:cJSON.c.obj
- 0001:00013060       _case_insensitive_strcmp   10014060 f   cjson:cJSON.c.obj
- 0001:00013100       _cast_away_const           10014100 f   cjson:cJSON.c.obj
- 0001:00013110       _compare_double            10014110 f   cjson:cJSON.c.obj
- 0001:00013160       _create_reference          10014160 f   cjson:cJSON.c.obj
- 0001:000131d0       _ensure                    100141d0 f   cjson:cJSON.c.obj
- 0001:000132c0       _get_array_item            100142c0 f   cjson:cJSON.c.obj
- 0001:000132f0       _get_decimal_point         100142f0 f   cjson:cJSON.c.obj
- 0001:00013300       _get_object_item           10014300 f   cjson:cJSON.c.obj
- 0001:000133b0       _minify_string             100143b0 f   cjson:cJSON.c.obj
- 0001:00013430       _parse_array               10014430 f   cjson:cJSON.c.obj
- 0001:00013570       _parse_hex4                10014570 f   cjson:cJSON.c.obj
- 0001:000135f0       _parse_number              100145f0 f   cjson:cJSON.c.obj
- 0001:00013710       $LN40                      10014710     cjson:cJSON.c.obj
- 0001:0001371c       $LN39                      1001471c     cjson:cJSON.c.obj
- 0001:000137b0       _parse_object              100147b0 f   cjson:cJSON.c.obj
- 0001:00013980       _parse_string              10014980 f   cjson:cJSON.c.obj
- 0001:00013b28       $LN43                      10014b28     cjson:cJSON.c.obj
- 0001:00013b48       $LN42                      10014b48     cjson:cJSON.c.obj
- 0001:00013c30       _parse_value               10014c30 f   cjson:cJSON.c.obj
- 0001:00013df0       _print                     10014df0 f   cjson:cJSON.c.obj
- 0001:00013f40       _print_array               10014f40 f   cjson:cJSON.c.obj
- 0001:00014020       _print_number              10015020 f   cjson:cJSON.c.obj
- 0001:00014350       _print_object              10015350 f   cjson:cJSON.c.obj
- 0001:00014530       _print_string              10015530 f   cjson:cJSON.c.obj
- 0001:00014550       _print_string_ptr          10015550 f   cjson:cJSON.c.obj
- 0001:000146a8       $LN49                      100156a8     cjson:cJSON.c.obj
- 0001:000146b0       $LN48                      100156b0     cjson:cJSON.c.obj
- 0001:00014708       $LN51                      10015708     cjson:cJSON.c.obj
- 0001:00014728       $LN50                      10015728     cjson:cJSON.c.obj
- 0001:00014810       _print_value               10015810 f   cjson:cJSON.c.obj
- 0001:00014940       $LN27                      10015940     cjson:cJSON.c.obj
- 0001:00014964       $LN26                      10015964     cjson:cJSON.c.obj
- 0001:00014a60       _replace_item_in_object    10015a60 f   cjson:cJSON.c.obj
- 0001:00014ae0       _skip_multiline_comment    10015ae0 f   cjson:cJSON.c.obj
- 0001:00014b20       _skip_oneline_comment      10015b20 f   cjson:cJSON.c.obj
- 0001:00014b50       _skip_utf8_bom             10015b50 f   cjson:cJSON.c.obj
- 0001:00014bd0       _suffix_object             10015bd0 f   cjson:cJSON.c.obj
- 0001:00014bf0       _update_offset             10015bf0 f   cjson:cJSON.c.obj
- 0001:00014c30       _utf16_literal_to_utf8     10015c30 f   cjson:cJSON.c.obj
- 0001:00014fb0       $$000000                   10015fb0     MSVCRT:llmul.obj
- 0001:00014fc9       hard                       10015fc9     MSVCRT:llmul.obj
- 0001:00015000       $$000000                   10016000     MSVCRT:lldiv.obj
- 0001:00015021       L1                         10016021     MSVCRT:lldiv.obj
- 0001:0001503d       L2                         1001603d     MSVCRT:lldiv.obj
- 0001:00015059       L3                         10016059     MSVCRT:lldiv.obj
- 0001:00015067       L5                         10016067     MSVCRT:lldiv.obj
- 0001:00015095       L6                         10016095     MSVCRT:lldiv.obj
- 0001:00015096       L7                         10016096     MSVCRT:lldiv.obj
- 0001:0001509a       L4                         1001609a     MSVCRT:lldiv.obj
- 0001:000150a4       L8                         100160a4     MSVCRT:lldiv.obj
- 0001:000154b0       $$000000                   100164b0     MSVCRT:chkstk.obj
- 0001:000154c4       cs10                       100164c4     MSVCRT:chkstk.obj
- 0001:000154d2       cs20                       100164d2     MSVCRT:chkstk.obj
- 0001:000154e5       ?dllmain_crt_dispatch@@YGHQAUHINSTANCE__@@KQAX@Z 100164e5 f   MSVCRT:dll_dllmain.obj
- 0001:0001554c       ?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1001654c f   MSVCRT:dll_dllmain.obj
- 0001:00015694       ?dllmain_crt_process_detach@@YAH_N@Z 10016694 f   MSVCRT:dll_dllmain.obj
- 0001:00015770       ?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10016770 f   MSVCRT:dll_dllmain.obj
- 0001:000158bd       ?dllmain_raw@@YGHQAUHINSTANCE__@@KQAX@Z 100168bd f   MSVCRT:dll_dllmain.obj
- 0001:00015928       ___get_entropy             10016928 f   MSVCRT:gs_support.obj
- 0001:00015a61       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 10016a61 f   MSVCRT:utility.obj
- 0001:00015abb       ?is_potentially_valid_image_base@@YA_NQAX@Z 10016abb f   MSVCRT:utility.obj
- 0001:000161a0       $$000000                   100171a0     MSVCRT:sehprolg4.obj
- 0001:00016200       $$000000                   10017200     MSVCRT:sehprolg4.obj
- 0001:000162f7       ___castguard_check_failure_os_handled_wrapper 100172f7 f   MSVCRT:guard_support.obj
- 0001:0001634d       ___castguard_check_failure_user_handled_wrapper 1001734d f   MSVCRT:guard_support.obj
- 0001:00016373       ___castguard_compat_check  10017373 f   MSVCRT:guard_support.obj
- 0001:000164c1       ___castguard_slow_path_compat_check 100174c1 f   MSVCRT:guard_support.obj
+ 0001:0000f8a8       $LN23                      100108a8     hdns_transport.obj
+ 0001:0000f8c0       _hdns_init_curl_headers    100108c0 f   hdns_transport.obj
+ 0001:0000f9e0       _hdns_init_curl_sni        100109e0 f   hdns_transport.obj
+ 0001:0000fac0       _hdns_init_curl_url        10010ac0 f   hdns_transport.obj
+ 0001:0000fd80       _hdns_curl_default_header_callback 10010d80 f   hdns_transport.obj
+ 0001:0000fe00       _hdns_curl_default_write_callback 10010e00 f   hdns_transport.obj
+ 0001:0000ff20       _hdns_curl_default_read_callback 10010f20 f   hdns_transport.obj
+ 0001:00010010       _hdns_curl_debug_callback  10011010 f   hdns_transport.obj
+ 0001:000100d0       _hdns_url_encode           100110d0 f   hdns_transport.obj
+ 0001:00010230       _hdns_query_params_to_string 10011230 f   hdns_transport.obj
+ 0001:00010510       _hdns_curl_transport_headers_done 10011510 f   hdns_transport.obj
+ 0001:00010660       _hdns_curl_code_to_status  10011660 f   hdns_transport.obj
+ 0001:000106bc       $LN15                      100116bc     hdns_transport.obj
+ 0001:000106d8       $LN14                      100116d8     hdns_transport.obj
+ 0001:00010710       _hdns_curl_transport_finish 10011710 f   hdns_transport.obj
+ 0001:000108b0       _hdns_move_transport_state 100118b0 f   hdns_transport.obj
+ 0001:000112d0       _internal_malloc           100122d0 f   cjson:cJSON.c.obj
+ 0001:000112e0       _internal_free             100122e0 f   cjson:cJSON.c.obj
+ 0001:000112f0       _internal_realloc          100122f0 f   cjson:cJSON.c.obj
+ 0001:00011340       _add_item_to_array         10012340 f   cjson:cJSON.c.obj
+ 0001:000113a0       _add_item_to_object        100123a0 f   cjson:cJSON.c.obj
+ 0001:00011460       _buffer_skip_whitespace    10012460 f   cjson:cJSON.c.obj
+ 0001:00011a18       $LN73                      10012a18     cjson:cJSON.c.obj
+ 0001:00011a20       $LN72                      10012a20     cjson:cJSON.c.obj
+ 0001:00011aa0       $LN75                      10012aa0     cjson:cJSON.c.obj
+ 0001:00011ab8       $LN74                      10012ab8     cjson:cJSON.c.obj
+ 0001:00012934       $LN23                      10013934     cjson:cJSON.c.obj
+ 0001:00012944       $LN22                      10013944     cjson:cJSON.c.obj
+ 0001:000129b0       _cJSON_New_Item            100139b0 f   cjson:cJSON.c.obj
+ 0001:00013020       _cJSON_strdup              10014020 f   cjson:cJSON.c.obj
+ 0001:00013080       _case_insensitive_strcmp   10014080 f   cjson:cJSON.c.obj
+ 0001:00013120       _cast_away_const           10014120 f   cjson:cJSON.c.obj
+ 0001:00013130       _compare_double            10014130 f   cjson:cJSON.c.obj
+ 0001:00013180       _create_reference          10014180 f   cjson:cJSON.c.obj
+ 0001:000131f0       _ensure                    100141f0 f   cjson:cJSON.c.obj
+ 0001:000132e0       _get_array_item            100142e0 f   cjson:cJSON.c.obj
+ 0001:00013310       _get_decimal_point         10014310 f   cjson:cJSON.c.obj
+ 0001:00013320       _get_object_item           10014320 f   cjson:cJSON.c.obj
+ 0001:000133d0       _minify_string             100143d0 f   cjson:cJSON.c.obj
+ 0001:00013450       _parse_array               10014450 f   cjson:cJSON.c.obj
+ 0001:00013590       _parse_hex4                10014590 f   cjson:cJSON.c.obj
+ 0001:00013610       _parse_number              10014610 f   cjson:cJSON.c.obj
+ 0001:00013730       $LN40                      10014730     cjson:cJSON.c.obj
+ 0001:0001373c       $LN39                      1001473c     cjson:cJSON.c.obj
+ 0001:000137d0       _parse_object              100147d0 f   cjson:cJSON.c.obj
+ 0001:000139a0       _parse_string              100149a0 f   cjson:cJSON.c.obj
+ 0001:00013b48       $LN43                      10014b48     cjson:cJSON.c.obj
+ 0001:00013b68       $LN42                      10014b68     cjson:cJSON.c.obj
+ 0001:00013c50       _parse_value               10014c50 f   cjson:cJSON.c.obj
+ 0001:00013e10       _print                     10014e10 f   cjson:cJSON.c.obj
+ 0001:00013f60       _print_array               10014f60 f   cjson:cJSON.c.obj
+ 0001:00014040       _print_number              10015040 f   cjson:cJSON.c.obj
+ 0001:00014370       _print_object              10015370 f   cjson:cJSON.c.obj
+ 0001:00014550       _print_string              10015550 f   cjson:cJSON.c.obj
+ 0001:00014570       _print_string_ptr          10015570 f   cjson:cJSON.c.obj
+ 0001:000146c8       $LN49                      100156c8     cjson:cJSON.c.obj
+ 0001:000146d0       $LN48                      100156d0     cjson:cJSON.c.obj
+ 0001:00014728       $LN51                      10015728     cjson:cJSON.c.obj
+ 0001:00014748       $LN50                      10015748     cjson:cJSON.c.obj
+ 0001:00014830       _print_value               10015830 f   cjson:cJSON.c.obj
+ 0001:00014960       $LN27                      10015960     cjson:cJSON.c.obj
+ 0001:00014984       $LN26                      10015984     cjson:cJSON.c.obj
+ 0001:00014a80       _replace_item_in_object    10015a80 f   cjson:cJSON.c.obj
+ 0001:00014b00       _skip_multiline_comment    10015b00 f   cjson:cJSON.c.obj
+ 0001:00014b40       _skip_oneline_comment      10015b40 f   cjson:cJSON.c.obj
+ 0001:00014b70       _skip_utf8_bom             10015b70 f   cjson:cJSON.c.obj
+ 0001:00014bf0       _suffix_object             10015bf0 f   cjson:cJSON.c.obj
+ 0001:00014c10       _update_offset             10015c10 f   cjson:cJSON.c.obj
+ 0001:00014c50       _utf16_literal_to_utf8     10015c50 f   cjson:cJSON.c.obj
+ 0001:00014fd0       $$000000                   10015fd0     MSVCRT:llmul.obj
+ 0001:00014fe9       hard                       10015fe9     MSVCRT:llmul.obj
+ 0001:00015020       $$000000                   10016020     MSVCRT:lldiv.obj
+ 0001:00015041       L1                         10016041     MSVCRT:lldiv.obj
+ 0001:0001505d       L2                         1001605d     MSVCRT:lldiv.obj
+ 0001:00015079       L3                         10016079     MSVCRT:lldiv.obj
+ 0001:00015087       L5                         10016087     MSVCRT:lldiv.obj
+ 0001:000150b5       L6                         100160b5     MSVCRT:lldiv.obj
+ 0001:000150b6       L7                         100160b6     MSVCRT:lldiv.obj
+ 0001:000150ba       L4                         100160ba     MSVCRT:lldiv.obj
+ 0001:000150c4       L8                         100160c4     MSVCRT:lldiv.obj
+ 0001:000154d0       $$000000                   100164d0     MSVCRT:chkstk.obj
+ 0001:000154e4       cs10                       100164e4     MSVCRT:chkstk.obj
+ 0001:000154f2       cs20                       100164f2     MSVCRT:chkstk.obj
+ 0001:00015505       ?dllmain_crt_dispatch@@YGHQAUHINSTANCE__@@KQAX@Z 10016505 f   MSVCRT:dll_dllmain.obj
+ 0001:0001556c       ?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1001656c f   MSVCRT:dll_dllmain.obj
+ 0001:000156b4       ?dllmain_crt_process_detach@@YAH_N@Z 100166b4 f   MSVCRT:dll_dllmain.obj
+ 0001:00015790       ?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10016790 f   MSVCRT:dll_dllmain.obj
+ 0001:000158dd       ?dllmain_raw@@YGHQAUHINSTANCE__@@KQAX@Z 100168dd f   MSVCRT:dll_dllmain.obj
+ 0001:00015948       ___get_entropy             10016948 f   MSVCRT:gs_support.obj
+ 0001:00015a81       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 10016a81 f   MSVCRT:utility.obj
+ 0001:00015adb       ?is_potentially_valid_image_base@@YA_NQAX@Z 10016adb f   MSVCRT:utility.obj
+ 0001:000161c0       $$000000                   100171c0     MSVCRT:sehprolg4.obj
+ 0001:00016220       $$000000                   10017220     MSVCRT:sehprolg4.obj
+ 0001:00016317       ___castguard_check_failure_os_handled_wrapper 10017317 f   MSVCRT:guard_support.obj
+ 0001:0001636d       ___castguard_check_failure_user_handled_wrapper 1001736d f   MSVCRT:guard_support.obj
+ 0001:00016393       ___castguard_compat_check  10017393 f   MSVCRT:guard_support.obj
+ 0001:000164e1       ___castguard_slow_path_compat_check 100174e1 f   MSVCRT:guard_support.obj
  0002:00000820       ?alphanum@?1??generate_session_id@@9@9 1001a820     hdns_config.obj
  0002:000008ec       ?default_buffer_size@?1??print@@9@9 1001a8ec     cjson:cJSON.c.obj
  0002:000009b4       _GS_ExceptionPointers      1001a9b4     MSVCRT:gs_report.obj
@@ -1832,39 +1832,40 @@
  0003:000035f0       $SG37373                   100215f0     hdns_transport.obj
  0003:0000360c       $SG37374                   1002160c     hdns_transport.obj
  0003:0000364c       $SG37394                   1002164c     hdns_transport.obj
- 0003:00003658       $SG37407                   10021658     hdns_transport.obj
- 0003:00003660       $SG37418                   10021660     hdns_transport.obj
- 0003:00003688       $SG37419                   10021688     hdns_transport.obj
- 0003:000036a4       $SG37420                   100216a4     hdns_transport.obj
- 0003:000038bc       $SG36844                   100218bc     hdns_utils.obj
- 0003:000038c8       $SG36848                   100218c8     hdns_utils.obj
- 0003:000038f0       $SG36849                   100218f0     hdns_utils.obj
- 0003:00003908       $SG36850                   10021908     hdns_utils.obj
- 0003:00003944       $SG36851                   10021944     hdns_utils.obj
- 0003:0000394c       $SG36873                   1002194c     hdns_utils.obj
- 0003:00003980       _global_hooks              10021980     cjson:cJSON.c.obj
- 0003:00003b68       _g_hdns_api_pool           10021b68     hdns_api.obj
- 0003:00003b6c       _g_hdns_api_thread_pool    10021b6c     hdns_api.obj
- 0003:00003b70       _g_hdns_api_initialized    10021b70     hdns_api.obj
- 0003:00003b74       _g_hdns_net_detector       10021b74     hdns_api.obj
- 0003:00003b85       $SG37908                   10021b85     hdns_resolver.obj
- 0003:00003b86       $SG37910                   10021b86     hdns_resolver.obj
- 0003:00003b87       $SG37916                   10021b87     hdns_resolver.obj
- 0003:00003b88       $SG37918                   10021b88     hdns_resolver.obj
- 0003:00003b90       _g_hdns_session_stack_mutex 10021b90     hdns_session.obj
- 0003:00003b94       _g_hdns_session_stack_size 10021b94     hdns_session.obj
- 0003:00003b98       _g_hdns_session_stack      10021b98     hdns_session.obj
- 0003:00003c18       _g_hdns_session_pool       10021c18     hdns_session.obj
- 0003:00003c1c       _g_hdns_session_initialized 10021c1c     hdns_session.obj
- 0003:00003c3c       _global_error              10021c3c     cjson:cJSON.c.obj
- 0003:00003c44       ?version@?1??cJSON_Version@@9@9 10021c44     cjson:cJSON.c.obj
- 0003:00003c58       _GS_ExceptionRecord        10021c58     MSVCRT:gs_report.obj
- 0003:00003ca8       _GS_ContextRecord          10021ca8     MSVCRT:gs_report.obj
- 0003:00004014       ?__proc_attached@@3HA      10022014     MSVCRT:dll_dllmain.obj
- 0003:0000404c       ?is_initialized_as_dll@@3_NA 1002204c     MSVCRT:utility.obj
- 0003:0000404d       ?module_local_atexit_table_initialized@@3_NA 1002204d     MSVCRT:utility.obj
- 0003:00004050       ?module_local_atexit_table@@3U_onexit_table_t@@A 10022050     MSVCRT:utility.obj
- 0003:0000405c       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 1002205c     MSVCRT:utility.obj
+ 0003:00003658       $SG37400                   10021658     hdns_transport.obj
+ 0003:00003670       $SG37408                   10021670     hdns_transport.obj
+ 0003:00003678       $SG37419                   10021678     hdns_transport.obj
+ 0003:000036a0       $SG37420                   100216a0     hdns_transport.obj
+ 0003:000036bc       $SG37421                   100216bc     hdns_transport.obj
+ 0003:000038d8       $SG36844                   100218d8     hdns_utils.obj
+ 0003:000038e4       $SG36848                   100218e4     hdns_utils.obj
+ 0003:0000390c       $SG36849                   1002190c     hdns_utils.obj
+ 0003:00003924       $SG36850                   10021924     hdns_utils.obj
+ 0003:00003960       $SG36851                   10021960     hdns_utils.obj
+ 0003:00003968       $SG36873                   10021968     hdns_utils.obj
+ 0003:0000399c       _global_hooks              1002199c     cjson:cJSON.c.obj
+ 0003:00003b60       _g_hdns_api_pool           10021b60     hdns_api.obj
+ 0003:00003b64       _g_hdns_api_thread_pool    10021b64     hdns_api.obj
+ 0003:00003b68       _g_hdns_api_initialized    10021b68     hdns_api.obj
+ 0003:00003b6c       _g_hdns_net_detector       10021b6c     hdns_api.obj
+ 0003:00003b7d       $SG37908                   10021b7d     hdns_resolver.obj
+ 0003:00003b7e       $SG37910                   10021b7e     hdns_resolver.obj
+ 0003:00003b7f       $SG37916                   10021b7f     hdns_resolver.obj
+ 0003:00003b80       $SG37918                   10021b80     hdns_resolver.obj
+ 0003:00003b88       _g_hdns_session_stack_mutex 10021b88     hdns_session.obj
+ 0003:00003b8c       _g_hdns_session_stack_size 10021b8c     hdns_session.obj
+ 0003:00003b90       _g_hdns_session_stack      10021b90     hdns_session.obj
+ 0003:00003c10       _g_hdns_session_pool       10021c10     hdns_session.obj
+ 0003:00003c14       _g_hdns_session_initialized 10021c14     hdns_session.obj
+ 0003:00003c34       _global_error              10021c34     cjson:cJSON.c.obj
+ 0003:00003c3c       ?version@?1??cJSON_Version@@9@9 10021c3c     cjson:cJSON.c.obj
+ 0003:00003c50       _GS_ExceptionRecord        10021c50     MSVCRT:gs_report.obj
+ 0003:00003ca0       _GS_ContextRecord          10021ca0     MSVCRT:gs_report.obj
+ 0003:0000400c       ?__proc_attached@@3HA      1002200c     MSVCRT:dll_dllmain.obj
+ 0003:00004044       ?is_initialized_as_dll@@3_NA 10022044     MSVCRT:utility.obj
+ 0003:00004045       ?module_local_atexit_table_initialized@@3_NA 10022045     MSVCRT:utility.obj
+ 0003:00004048       ?module_local_atexit_table@@3U_onexit_table_t@@A 10022048     MSVCRT:utility.obj
+ 0003:00004054       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 10022054     MSVCRT:utility.obj
  0004:000010fe       .idata$6                   100240fe     libapr:libapr.dll
  0004:00001204       .idata$6                   10024204     libaprutil:libaprutil.dll
  0004:000012f2       .idata$6                   100242f2     libcurl.dll:libcurl.dll

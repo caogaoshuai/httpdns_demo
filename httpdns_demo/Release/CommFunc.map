@@ -1,6 +1,6 @@
  CommFunc
 
- Timestamp is 6711ba07 (Fri Oct 18 09:29:43 2024)
+ Timestamp is 67120b6c (Fri Oct 18 15:17:00 2024)
 
  Preferred load address is 10000000
 
@@ -449,19 +449,19 @@
  0002:00000830       ___xt_z                    1000c830     MSVCRT:initializers.obj
  0002:0000098c       ??_C@_06MAPHFPON@139450@   1000c98c     HttpDns.obj
  0002:00000994       ??_C@_08MPODPIDC@xxxxxxxx@ 1000c994     HttpDns.obj
- 0002:000009c0       ??_7exception@std@@6B@     1000c9c0     HttpDns.obj
- 0002:000009cc       ??_C@_0BC@EOODALEL@Unknown?5exception@ 1000c9cc     HttpDns.obj
- 0002:000009e8       ??_7bad_alloc@std@@6B@     1000c9e8     HttpDns.obj
- 0002:000009f8       ??_7bad_array_new_length@std@@6B@ 1000c9f8     HttpDns.obj
- 0002:00000a04       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@ 1000ca04     HttpDns.obj
- 0002:00000a20       ??_C@_0BA@JFNIOLAK@string?5too?5long@ 1000ca20     HttpDns.obj
- 0002:00000a34       ??_C@_0BA@PKLMDPEK@Log?1httpdns?4log@ 1000ca34     HttpDns.obj
- 0002:00000a48       ??_C@_06FJKEMHGD@global@   1000ca48     HttpDns.obj
- 0002:00000a54       ??_7type_info@@6B@         1000ca54     MSVCRT:std_type_info_static.obj
- 0002:00000a5c       __pDefaultRawDllMain       1000ca5c     MSVCRT:dll_dllmain.obj
- 0002:00000a5c       __pRawDllMain              1000ca5c     MSVCRT:dll_dllmain.obj
- 0002:00000a60       ??_C@_0P@GHFPNOJB@bad?5allocation@ 1000ca60     MSVCRT:throw_bad_alloc.obj
- 0002:00000a80       __load_config_used         1000ca80     MSVCRT:loadcfg.obj
+ 0002:000009a4       ??_7exception@std@@6B@     1000c9a4     HttpDns.obj
+ 0002:000009b0       ??_C@_0BC@EOODALEL@Unknown?5exception@ 1000c9b0     HttpDns.obj
+ 0002:000009cc       ??_7bad_alloc@std@@6B@     1000c9cc     HttpDns.obj
+ 0002:000009dc       ??_7bad_array_new_length@std@@6B@ 1000c9dc     HttpDns.obj
+ 0002:000009e8       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@ 1000c9e8     HttpDns.obj
+ 0002:00000a04       ??_C@_0BA@JFNIOLAK@string?5too?5long@ 1000ca04     HttpDns.obj
+ 0002:00000a18       ??_C@_0BA@PKLMDPEK@Log?1httpdns?4log@ 1000ca18     HttpDns.obj
+ 0002:00000a2c       ??_C@_06FJKEMHGD@global@   1000ca2c     HttpDns.obj
+ 0002:00000a38       ??_7type_info@@6B@         1000ca38     MSVCRT:std_type_info_static.obj
+ 0002:00000a40       __pDefaultRawDllMain       1000ca40     MSVCRT:dll_dllmain.obj
+ 0002:00000a40       __pRawDllMain              1000ca40     MSVCRT:dll_dllmain.obj
+ 0002:00000a44       ??_C@_0P@GHFPNOJB@bad?5allocation@ 1000ca44     MSVCRT:throw_bad_alloc.obj
+ 0002:00000a68       __load_config_used         1000ca68     MSVCRT:loadcfg.obj
  0002:00000cc0       ___CastGuardVftablesStart  1000ccc0     MSVCRT:guard_support.obj
  0002:00000e40       ___CastGuardVftablesEnd    1000ce40     MSVCRT:guard_support.obj
  0002:00000f8c       ??_R4exception@std@@6B@    1000cf8c     HttpDns.obj
@@ -898,7 +898,7 @@
  0002:00000950       $SG148977                  1000c950     HttpDns.obj
  0002:00000960       $SG149255                  1000c960     HttpDns.obj
  0002:00000970       $SG149256                  1000c970     HttpDns.obj
- 0002:00000a74       _GS_ExceptionPointers      1000ca74     MSVCRT:gs_report.obj
+ 0002:00000a58       _GS_ExceptionPointers      1000ca58     MSVCRT:gs_report.obj
  0002:00001900       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000d900     HttpDns.obj
  0002:00001908       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000d908     HttpDns.obj
  0002:00001930       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 1000d930     HttpDns.obj

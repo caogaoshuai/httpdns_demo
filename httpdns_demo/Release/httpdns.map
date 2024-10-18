@@ -1,0 +1,1884 @@
+ httpdns
+
+ Timestamp is 6711ba07 (Fri Oct 18 09:29:43 2024)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000180b1H .text$mn                CODE
+ 0002:00000000 00000104H .CRT$XCA                DATA
+ 0002:00000104 00000104H .CRT$XCZ                DATA
+ 0002:00000208 00000104H .CRT$XIA                DATA
+ 0002:0000030c 00000104H .CRT$XIZ                DATA
+ 0002:00000410 00000104H .CRT$XPA                DATA
+ 0002:00000514 00000104H .CRT$XPZ                DATA
+ 0002:00000618 00000104H .CRT$XTA                DATA
+ 0002:0000071c 00000104H .CRT$XTZ                DATA
+ 0002:00000820 00000420H .rdata                  DATA
+ 0002:00000c40 00000180H .rdata$CastGuardVftablesA DATA
+ 0002:00000dc0 0000014cH .rdata$CastGuardVftablesC DATA
+ 0002:00000f0c 00000104H .rdata$sxdata           DATA
+ 0002:00001010 0000018cH .rdata$zzzdbg           DATA
+ 0002:0000119c 00000104H .rtc$IAA                DATA
+ 0002:000012a0 00000104H .rtc$IZZ                DATA
+ 0002:000013a4 00000104H .rtc$TAA                DATA
+ 0002:000014a8 00000108H .rtc$TZZ                DATA
+ 0002:000015b0 000001a0H .xdata$x                DATA
+ 0002:00001750 000026a2H .edata                  DATA
+ 0003:00000000 00003b68H .data                   DATA
+ 0003:00003b68 00000558H .bss                    DATA
+ 0004:00000000 0000052cH .idata$5                DATA
+ 0004:0000052c 0000012cH .idata$2                DATA
+ 0004:00000658 00000014H .idata$3                DATA
+ 0004:0000066c 0000052cH .idata$4                DATA
+ 0004:00000b98 00000ef2H .idata$6                DATA
+ 0005:00000000 0000010eH .00cfg                  DATA
+ 0006:00000000 000001c0H .rsrc$01                DATA
+ 0006:000001c0 00000640H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___hybrid_image_info_bitfield 00000000     <absolute>
+ 0000:00000000       ___volatile_metadata       00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00000d50       _hdns_sdk_init             10001d50 f   hdns_api.obj
+ 0001:00000f20       _hdns_client_create        10001f20 f   hdns_api.obj
+ 0001:00001000       _hdns_client_start         10002000 f   hdns_api.obj
+ 0001:00001160       _hdns_client_set_timeout   10002160 f   hdns_api.obj
+ 0001:000011a0       _hdns_client_set_using_cache 100021a0 f   hdns_api.obj
+ 0001:000011e0       _hdns_client_set_using_https 100021e0 f   hdns_api.obj
+ 0001:00001220       _hdns_client_set_using_sign 10002220 f   hdns_api.obj
+ 0001:00001260       _hdns_client_set_retry_times 10002260 f   hdns_api.obj
+ 0001:000012a0       _hdns_client_set_region    100022a0 f   hdns_api.obj
+ 0001:00001340       _hdns_client_set_schedule_center_region 10002340 f   hdns_api.obj
+ 0001:000014a0       _hdns_client_enable_update_cache_after_net_change 100024a0 f   hdns_api.obj
+ 0001:000014f0       _hdns_client_enable_expired_ip 100024f0 f   hdns_api.obj
+ 0001:00001530       _hdns_client_enable_failover_localdns 10002530 f   hdns_api.obj
+ 0001:00001570       _hdns_client_add_pre_resolve_host 10002570 f   hdns_api.obj
+ 0001:000015c0       _hdns_client_add_ip_probe_item 100025c0 f   hdns_api.obj
+ 0001:00001640       _hdns_client_add_custom_ttl_item 10002640 f   hdns_api.obj
+ 0001:000016c0       _hdns_client_get_session_id 100026c0 f   hdns_api.obj
+ 0001:00001700       _hdns_resv_req_create      10002700 f   hdns_api.obj
+ 0001:00001720       _hdns_resv_req_set_client_ip 10002720 f   hdns_api.obj
+ 0001:000017e0       _hdns_resv_req_set_host    100027e0 f   hdns_api.obj
+ 0001:000018a0       _hdns_resv_req_append_sdns_param 100028a0 f   hdns_api.obj
+ 0001:00001970       _hdns_resv_req_set_query_type 10002970 f   hdns_api.obj
+ 0001:00001a10       _hdns_resv_req_set_cache_key 10002a10 f   hdns_api.obj
+ 0001:00001ad0       _hdns_resv_req_cleanup     10002ad0 f   hdns_api.obj
+ 0001:00001af0       _hdns_list_create          10002af0 f   hdns_api.obj
+ 0001:00001b00       _hdns_list_add_str         10002b00 f   hdns_api.obj
+ 0001:00001ba0       _hdns_list_cleanup         10002ba0 f   hdns_api.obj
+ 0001:00001bc0       _hdns_get_result_for_host_sync_with_custom_request 10002bc0 f   hdns_api.obj
+ 0001:00001d20       _hdns_get_result_for_host_sync_with_cache 10002d20 f   hdns_api.obj
+ 0001:00001d70       _hdns_get_result_for_host_sync_without_cache 10002d70 f   hdns_api.obj
+ 0001:00001dc0       _hdns_get_results_for_hosts_sync_with_cache 10002dc0 f   hdns_api.obj
+ 0001:00001e10       _hdns_get_results_for_hosts_sync_without_cache 10002e10 f   hdns_api.obj
+ 0001:00001e60       _hdns_get_result_for_host_async_with_custom_request 10002e60 f   hdns_api.obj
+ 0001:00001fb0       _hdns_get_result_for_host_async_with_cache 10002fb0 f   hdns_api.obj
+ 0001:00002110       _hdns_get_result_for_host_async_without_cache 10003110 f   hdns_api.obj
+ 0001:00002270       _hdns_get_results_for_hosts_async_with_cache 10003270 f   hdns_api.obj
+ 0001:00002440       _hdns_get_results_for_hosts_async_without_cache 10003440 f   hdns_api.obj
+ 0001:00002610       _hdns_select_ip_randomly   10003610 f   hdns_api.obj
+ 0001:00002630       _hdns_select_first_ip      10003630 f   hdns_api.obj
+ 0001:00002650       _hdns_get_sdns_extra       10003650 f   hdns_api.obj
+ 0001:00002760       _hdns_log_set_log_file_path 10003760 f   hdns_api.obj
+ 0001:00002860       _hdns_log_set_log_level    10003860 f   hdns_api.obj
+ 0001:00002880       _hdns_remove_host_cache    10003880 f   hdns_api.obj
+ 0001:000028e0       _hdns_client_cleanup       100038e0 f   hdns_api.obj
+ 0001:00002930       _hdns_sdk_cleanup          10003930 f   hdns_api.obj
+ 0001:00002a80       _hdns_config_add_pre_resolve_host 10003a80 f   hdns_api.obj
+ 0001:00003c70       _hdns_create_buf           10004c70 f   hdns_buf.obj
+ 0001:00003cd0       _hdns_buf_pack             10004cd0 f   hdns_buf.obj
+ 0001:00003d30       _hdns_buf_list_content     10004d30 f   hdns_buf.obj
+ 0001:00003e10       _hdns_buf_append_string    10004e10 f   hdns_buf.obj
+ 0001:00003ef0       _hdns_buf_list_len         10004ef0 f   hdns_buf.obj
+ 0001:00004000       _hdns_cache_table_create   10005000 f   hdns_cache.obj
+ 0001:00004070       _hdns_cache_table_add      10005070 f   hdns_cache.obj
+ 0001:00004130       _hdns_cache_table_delete   10005130 f   hdns_cache.obj
+ 0001:000041b0       _hdns_cache_table_get      100051b0 f   hdns_cache.obj
+ 0001:00004250       _hdns_cache_table_clean    10005250 f   hdns_cache.obj
+ 0001:00004330       _hdns_cache_table_cleanup  10005330 f   hdns_cache.obj
+ 0001:00004360       _hdns_cache_get_keys       10005360 f   hdns_cache.obj
+ 0001:000046f0       _hdns_do_single_resolve    100056f0 f   hdns_client.obj
+ 0001:00004820       _hdns_do_batch_resolve     10005820 f   hdns_client.obj
+ 0001:00005030       _hdns_do_single_resolve_with_req 10006030 f   hdns_client.obj
+ 0001:00005620       _hdns_update_cache_on_net_change 10006620 f   hdns_client.obj
+ 0001:000056a0       _hdns_fetch_resv_results   100066a0 f   hdns_client.obj
+ 0001:000059d0       _hdns_batch_fetch_resv_results 100069d0 f   hdns_client.obj
+ 0001:00005fb0       _hdns_net_speed_cache_cb_fn 10006fb0 f   hdns_client.obj
+ 0001:000068f0       _hdns_config_create        100078f0 f   hdns_config.obj
+ 0001:00006950       _hdns_config_valid         10007950 f   hdns_config.obj
+ 0001:00006bc0       _hdns_config_cleanup       10007bc0 f   hdns_config.obj
+ 0001:00006bf0       _hdns_config_get_boot_servers 10007bf0 f   hdns_config.obj
+ 0001:00007480       _hdns_file_create_dir      10008480 f   hdns_file.obj
+ 0001:00007640       _hdns_file_write           10008640 f   hdns_file.obj
+ 0001:00007820       _hdns_file_read            10008820 f   hdns_file.obj
+ 0001:00007b90       _hdns_fstack_create        10008b90 f   hdns_fstack.obj
+ 0001:00007bb0       _hdns_fstack_pop           10008bb0 f   hdns_fstack.obj
+ 0001:00007c40       _hdns_fstack_destory       10008c40 f   hdns_fstack.obj
+ 0001:00007c60       _hdns_fstack_push          10008c60 f   hdns_fstack.obj
+ 0001:00007cd0       _hdns_http_controller_create 10008cd0 f   hdns_http.obj
+ 0001:00007d80       _hdns_http_request_create  10008d80 f   hdns_http.obj
+ 0001:00007e50       _hdns_http_response_create 10008e50 f   hdns_http.obj
+ 0001:00007f50       _hdns_http_should_retry    10008f50 f   hdns_http.obj
+ 0001:00007fa0       _hdns_http_send_request    10008fa0 f   hdns_http.obj
+ 0001:00008270       _hdns_ip_create            10009270 f   hdns_ip.obj
+ 0001:000082c0       _hdns_ip_cmp               100092c0 f   hdns_ip.obj
+ 0001:00008310       _hdns_ip_search            10009310 f   hdns_ip.obj
+ 0001:000083b0       _hdns_list_new             100093b0 f   hdns_list.obj
+ 0001:00008400       _hdns_list_free            10009400 f   hdns_list.obj
+ 0001:00008420       _hdns_list_add             10009420 f   hdns_list.obj
+ 0001:000084b0       _hdns_list_first           100094b0 f   hdns_list.obj
+ 0001:000084c0       _hdns_list_del             100094c0 f   hdns_list.obj
+ 0001:00008500       _hdns_list_rotate          10009500 f   hdns_list.obj
+ 0001:00008570       _hdns_list_dup             10009570 f   hdns_list.obj
+ 0001:000085d0       _hdns_list_get             100095d0 f   hdns_list.obj
+ 0001:00008630       _hdns_list_size            10009630 f   hdns_list.obj
+ 0001:00008680       _hdns_list_shuffle         10009680 f   hdns_list.obj
+ 0001:00008740       _hdns_list_contain         10009740 f   hdns_list.obj
+ 0001:000087a0       _hdns_list_min             100097a0 f   hdns_list.obj
+ 0001:00008810       _hdns_list_max             10009810 f   hdns_list.obj
+ 0001:00008880       _hdns_list_sort            10009880 f   hdns_list.obj
+ 0001:00008930       _hdns_list_search          10009930 f   hdns_list.obj
+ 0001:000089a0       _hdns_list_is_end_node     100099a0 f   hdns_list.obj
+ 0001:000089f0       _hdns_list_insert_tail     100099f0 f   hdns_list.obj
+ 0001:00008c40       _hdns_localdns_resolve     10009c40 f   hdns_localdns.obj
+ 0001:00008d50       _hdns_log_create           10009d50 f   hdns_log.obj
+ 0001:00008d70       _hdns_log_cleanup          10009d70 f   hdns_log.obj
+ 0001:00008d90       _hdns_log_set_print        10009d90 f   hdns_log.obj
+ 0001:00008da0       _hdns_log_set_format       10009da0 f   hdns_log.obj
+ 0001:00008db0       _hdns_log_set_level        10009db0 f   hdns_log.obj
+ 0001:00008dc0       _hdns_log_set_output       10009dc0 f   hdns_log.obj
+ 0001:00008e10       _hdns_log_print_default    10009e10 f   hdns_log.obj
+ 0001:00008e80       _hdns_log_format_default   10009e80 f   hdns_log.obj
+ 0001:000090f0       ___local_stdio_printf_options 1000a0f0 f i hdns_log.obj
+ 0001:00009100       __vfprintf_l               1000a100 f i hdns_log.obj
+ 0001:00009140       _fprintf                   1000a140 f i hdns_log.obj
+ 0001:00009180       _vsnprintf                 1000a180 f i hdns_log.obj
+ 0001:000091f0       _hdns_net_detector_create  1000a1f0 f   hdns_net.obj
+ 0001:00009360       _hdns_net_detector_stop    1000a360 f   hdns_net.obj
+ 0001:000093b0       _hdns_net_detector_cleanup 1000a3b0 f   hdns_net.obj
+ 0001:00009470       _hdns_net_add_chg_cb_task  1000a470 f   hdns_net.obj
+ 0001:000095b0       _hdns_net_cancel_chg_cb_task 1000a5b0 f   hdns_net.obj
+ 0001:00009660       _hdns_net_add_speed_detect_task 1000a660 f   hdns_net.obj
+ 0001:00009770       _hdns_net_get_type         1000a770 f   hdns_net.obj
+ 0001:00009840       _hdns_net_is_changed       1000a840 f   hdns_net.obj
+ 0001:00009f30       _hdns_net_type_detector_update_cache 1000af30 f   hdns_net.obj
+ 0001:0000aa90       _hdns_resv_resp_create_empty 1000ba90 f   hdns_resolver.obj
+ 0001:0000ab40       _hdns_resv_req_valid       1000bb40 f   hdns_resolver.obj
+ 0001:0000ad50       _hdns_resv_req_new         1000bd50 f   hdns_resolver.obj
+ 0001:0000aef0       _hdns_resv_req_free        1000bef0 f   hdns_resolver.obj
+ 0001:0000af20       _hdns_resv_req_clone       1000bf20 f   hdns_resolver.obj
+ 0001:0000b0d0       _hdns_resv_send_req        1000c0d0 f   hdns_resolver.obj
+ 0001:0000b360       _hdns_resv_resp_clone      1000c360 f   hdns_resolver.obj
+ 0001:0000b470       _hdns_resv_resp_destroy    1000c470 f   hdns_resolver.obj
+ 0001:0000b490       _hdns_parse_resv_resp      1000c490 f   hdns_resolver.obj
+ 0001:0000b4f0       _hdns_resv_resp_to_str     1000c4f0 f   hdns_resolver.obj
+ 0001:0000c4c0       _hdns_scheduler_create     1000d4c0 f   hdns_scheduler.obj
+ 0001:0000c680       _hdns_scheduler_refresh_async 1000d680 f   hdns_scheduler.obj
+ 0001:0000c750       _hdns_scheduler_failover   1000d750 f   hdns_scheduler.obj
+ 0001:0000c860       _hdns_scheduler_get        1000d860 f   hdns_scheduler.obj
+ 0001:0000c9c0       _hdns_scheduler_cleanup    1000d9c0 f   hdns_scheduler.obj
+ 0001:0000ca90       _hdns_scheduler_refresh_resolvers 1000da90 f   hdns_scheduler.obj
+ 0001:0000d600       _hdns_net_speed_resolver_cb_fn 1000e600 f   hdns_scheduler.obj
+ 0001:0000dbc0       __vsnprintf_l              1000ebc0 f i hdns_scheduler.obj
+ 0001:0000dc30       __vsprintf_l               1000ec30 f i hdns_scheduler.obj
+ 0001:0000dc60       _sprintf                   1000ec60 f i hdns_scheduler.obj
+ 0001:0000dca0       _hdns_session_pool_init    1000eca0 f   hdns_session.obj
+ 0001:0000de60       _hdns_session_require      1000ee60 f   hdns_session.obj
+ 0001:0000dee0       _hdns_session_release      1000eee0 f   hdns_session.obj
+ 0001:0000df50       _hdns_session_pool_cleanup 1000ef50 f   hdns_session.obj
+ 0001:0000e0d0       _hdns_gen_resv_req_sign    1000f0d0 f   hdns_sign.obj
+ 0001:0000e0f0       _hdns_gen_sched_req_sign   1000f0f0 f   hdns_sign.obj
+ 0001:0000e2d0       _hdns_status_is_ok         1000f2d0 f   hdns_status.obj
+ 0001:0000e300       _hdns_status_ok            1000f300 f   hdns_status.obj
+ 0001:0000ea50       _hdns_status_error         1000fa50 f   hdns_status.obj
+ 0001:0000ede0       _hdns_strip_space          1000fde0 f   hdns_string.obj
+ 0001:0000ee00       _hdns_trip_space_and_cntrl 1000fe00 f   hdns_string.obj
+ 0001:0000ee20       _hdns_unquote_str          1000fe20 f   hdns_string.obj
+ 0001:0000ee40       _hdns_pstrdup              1000fe40 f   hdns_string.obj
+ 0001:0000ee60       _hdns_ends_with            1000fe60 f   hdns_string.obj
+ 0001:0000eed0       _hdns_str_search           1000fed0 f   hdns_string.obj
+ 0001:0000ef20       _hdns_str_start_with       1000ff20 f   hdns_string.obj
+ 0001:0000f120       _hdns_http_transport_create 10010120 f   hdns_transport.obj
+ 0001:0000f250       _hdns_http_transport_perform 10010250 f   hdns_transport.obj
+ 0001:000108c0       _hdns_curl_response_headers_parse 100118c0 f   hdns_transport.obj
+ 0001:00010f90       _hdns_get_user_home_dir    10011f90 f   hdns_utils.obj
+ 0001:00011050       _hdns_is_valid_ipv6        10012050 f   hdns_utils.obj
+ 0001:000110b0       _hdns_is_valid_ipv4        100120b0 f   hdns_utils.obj
+ 0001:00011100       _hdns_md5                  10012100 f   hdns_utils.obj
+ 0001:00011160       _hdns_encode_hex           10012160 f   hdns_utils.obj
+ 0001:000112e0       ___local_stdio_scanf_options 100122e0 f i cjson:cJSON.c.obj
+ 0001:000112f0       __vsscanf_l                100122f0 f i cjson:cJSON.c.obj
+ 0001:00011490       _cJSON_AddArrayToObject@8  10012490 f   cjson:cJSON.c.obj
+ 0001:000114e0       _cJSON_AddBoolToObject@12  100124e0 f   cjson:cJSON.c.obj
+ 0001:00011530       _cJSON_AddFalseToObject@8  10012530 f   cjson:cJSON.c.obj
+ 0001:00011580       _cJSON_AddItemReferenceToArray@8 10012580 f   cjson:cJSON.c.obj
+ 0001:000115c0       _cJSON_AddItemReferenceToObject@12 100125c0 f   cjson:cJSON.c.obj
+ 0001:00011610       _cJSON_AddItemToArray@8    10012610 f   cjson:cJSON.c.obj
+ 0001:00011630       _cJSON_AddItemToObject@12  10012630 f   cjson:cJSON.c.obj
+ 0001:00011660       _cJSON_AddItemToObjectCS@12 10012660 f   cjson:cJSON.c.obj
+ 0001:00011690       _cJSON_AddNullToObject@8   10012690 f   cjson:cJSON.c.obj
+ 0001:000116e0       _cJSON_AddNumberToObject@16 100126e0 f   cjson:cJSON.c.obj
+ 0001:00011740       _cJSON_AddObjectToObject@8 10012740 f   cjson:cJSON.c.obj
+ 0001:00011790       _cJSON_AddRawToObject@12   10012790 f   cjson:cJSON.c.obj
+ 0001:000117e0       _cJSON_AddStringToObject@12 100127e0 f   cjson:cJSON.c.obj
+ 0001:00011830       _cJSON_AddTrueToObject@8   10012830 f   cjson:cJSON.c.obj
+ 0001:00011880       _cJSON_Compare@12          10012880 f   cjson:cJSON.c.obj
+ 0001:00011bc0       _cJSON_CreateArray@0       10012bc0 f   cjson:cJSON.c.obj
+ 0001:00011be0       _cJSON_CreateArrayReference@4 10012be0 f   cjson:cJSON.c.obj
+ 0001:00011c20       _cJSON_CreateBool@4        10012c20 f   cjson:cJSON.c.obj
+ 0001:00011c50       _cJSON_CreateDoubleArray@8 10012c50 f   cjson:cJSON.c.obj
+ 0001:00011d10       _cJSON_CreateFalse@0       10012d10 f   cjson:cJSON.c.obj
+ 0001:00011d30       _cJSON_CreateFloatArray@8  10012d30 f   cjson:cJSON.c.obj
+ 0001:00011e00       _cJSON_CreateIntArray@8    10012e00 f   cjson:cJSON.c.obj
+ 0001:00011ed0       _cJSON_CreateNull@0        10012ed0 f   cjson:cJSON.c.obj
+ 0001:00011ef0       _cJSON_CreateNumber@8      10012ef0 f   cjson:cJSON.c.obj
+ 0001:00011f70       _cJSON_CreateObject@0      10012f70 f   cjson:cJSON.c.obj
+ 0001:00011f90       _cJSON_CreateObjectReference@4 10012f90 f   cjson:cJSON.c.obj
+ 0001:00011fd0       _cJSON_CreateRaw@4         10012fd0 f   cjson:cJSON.c.obj
+ 0001:00012030       _cJSON_CreateString@4      10013030 f   cjson:cJSON.c.obj
+ 0001:00012090       _cJSON_CreateStringArray@8 10013090 f   cjson:cJSON.c.obj
+ 0001:00012130       _cJSON_CreateStringReference@4 10013130 f   cjson:cJSON.c.obj
+ 0001:00012170       _cJSON_CreateTrue@0        10013170 f   cjson:cJSON.c.obj
+ 0001:00012190       _cJSON_Delete@4            10013190 f   cjson:cJSON.c.obj
+ 0001:00012230       _cJSON_DeleteItemFromArray@8 10013230 f   cjson:cJSON.c.obj
+ 0001:00012250       _cJSON_DeleteItemFromObject@8 10013250 f   cjson:cJSON.c.obj
+ 0001:00012270       _cJSON_DeleteItemFromObjectCaseSensitive@8 10013270 f   cjson:cJSON.c.obj
+ 0001:00012290       _cJSON_DetachItemFromArray@8 10013290 f   cjson:cJSON.c.obj
+ 0001:000122d0       _cJSON_DetachItemFromObject@8 100132d0 f   cjson:cJSON.c.obj
+ 0001:000122f0       _cJSON_DetachItemFromObjectCaseSensitive@8 100132f0 f   cjson:cJSON.c.obj
+ 0001:00012310       _cJSON_DetachItemViaPointer@8 10013310 f   cjson:cJSON.c.obj
+ 0001:000123a0       _cJSON_Duplicate@8         100133a0 f   cjson:cJSON.c.obj
+ 0001:000124d0       _cJSON_GetArrayItem@8      100134d0 f   cjson:cJSON.c.obj
+ 0001:00012500       _cJSON_GetArraySize@4      10013500 f   cjson:cJSON.c.obj
+ 0001:00012530       _cJSON_GetErrorPtr@0       10013530 f   cjson:cJSON.c.obj
+ 0001:00012540       _cJSON_GetNumberValue@4    10013540 f   cjson:cJSON.c.obj
+ 0001:00012570       _cJSON_GetObjectItem@8     10013570 f   cjson:cJSON.c.obj
+ 0001:00012590       _cJSON_GetObjectItemCaseSensitive@8 10013590 f   cjson:cJSON.c.obj
+ 0001:000125b0       _cJSON_GetStringValue@4    100135b0 f   cjson:cJSON.c.obj
+ 0001:000125d0       _cJSON_HasObjectItem@8     100135d0 f   cjson:cJSON.c.obj
+ 0001:000125f0       _cJSON_InitHooks@4         100135f0 f   cjson:cJSON.c.obj
+ 0001:000126a0       _cJSON_InsertItemInArray@12 100136a0 f   cjson:cJSON.c.obj
+ 0001:00012730       _cJSON_IsArray@4           10013730 f   cjson:cJSON.c.obj
+ 0001:00012750       _cJSON_IsBool@4            10013750 f   cjson:cJSON.c.obj
+ 0001:00012770       _cJSON_IsFalse@4           10013770 f   cjson:cJSON.c.obj
+ 0001:00012790       _cJSON_IsInvalid@4         10013790 f   cjson:cJSON.c.obj
+ 0001:000127b0       _cJSON_IsNull@4            100137b0 f   cjson:cJSON.c.obj
+ 0001:000127d0       _cJSON_IsNumber@4          100137d0 f   cjson:cJSON.c.obj
+ 0001:000127f0       _cJSON_IsObject@4          100137f0 f   cjson:cJSON.c.obj
+ 0001:00012810       _cJSON_IsRaw@4             10013810 f   cjson:cJSON.c.obj
+ 0001:00012830       _cJSON_IsString@4          10013830 f   cjson:cJSON.c.obj
+ 0001:00012850       _cJSON_IsTrue@4            10013850 f   cjson:cJSON.c.obj
+ 0001:00012870       _cJSON_Minify@4            10013870 f   cjson:cJSON.c.obj
+ 0001:000129c0       _cJSON_Parse@4             100139c0 f   cjson:cJSON.c.obj
+ 0001:000129e0       _cJSON_ParseWithLength@8   100139e0 f   cjson:cJSON.c.obj
+ 0001:00012a00       _cJSON_ParseWithLengthOpts@16 10013a00 f   cjson:cJSON.c.obj
+ 0001:00012b70       _cJSON_ParseWithOpts@12    10013b70 f   cjson:cJSON.c.obj
+ 0001:00012bb0       _cJSON_Print@4             10013bb0 f   cjson:cJSON.c.obj
+ 0001:00012bd0       _cJSON_PrintBuffered@12    10013bd0 f   cjson:cJSON.c.obj
+ 0001:00012c90       _cJSON_PrintPreallocated@16 10013c90 f   cjson:cJSON.c.obj
+ 0001:00012d20       _cJSON_PrintUnformatted@4  10013d20 f   cjson:cJSON.c.obj
+ 0001:00012d40       _cJSON_ReplaceItemInArray@12 10013d40 f   cjson:cJSON.c.obj
+ 0001:00012d80       _cJSON_ReplaceItemInObject@12 10013d80 f   cjson:cJSON.c.obj
+ 0001:00012da0       _cJSON_ReplaceItemInObjectCaseSensitive@12 10013da0 f   cjson:cJSON.c.obj
+ 0001:00012dc0       _cJSON_ReplaceItemViaPointer@12 10013dc0 f   cjson:cJSON.c.obj
+ 0001:00012e60       _cJSON_SetNumberHelper@12  10013e60 f   cjson:cJSON.c.obj
+ 0001:00012ed0       _cJSON_SetValuestring@8    10013ed0 f   cjson:cJSON.c.obj
+ 0001:00012f90       _cJSON_Version@0           10013f90 f   cjson:cJSON.c.obj
+ 0001:00012fc0       _cJSON_free@4              10013fc0 f   cjson:cJSON.c.obj
+ 0001:00012fe0       _cJSON_malloc@4            10013fe0 f   cjson:cJSON.c.obj
+ 0001:00014ba0       _sscanf                    10015ba0 f i cjson:cJSON.c.obj
+ 0001:00014db8       _apr_strerror@12           10015db8 f   libapr:libapr.dll
+ 0001:00014dbe       _apr_initialize@0          10015dbe f   libapr:libapr.dll
+ 0001:00014dc4       _apr_terminate             10015dc4 f   libapr:libapr.dll
+ 0001:00014dca       _apr_allocator_max_free_set@8 10015dca f   libapr:libapr.dll
+ 0001:00014dd0       _apr_thread_mutex_lock@4   10015dd0 f   libapr:libapr.dll
+ 0001:00014dd6       _apr_thread_mutex_unlock@4 10015dd6 f   libapr:libapr.dll
+ 0001:00014ddc       _apr_pool_create_ex@16     10015ddc f   libapr:libapr.dll
+ 0001:00014de2       _apr_pool_allocator_get@4  10015de2 f   libapr:libapr.dll
+ 0001:00014de8       _apr_pool_destroy@4        10015de8 f   libapr:libapr.dll
+ 0001:00014dee       _apr_palloc@8              10015dee f   libapr:libapr.dll
+ 0001:00014df4       _apr_table_set@12          10015df4 f   libapr:libapr.dll
+ 0001:00014dfa       _apr_file_open@20          10015dfa f   libapr:libapr.dll
+ 0001:00014e00       _apr_file_close@4          10015e00 f   libapr:libapr.dll
+ 0001:00014e06       _apr_pstrdup@8             10015e06 f   libapr:libapr.dll
+ 0001:00014e0c       _apr_hash_set@16           10015e0c f   libapr:libapr.dll
+ 0001:00014e12       _apr_thread_mutex_create@12 10015e12 f   libapr:libapr.dll
+ 0001:00014e18       _apr_thread_mutex_destroy@4 10015e18 f   libapr:libapr.dll
+ 0001:00014e1e       _apr_hash_make@4           10015e1e f   libapr:libapr.dll
+ 0001:00014e24       _apr_hash_get@12           10015e24 f   libapr:libapr.dll
+ 0001:00014e2a       _apr_hash_clear@4          10015e2a f   libapr:libapr.dll
+ 0001:00014e30       _apr_hash_do@12            10015e30 f   libapr:libapr.dll
+ 0001:00014e36       _apr_time_now@0            10015e36 f   libapr:libapr.dll
+ 0001:00014e3c       _apr_array_make@12         10015e3c f   libapr:libapr.dll
+ 0001:00014e42       _apr_array_push@4          10015e42 f   libapr:libapr.dll
+ 0001:00014e48       _apr_array_clear@4         10015e48 f   libapr:libapr.dll
+ 0001:00014e4e       _apr_array_pstrcat@12      10015e4e f   libapr:libapr.dll
+ 0001:00014e54       _apr_pstrcat               10015e54 f   libapr:libapr.dll
+ 0001:00014e5a       _apr_stat@16               10015e5a f   libapr:libapr.dll
+ 0001:00014e60       _apr_file_write@12         10015e60 f   libapr:libapr.dll
+ 0001:00014e66       _apr_file_read_full@16     10015e66 f   libapr:libapr.dll
+ 0001:00014e6c       _apr_dir_make@12           10015e6c f   libapr:libapr.dll
+ 0001:00014e72       _apr_array_pop@4           10015e72 f   libapr:libapr.dll
+ 0001:00014e78       _apr_table_make@8          10015e78 f   libapr:libapr.dll
+ 0001:00014e7e       _apr_sockaddr_info_get@24  10015e7e f   libapr:libapr.dll
+ 0001:00014e84       _apr_sockaddr_ip_get@8     10015e84 f   libapr:libapr.dll
+ 0001:00014e8a       _apr_time_exp_lt@12        10015e8a f   libapr:libapr.dll
+ 0001:00014e90       _apr_os_thread_current@0   10015e90 f   libapr:libapr.dll
+ 0001:00014e96       _apr_snprintf              10015e96 f   libapr:libapr.dll
+ 0001:00014e9c       _apr_sleep@8               10015e9c f   libapr:libapr.dll
+ 0001:00014ea2       _apr_socket_create@20      10015ea2 f   libapr:libapr.dll
+ 0001:00014ea8       _apr_socket_close@4        10015ea8 f   libapr:libapr.dll
+ 0001:00014eae       _apr_socket_connect@8      10015eae f   libapr:libapr.dll
+ 0001:00014eb4       _apr_socket_timeout_set@12 10015eb4 f   libapr:libapr.dll
+ 0001:00014eba       _apr_atomic_read32@4       10015eba f   libapr:libapr.dll
+ 0001:00014ec0       _apr_atomic_inc32@4        10015ec0 f   libapr:libapr.dll
+ 0001:00014ec6       _apr_atomic_dec32@4        10015ec6 f   libapr:libapr.dll
+ 0001:00014ecc       _apr_thread_cond_create@8  10015ecc f   libapr:libapr.dll
+ 0001:00014ed2       _apr_thread_cond_timedwait@16 10015ed2 f   libapr:libapr.dll
+ 0001:00014ed8       _apr_thread_cond_signal@4  10015ed8 f   libapr:libapr.dll
+ 0001:00014ede       _apr_thread_cond_broadcast@4 10015ede f   libapr:libapr.dll
+ 0001:00014ee4       _apr_thread_cond_destroy@4 10015ee4 f   libapr:libapr.dll
+ 0001:00014eea       _apr_is_empty_table@4      10015eea f   libapr:libapr.dll
+ 0001:00014ef0       _apr_table_copy@8          10015ef0 f   libapr:libapr.dll
+ 0001:00014ef6       _apr_table_overlap@12      10015ef6 f   libapr:libapr.dll
+ 0001:00014efc       _apr_itoa@8                10015efc f   libapr:libapr.dll
+ 0001:00014f02       _apr_generate_random_bytes@8 10015f02 f   libapr:libapr.dll
+ 0001:00014f08       _apr_pstrndup@12           10015f08 f   libapr:libapr.dll
+ 0001:00014f0e       _apr_table_elts@4          10015f0e f   libapr:libapr.dll
+ 0001:00014f14       _apr_table_addn@12         10015f14 f   libapr:libapr.dll
+ 0001:00014f1a       _apr_psprintf              10015f1a f   libapr:libapr.dll
+ 0001:00014f20       _apr_env_get@12            10015f20 f   libapr:libapr.dll
+ 0001:00014f26       _apr_thread_pool_create@16 10015f26 f   libaprutil:libaprutil.dll
+ 0001:00014f2c       _apr_thread_pool_destroy@4 10015f2c f   libaprutil:libaprutil.dll
+ 0001:00014f32       _apr_thread_pool_push@20   10015f32 f   libaprutil:libaprutil.dll
+ 0001:00014f38       _apr_thread_pool_schedule@24 10015f38 f   libaprutil:libaprutil.dll
+ 0001:00014f3e       _apr_thread_pool_tasks_cancel@8 10015f3e f   libaprutil:libaprutil.dll
+ 0001:00014f44       _apr_thread_pool_idle_wait_set@12 10015f44 f   libaprutil:libaprutil.dll
+ 0001:00014f4a       _apr_md5_init@4            10015f4a f   libaprutil:libaprutil.dll
+ 0001:00014f50       _apr_md5_update@12         10015f50 f   libaprutil:libaprutil.dll
+ 0001:00014f56       _apr_md5_final@8           10015f56 f   libaprutil:libaprutil.dll
+ 0001:00014f5c       _curl_global_init          10015f5c f   libcurl.dll:libcurl.dll
+ 0001:00014f62       _curl_global_cleanup       10015f62 f   libcurl.dll:libcurl.dll
+ 0001:00014f68       _curl_easy_strerror        10015f68 f   libcurl.dll:libcurl.dll
+ 0001:00014f6e       _curl_easy_init            10015f6e f   libcurl.dll:libcurl.dll
+ 0001:00014f74       _curl_easy_cleanup         10015f74 f   libcurl.dll:libcurl.dll
+ 0001:00014f7a       _curl_easy_reset           10015f7a f   libcurl.dll:libcurl.dll
+ 0001:00014f80       _curl_slist_append         10015f80 f   libcurl.dll:libcurl.dll
+ 0001:00014f86       _curl_slist_free_all       10015f86 f   libcurl.dll:libcurl.dll
+ 0001:00014f8c       _curl_easy_setopt          10015f8c f   libcurl.dll:libcurl.dll
+ 0001:00014f92       _curl_easy_perform         10015f92 f   libcurl.dll:libcurl.dll
+ 0001:00014f98       _curl_easy_getinfo         10015f98 f   libcurl.dll:libcurl.dll
+ 0001:00014f9e       @__security_check_cookie@4 10015f9e f   MSVCRT:secchk.obj
+ 0001:00014fb0       __allmul                   10015fb0 f   MSVCRT:llmul.obj
+ 0001:00015000       __alldiv                   10016000 f   MSVCRT:lldiv.obj
+ 0001:000150d4       ___raise_securityfailure   100160d4 f   MSVCRT:gs_report.obj
+ 0001:00015106       ___report_gsfailure        10016106 f   MSVCRT:gs_report.obj
+ 0001:0001523f       ___report_rangecheckfailure 1001623f f   MSVCRT:gs_report.obj
+ 0001:0001524f       ___report_securityfailure  1001624f f   MSVCRT:gs_report.obj
+ 0001:00015353       ___report_securityfailureEx 10016353 f   MSVCRT:gs_report.obj
+ 0001:000154b0       __alloca_probe             100164b0 f   MSVCRT:chkstk.obj
+ 0001:000154b0       __chkstk                   100164b0 f   MSVCRT:chkstk.obj
+ 0001:000158f2       __CRT_INIT@12              100168f2 f   MSVCRT:dll_dllmain.obj
+ 0001:000158fd       __DllMainCRTStartup@12     100168fd f   MSVCRT:dll_dllmain.obj
+ 0001:00015988       ___security_init_cookie    10016988 f   MSVCRT:gs_support.obj
+ 0001:000159e5       _DllMain@12                100169e5 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:00015a0f       ?__scrt_initialize_type_info@@YAXXZ 10016a0f f   MSVCRT:tncleanup.obj
+ 0001:00015a1e       ?__scrt_uninitialize_type_info@@YAXXZ 10016a1e f   MSVCRT:tncleanup.obj
+ 0001:00015a2d       ___scrt_initialize_default_local_stdio_options 10016a2d f   MSVCRT:default_local_stdio_options.obj
+ 0001:00015a51       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 10016a51 f i MSVCRT:utility.obj
+ 0001:00015ab6       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 10016ab6 f i MSVCRT:utility.obj
+ 0001:00015afa       _NtCurrentTeb              10016afa f i MSVCRT:utility.obj
+ 0001:00015b01       ___scrt_acquire_startup_lock 10016b01 f   MSVCRT:utility.obj
+ 0001:00015b3f       ___scrt_dllmain_after_initialize_c 10016b3f f   MSVCRT:utility.obj
+ 0001:00015b74       ___scrt_dllmain_before_initialize_c 10016b74 f   MSVCRT:utility.obj
+ 0001:00015b85       ___scrt_dllmain_crt_thread_attach 10016b85 f   MSVCRT:utility.obj
+ 0001:00015bab       ___scrt_dllmain_crt_thread_detach 10016bab f   MSVCRT:utility.obj
+ 0001:00015bbb       ___scrt_dllmain_exception_filter 10016bbb f   MSVCRT:utility.obj
+ 0001:00015bfc       ___scrt_dllmain_uninitialize_c 10016bfc f   MSVCRT:utility.obj
+ 0001:00015c27       ___scrt_dllmain_uninitialize_critical 10016c27 f   MSVCRT:utility.obj
+ 0001:00015c37       ___scrt_initialize_crt     10016c37 f   MSVCRT:utility.obj
+ 0001:00015c7e       ___scrt_initialize_onexit_tables 10016c7e f   MSVCRT:utility.obj
+ 0001:00015d26       ___scrt_is_nonwritable_in_current_image 10016d26 f   MSVCRT:utility.obj
+ 0001:00015ddf       ___scrt_release_startup_lock 10016ddf f   MSVCRT:utility.obj
+ 0001:00015e03       ___scrt_uninitialize_crt   10016e03 f   MSVCRT:utility.obj
+ 0001:00015e35       __onexit                   10016e35 f   MSVCRT:utility.obj
+ 0001:00015e6d       _at_quick_exit             10016e6d f   MSVCRT:utility.obj
+ 0001:00015e98       _atexit                    10016e98 f   MSVCRT:utility.obj
+ 0001:00015eb2       ___scrt_get_dyn_tls_init_callback 10016eb2 f   MSVCRT:dyn_tls_init.obj
+ 0001:00015eb8       ___scrt_fastfail           10016eb8 f   MSVCRT:utility_desktop.obj
+ 0001:00016012       ___scrt_get_show_window_mode 10017012 f   MSVCRT:utility_desktop.obj
+ 0001:0001604f       ___scrt_initialize_mta     1001704f f   MSVCRT:utility_desktop.obj
+ 0001:00016054       ___scrt_initialize_winrt   10017054 f   MSVCRT:utility_desktop.obj
+ 0001:00016057       ___scrt_is_managed_app     10017057 f   MSVCRT:utility_desktop.obj
+ 0001:000160a9       ___scrt_set_unhandled_exception_filter 100170a9 f   MSVCRT:utility_desktop.obj
+ 0001:000160b8       ___scrt_exe_initialize_mta 100170b8 f   MSVCRT:utility_desktop.obj
+ 0001:000160b8       ___scrt_stub_for_initialize_mta 100170b8 f   MSVCRT:utility_desktop.obj
+ 0001:000160bb       ___scrt_unhandled_exception_filter@4 100170bb f   MSVCRT:utility_desktop.obj
+ 0001:00016126       __crt_debugger_hook        10017126 f   MSVCRT:utility_desktop.obj
+ 0001:00016130       __RTC_Initialize           10017130 f   MSVCRT:initsect.obj
+ 0001:00016167       __RTC_Terminate            10017167 f   MSVCRT:initsect.obj
+ 0001:000161a0       __SEH_prolog4              100171a0 f   MSVCRT:sehprolg4.obj
+ 0001:00016200       __SEH_epilog4              10017200 f   MSVCRT:sehprolg4.obj
+ 0001:00016219       __except_handler4          10017219 f   MSVCRT:chandler4gs.obj
+ 0001:00016253       @_guard_check_icall_nop@4  10017253 f i MSVCRT:guard_support.obj
+ 0001:00016256       _ReadNoFence               10017256 f i MSVCRT:guard_support.obj
+ 0001:00016262       _ReadPointerNoFence        10017262 f i MSVCRT:guard_support.obj
+ 0001:0001626e       __InlineInterlockedExchangePointer 1001726e f i MSVCRT:guard_support.obj
+ 0001:0001627e       ___castguard_check_failure_debugbreak 1001727e f i MSVCRT:guard_support.obj
+ 0001:0001629f       ___castguard_check_failure_fastfail 1001729f f i MSVCRT:guard_support.obj
+ 0001:000162c5       ___castguard_check_failure_nop 100172c5 f i MSVCRT:guard_support.obj
+ 0001:000162c8       ___castguard_check_failure_os_handled 100172c8 f i MSVCRT:guard_support.obj
+ 0001:0001630c       ___castguard_check_failure_user_handled 1001730c f i MSVCRT:guard_support.obj
+ 0001:00016394       ___castguard_set_user_handler 10017394 f i MSVCRT:guard_support.obj
+ 0001:000163a6       ___castguard_slow_path_check_debugbreak 100173a6 f i MSVCRT:guard_support.obj
+ 0001:000163de       ___castguard_slow_path_check_fastfail 100173de f i MSVCRT:guard_support.obj
+ 0001:0001641b       ___castguard_slow_path_check_nop 1001741b f i MSVCRT:guard_support.obj
+ 0001:0001641e       ___castguard_slow_path_check_os_handled 1001741e f i MSVCRT:guard_support.obj
+ 0001:00016469       ___castguard_slow_path_check_user_handled 10017469 f i MSVCRT:guard_support.obj
+ 0001:000164e1       __guard_icall_checks_enforced 100174e1 f i MSVCRT:guard_support.obj
+ 0001:000164f7       ___isa_available_init      100174f7 f   MSVCRT:cpu_disp.obj
+ 0001:000168ef       __get_startup_argv_mode    100178ef f   MSVCRT:argv_mode.obj
+ 0001:000168f3       ___scrt_is_ucrt_dll_in_use 100178f3 f   MSVCRT:ucrt_detection.obj
+ 0001:00016902       _closesocket@4             10017902 f   ws2_32:WS2_32.dll
+ 0001:00016908       _socket@12                 10017908 f   ws2_32:WS2_32.dll
+ 0001:0001690e       _gethostname@8             1001790e f   ws2_32:WS2_32.dll
+ 0001:00016914       _WSAStartup@8              10017914 f   ws2_32:WS2_32.dll
+ 0001:0001691a       _WSACleanup@0              1001791a f   ws2_32:WS2_32.dll
+ 0001:00016920       _WSAGetLastError@0         10017920 f   ws2_32:WS2_32.dll
+ 0001:00016926       _getaddrinfo@16            10017926 f   ws2_32:WS2_32.dll
+ 0001:0001692c       _freeaddrinfo@4            1001792c f   ws2_32:WS2_32.dll
+ 0001:00016932       _inet_ntop@16              10017932 f   ws2_32:WS2_32.dll
+ 0001:00016938       _inet_pton@12              10017938 f   ws2_32:WS2_32.dll
+ 0001:0001693e       _memcpy                    1001793e f   vcruntime:VCRUNTIME140.dll
+ 0001:00016944       _memset                    10017944 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001694a       ___std_type_info_destroy_list 1001794a f   vcruntime:VCRUNTIME140.dll
+ 0001:00016950       ___current_exception       10017950 f   vcruntime:VCRUNTIME140.dll
+ 0001:00016956       ___current_exception_context 10017956 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001695c       __except_handler4_common   1001795c f   vcruntime:VCRUNTIME140.dll
+ 0001:00016962       _srand                     10017962 f   ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0001:00016968       _rand                      10017968 f   ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0001:0001696e       _strcmp                    1001796e f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00016974       _strcpy                    10017974 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0001697a       _strlen                    1001797a f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00016980       __time64                   10017980 f   ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0001:00016986       ___acrt_iob_func           10017986 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0001698c       ___stdio_common_vfprintf   1001798c f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00016992       ___stdio_common_vsprintf   10017992 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00016998       _strncmp                   10017998 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0001699e       _strncpy                   1001799e f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169a4       _isalnum                   100179a4 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169aa       ___stdio_common_vsscanf    100179aa f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000169b0       _free                      100179b0 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000169b6       _malloc                    100179b6 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000169bc       _realloc                   100179bc f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000169c2       _strtod                    100179c2 f   ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0001:000169c8       _tolower                   100179c8 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:000169ce       _localeconv                100179ce f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0001:000169d4       __dclass                   100179d4 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:000169da       __initterm                 100179da f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000169e0       __initterm_e               100179e0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000169e6       __seh_filter_dll           100179e6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000169ec       __configure_narrow_argv    100179ec f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000169f2       __initialize_narrow_environment 100179f2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000169f8       __initialize_onexit_table  100179f8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000169fe       __register_onexit_function 100179fe f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a04       __execute_onexit_table     10017a04 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a0a       __crt_atexit               10017a0a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a10       __crt_at_quick_exit        10017a10 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a16       __cexit                    10017a16 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a1c       _terminate                 10017a1c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00016a22       _UnhandledExceptionFilter@4 10017a22 f   kernel32:KERNEL32.dll
+ 0001:00016a28       _SetUnhandledExceptionFilter@4 10017a28 f   kernel32:KERNEL32.dll
+ 0001:00016a2e       _GetCurrentProcess@0       10017a2e f   kernel32:KERNEL32.dll
+ 0001:00016a34       _TerminateProcess@8        10017a34 f   kernel32:KERNEL32.dll
+ 0001:00016a3a       _IsProcessorFeaturePresent@4 10017a3a f   kernel32:KERNEL32.dll
+ 0001:00016a40       _QueryPerformanceCounter@4 10017a40 f   kernel32:KERNEL32.dll
+ 0001:00016a46       _GetCurrentProcessId@0     10017a46 f   kernel32:KERNEL32.dll
+ 0001:00016a4c       _GetCurrentThreadId@0      10017a4c f   kernel32:KERNEL32.dll
+ 0001:00016a52       _GetSystemTimeAsFileTime@4 10017a52 f   kernel32:KERNEL32.dll
+ 0001:00016a58       _DisableThreadLibraryCalls@4 10017a58 f   kernel32:KERNEL32.dll
+ 0001:00016a5e       _InitializeSListHead@4     10017a5e f   kernel32:KERNEL32.dll
+ 0001:00016a64       _IsDebuggerPresent@0       10017a64 f   kernel32:KERNEL32.dll
+ 0001:00016a6a       _GetStartupInfoW@4         10017a6a f   kernel32:KERNEL32.dll
+ 0001:00016a70       _GetModuleHandleW@4        10017a70 f   kernel32:KERNEL32.dll
+ 0001:00016a76       ___acrt_initialize         10017a76 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a76       ___scrt_stub_for_acrt_initialize 10017a76 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a76       ___vcrt_initialize         10017a76 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a79       ___acrt_thread_attach      10017a79 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a79       ___scrt_stub_for_acrt_thread_attach 10017a79 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a79       ___vcrt_thread_attach      10017a79 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a7c       ___acrt_thread_detach      10017a7c f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a7c       ___scrt_stub_for_acrt_thread_detach 10017a7c f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a7c       ___vcrt_thread_detach      10017a7c f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a7f       ___acrt_uninitialize       10017a7f f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a7f       ___scrt_stub_for_acrt_uninitialize 10017a7f f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a7f       ___vcrt_uninitialize       10017a7f f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a82       ___acrt_uninitialize_critical 10017a82 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a82       ___scrt_stub_for_acrt_uninitialize_critical 10017a82 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a82       ___vcrt_uninitialize_critical 10017a82 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a85       ___scrt_stub_for_is_c_termination_complete 10017a85 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a85       __is_c_termination_complete 10017a85 f   MSVCRT:ucrt_stubs.obj
+ 0001:00016a88       __filter_x86_sse2_floating_point_exception 10017a88 f   MSVCRT:x86_exception_filter.obj
+ 0001:00016a88       __filter_x86_sse2_floating_point_exception_default 10017a88 f   MSVCRT:x86_exception_filter.obj
+ 0002:00000000       ___xc_a                    1001a000     MSVCRT:initializers.obj
+ 0002:00000104       ___xc_z                    1001a104     MSVCRT:initializers.obj
+ 0002:00000208       ___xi_a                    1001a208     MSVCRT:initializers.obj
+ 0002:0000030c       ___xi_z                    1001a30c     MSVCRT:initializers.obj
+ 0002:00000410       ___xp_a                    1001a410     MSVCRT:initializers.obj
+ 0002:00000514       ___xp_z                    1001a514     MSVCRT:initializers.obj
+ 0002:00000618       ___xt_a                    1001a618     MSVCRT:initializers.obj
+ 0002:0000071c       ___xt_z                    1001a71c     MSVCRT:initializers.obj
+ 0002:0000086c       _HDNS_INVALID_ARGUMENT_CODE 1001a86c     hdns_status.obj
+ 0002:0000087c       _HDNS_FAILED_VERIFICATION_CODE 1001a87c     hdns_status.obj
+ 0002:00000890       _HDNS_RESOLVE_FAIL_CODE    1001a890     hdns_status.obj
+ 0002:0000089c       _HDNS_OUT_MEMORY_CODE      1001a89c     hdns_status.obj
+ 0002:000008ac       _HDNS_SCHEDULE_FAIL_CODE   1001a8ac     hdns_status.obj
+ 0002:000008bc       _HDNS_OPEN_FILE_ERROR_CODE 1001a8bc     hdns_status.obj
+ 0002:000008e0       __real@412e848000000000    1001a8e0     hdns_transport.obj
+ 0002:000008f0       ??_C@_08IIKBNILN@?$CFi?4?$CFi?4?$CFi@ 1001a8f0     cjson:cJSON.c.obj
+ 0002:000008fc       ??_C@_04MLLLIHIP@null@     1001a8fc     cjson:cJSON.c.obj
+ 0002:00000904       ??_C@_02DPKJAMEF@?$CFd@    1001a904     cjson:cJSON.c.obj
+ 0002:00000908       ??_C@_06OEKDGAI@?$CF1?415g@ 1001a908     cjson:cJSON.c.obj
+ 0002:00000910       ??_C@_03CCCGLAML@?$CFlg@   1001a910     cjson:cJSON.c.obj
+ 0002:00000914       ??_C@_06NMOOCGG@?$CF1?417g@ 1001a914     cjson:cJSON.c.obj
+ 0002:0000091c       ??_C@_02JMMFPCED@?$CC?$CC@ 1001a91c     cjson:cJSON.c.obj
+ 0002:00000920       ??_C@_05CIFMCEEJ@u?$CF04x@ 1001a920     cjson:cJSON.c.obj
+ 0002:00000928       ??_C@_03PKPBNCAL@?o?$LL?$LP@ 1001a928     cjson:cJSON.c.obj
+ 0002:0000092c       ??_C@_05LAPONLG@false@     1001a92c     cjson:cJSON.c.obj
+ 0002:00000934       ??_C@_04LOAJBDKD@true@     1001a934     cjson:cJSON.c.obj
+ 0002:00000940       __real@3cb0000000000000    1001a940     cjson:cJSON.c.obj
+ 0002:00000950       __real@41dfffffffc00000    1001a950     cjson:cJSON.c.obj
+ 0002:00000960       __real@7ff8000000000000    1001a960     cjson:cJSON.c.obj
+ 0002:00000970       __real@c1e0000000000000    1001a970     cjson:cJSON.c.obj
+ 0002:00000980       __xmm@2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e 1001a980     cjson:cJSON.c.obj
+ 0002:000009a0       __xmm@7fffffffffffffff7fffffffffffffff 1001a9a0     cjson:cJSON.c.obj
+ 0002:000009c0       __pDefaultRawDllMain       1001a9c0     MSVCRT:dll_dllmain.obj
+ 0002:000009c0       __pRawDllMain              1001a9c0     MSVCRT:dll_dllmain.obj
+ 0002:000009c8       __load_config_used         1001a9c8     MSVCRT:loadcfg.obj
+ 0002:00000c40       ___CastGuardVftablesStart  1001ac40     MSVCRT:guard_support.obj
+ 0002:00000dc0       ___CastGuardVftablesEnd    1001adc0     MSVCRT:guard_support.obj
+ 0002:00000f0c       ___safe_se_handler_table   1001af0c     <linker-defined>
+ 0002:0000119c       ___rtc_iaa                 1001b19c     MSVCRT:initsect.obj
+ 0002:000012a0       ___rtc_izz                 1001b2a0     MSVCRT:initsect.obj
+ 0002:000013a4       ___rtc_taa                 1001b3a4     MSVCRT:initsect.obj
+ 0002:000014a8       ___rtc_tzz                 1001b4a8     MSVCRT:initsect.obj
+ 0003:000010d0       _hdns_log_level            1001f0d0     hdns_log.obj
+ 0003:000010d4       _hdns_log_format           1001f0d4     hdns_log.obj
+ 0003:000010d8       _hdns_log_print            1001f0d8     hdns_log.obj
+ 0003:000039c0       ___security_cookie         100219c0     MSVCRT:gs_cookie.obj
+ 0003:00003a00       ___security_cookie_complement 10021a00     MSVCRT:gs_cookie.obj
+ 0003:00003a20       __fltused                  10021a20     MSVCRT:fltused.obj
+ 0003:00003a24       ___scrt_native_dllmain_reason 10021a24     MSVCRT:utility.obj
+ 0003:00003a30       ___isa_inverted            10021a30     MSVCRT:cpu_disp.obj
+ 0003:00003a38       ___isa_enabled             10021a38     MSVCRT:cpu_disp.obj
+ 0003:00003a40       ___scrt_ucrt_dll_is_in_use 10021a40     MSVCRT:ucrt_stubs.obj
+ 0003:00003b7c       _hdns_stdout_file          10021b7c     hdns_log.obj
+ 0003:00003b80       _hdns_print_lock           10021b80     hdns_log.obj
+ 0003:00004018       ?__type_info_root_node@@3U__type_info_node@@A 10022018     MSVCRT:tncleanup.obj
+ 0003:00004028       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 10022028     MSVCRT:default_local_stdio_options.obj
+ 0003:00004038       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 10022038     MSVCRT:default_local_stdio_options.obj
+ 0003:00004044       ___scrt_current_native_startup_state 10022044     MSVCRT:utility.obj
+ 0003:00004048       ___scrt_native_startup_lock 10022048     MSVCRT:utility.obj
+ 0003:00004070       ___scrt_debugger_hook_flag 10022070     MSVCRT:utility_desktop.obj
+ 0003:00004074       ___castguard_check_failure_user_handled_fptr 10022074     MSVCRT:guard_support.obj
+ 0003:00004078       ___avx10_version           10022078     MSVCRT:cpu_disp.obj
+ 0003:0000407c       ___isa_available           1002207c     MSVCRT:cpu_disp.obj
+ 0003:00004080       ___favor                   10022080     MSVCRT:cpu_disp.obj
+ 0003:00004088       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 10022088     <common>
+ 0003:000040a0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@9 100220a0     <common>
+ 0003:000040b4       ___dyn_tls_init_callback   100220b4     <common>
+ 0004:00000000       __imp__GetCurrentThreadId@0 10023000     kernel32:KERNEL32.dll
+ 0004:00000004       __imp__UnhandledExceptionFilter@4 10023004     kernel32:KERNEL32.dll
+ 0004:00000008       __imp__SetUnhandledExceptionFilter@4 10023008     kernel32:KERNEL32.dll
+ 0004:0000000c       __imp__GetCurrentProcess@0 1002300c     kernel32:KERNEL32.dll
+ 0004:00000010       __imp__TerminateProcess@8  10023010     kernel32:KERNEL32.dll
+ 0004:00000014       __imp__IsProcessorFeaturePresent@4 10023014     kernel32:KERNEL32.dll
+ 0004:00000018       __imp__QueryPerformanceCounter@4 10023018     kernel32:KERNEL32.dll
+ 0004:0000001c       __imp__GetCurrentProcessId@0 1002301c     kernel32:KERNEL32.dll
+ 0004:00000020       __imp__GetStartupInfoW@4   10023020     kernel32:KERNEL32.dll
+ 0004:00000024       __imp__GetSystemTimeAsFileTime@4 10023024     kernel32:KERNEL32.dll
+ 0004:00000028       __imp__DisableThreadLibraryCalls@4 10023028     kernel32:KERNEL32.dll
+ 0004:0000002c       __imp__InitializeSListHead@4 1002302c     kernel32:KERNEL32.dll
+ 0004:00000030       __imp__IsDebuggerPresent@0 10023030     kernel32:KERNEL32.dll
+ 0004:00000034       __imp__GetModuleHandleW@4  10023034     kernel32:KERNEL32.dll
+ 0004:00000038       \177KERNEL32_NULL_THUNK_DATA 10023038     kernel32:KERNEL32.dll
+ 0004:0000006c       __imp__memcpy              1002306c     vcruntime:VCRUNTIME140.dll
+ 0004:00000070       __imp__memset              10023070     vcruntime:VCRUNTIME140.dll
+ 0004:00000074       __imp____std_type_info_destroy_list 10023074     vcruntime:VCRUNTIME140.dll
+ 0004:00000078       __imp____current_exception 10023078     vcruntime:VCRUNTIME140.dll
+ 0004:0000007c       __imp____current_exception_context 1002307c     vcruntime:VCRUNTIME140.dll
+ 0004:00000080       __imp___except_handler4_common 10023080     vcruntime:VCRUNTIME140.dll
+ 0004:00000084       \177VCRUNTIME140_NULL_THUNK_DATA 10023084     vcruntime:VCRUNTIME140.dll
+ 0004:000000b4       __imp__inet_ntop@16        100230b4     ws2_32:WS2_32.dll
+ 0004:000000b8       __imp__inet_pton@12        100230b8     ws2_32:WS2_32.dll
+ 0004:000000bc       __imp__closesocket@4       100230bc     ws2_32:WS2_32.dll
+ 0004:000000c0       __imp__freeaddrinfo@4      100230c0     ws2_32:WS2_32.dll
+ 0004:000000c4       __imp__getaddrinfo@16      100230c4     ws2_32:WS2_32.dll
+ 0004:000000c8       __imp__WSAGetLastError@0   100230c8     ws2_32:WS2_32.dll
+ 0004:000000cc       __imp__WSACleanup@0        100230cc     ws2_32:WS2_32.dll
+ 0004:000000d0       __imp__WSAStartup@8        100230d0     ws2_32:WS2_32.dll
+ 0004:000000d4       __imp__gethostname@8       100230d4     ws2_32:WS2_32.dll
+ 0004:000000d8       __imp__socket@12           100230d8     ws2_32:WS2_32.dll
+ 0004:000000dc       \177WS2_32_NULL_THUNK_DATA 100230dc     ws2_32:WS2_32.dll
+ 0004:00000110       __imp__strtod              10023110     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0004:00000114       \177api-ms-win-crt-convert-l1-1-0_NULL_THUNK_DATA 10023114     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0004:00000140       __imp__realloc             10023140     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00000144       __imp__malloc              10023144     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00000148       __imp__free                10023148     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:0000014c       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 1002314c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00000178       __imp__localeconv          10023178     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0004:0000017c       \177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 1002317c     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0004:000001a8       __imp___dclass             100231a8     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0004:000001ac       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 100231ac     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0004:000001d8       __imp___initterm_e         100231d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001dc       __imp__terminate           100231dc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001e0       __imp___initterm           100231e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001e4       __imp___configure_narrow_argv 100231e4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001e8       __imp___initialize_narrow_environment 100231e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001ec       __imp___initialize_onexit_table 100231ec     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001f0       __imp___register_onexit_function 100231f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001f4       __imp___execute_onexit_table 100231f4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001f8       __imp___crt_atexit         100231f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000001fc       __imp___crt_at_quick_exit  100231fc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000200       __imp___cexit              10023200     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000204       __imp___seh_filter_dll     10023204     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000208       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 10023208     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:0000023c       __imp____stdio_common_vsprintf 1002323c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0004:00000240       __imp____stdio_common_vsscanf 10023240     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0004:00000244       __imp____acrt_iob_func     10023244     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0004:00000248       __imp____stdio_common_vfprintf 10023248     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0004:0000024c       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 1002324c     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0004:00000278       __imp__strcmp              10023278     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:0000027c       __imp__tolower             1002327c     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:00000280       __imp__strcpy              10023280     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:00000284       __imp__strncpy             10023284     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:00000288       __imp__isalnum             10023288     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:0000028c       __imp__strncmp             1002328c     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:00000290       __imp__strlen              10023290     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:00000294       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 10023294     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:000002c4       __imp___time64             100232c4     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0004:000002c8       \177api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA 100232c8     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0004:000002f4       __imp__srand               100232f4     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0004:000002f8       __imp__rand                100232f8     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0004:000002fc       \177api-ms-win-crt-utility-l1-1-0_NULL_THUNK_DATA 100232fc     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0004:00000328       __imp__apr_initialize@0    10023328     libapr:libapr.dll
+ 0004:0000032c       __imp__apr_terminate       1002332c     libapr:libapr.dll
+ 0004:00000330       __imp__apr_allocator_max_free_set@8 10023330     libapr:libapr.dll
+ 0004:00000334       __imp__apr_thread_mutex_lock@4 10023334     libapr:libapr.dll
+ 0004:00000338       __imp__apr_thread_mutex_unlock@4 10023338     libapr:libapr.dll
+ 0004:0000033c       __imp__apr_strerror@12     1002333c     libapr:libapr.dll
+ 0004:00000340       __imp__apr_pool_create_ex@16 10023340     libapr:libapr.dll
+ 0004:00000344       __imp__apr_pool_allocator_get@4 10023344     libapr:libapr.dll
+ 0004:00000348       __imp__apr_pool_destroy@4  10023348     libapr:libapr.dll
+ 0004:0000034c       __imp__apr_palloc@8        1002334c     libapr:libapr.dll
+ 0004:00000350       __imp__apr_table_set@12    10023350     libapr:libapr.dll
+ 0004:00000354       __imp__apr_file_open@20    10023354     libapr:libapr.dll
+ 0004:00000358       __imp__apr_file_close@4    10023358     libapr:libapr.dll
+ 0004:0000035c       __imp__apr_pstrdup@8       1002335c     libapr:libapr.dll
+ 0004:00000360       __imp__apr_hash_set@16     10023360     libapr:libapr.dll
+ 0004:00000364       __imp__apr_env_get@12      10023364     libapr:libapr.dll
+ 0004:00000368       __imp__apr_psprintf        10023368     libapr:libapr.dll
+ 0004:0000036c       __imp__apr_table_addn@12   1002336c     libapr:libapr.dll
+ 0004:00000370       __imp__apr_table_elts@4    10023370     libapr:libapr.dll
+ 0004:00000374       __imp__apr_pstrndup@12     10023374     libapr:libapr.dll
+ 0004:00000378       __imp__apr_generate_random_bytes@8 10023378     libapr:libapr.dll
+ 0004:0000037c       __imp__apr_itoa@8          1002337c     libapr:libapr.dll
+ 0004:00000380       __imp__apr_table_overlap@12 10023380     libapr:libapr.dll
+ 0004:00000384       __imp__apr_table_copy@8    10023384     libapr:libapr.dll
+ 0004:00000388       __imp__apr_is_empty_table@4 10023388     libapr:libapr.dll
+ 0004:0000038c       __imp__apr_thread_cond_destroy@4 1002338c     libapr:libapr.dll
+ 0004:00000390       __imp__apr_thread_cond_broadcast@4 10023390     libapr:libapr.dll
+ 0004:00000394       __imp__apr_thread_cond_signal@4 10023394     libapr:libapr.dll
+ 0004:00000398       __imp__apr_thread_cond_timedwait@16 10023398     libapr:libapr.dll
+ 0004:0000039c       __imp__apr_thread_cond_create@8 1002339c     libapr:libapr.dll
+ 0004:000003a0       __imp__apr_atomic_dec32@4  100233a0     libapr:libapr.dll
+ 0004:000003a4       __imp__apr_atomic_inc32@4  100233a4     libapr:libapr.dll
+ 0004:000003a8       __imp__apr_atomic_read32@4 100233a8     libapr:libapr.dll
+ 0004:000003ac       __imp__apr_socket_timeout_set@12 100233ac     libapr:libapr.dll
+ 0004:000003b0       __imp__apr_socket_connect@8 100233b0     libapr:libapr.dll
+ 0004:000003b4       __imp__apr_socket_close@4  100233b4     libapr:libapr.dll
+ 0004:000003b8       __imp__apr_socket_create@20 100233b8     libapr:libapr.dll
+ 0004:000003bc       __imp__apr_sleep@8         100233bc     libapr:libapr.dll
+ 0004:000003c0       __imp__apr_snprintf        100233c0     libapr:libapr.dll
+ 0004:000003c4       __imp__apr_os_thread_current@0 100233c4     libapr:libapr.dll
+ 0004:000003c8       __imp__apr_time_exp_lt@12  100233c8     libapr:libapr.dll
+ 0004:000003cc       __imp__apr_sockaddr_ip_get@8 100233cc     libapr:libapr.dll
+ 0004:000003d0       __imp__apr_sockaddr_info_get@24 100233d0     libapr:libapr.dll
+ 0004:000003d4       __imp__apr_table_make@8    100233d4     libapr:libapr.dll
+ 0004:000003d8       __imp__apr_array_pop@4     100233d8     libapr:libapr.dll
+ 0004:000003dc       __imp__apr_dir_make@12     100233dc     libapr:libapr.dll
+ 0004:000003e0       __imp__apr_file_read_full@16 100233e0     libapr:libapr.dll
+ 0004:000003e4       __imp__apr_file_write@12   100233e4     libapr:libapr.dll
+ 0004:000003e8       __imp__apr_stat@16         100233e8     libapr:libapr.dll
+ 0004:000003ec       __imp__apr_pstrcat         100233ec     libapr:libapr.dll
+ 0004:000003f0       __imp__apr_array_pstrcat@12 100233f0     libapr:libapr.dll
+ 0004:000003f4       __imp__apr_array_clear@4   100233f4     libapr:libapr.dll
+ 0004:000003f8       __imp__apr_array_push@4    100233f8     libapr:libapr.dll
+ 0004:000003fc       __imp__apr_array_make@12   100233fc     libapr:libapr.dll
+ 0004:00000400       __imp__apr_time_now@0      10023400     libapr:libapr.dll
+ 0004:00000404       __imp__apr_hash_do@12      10023404     libapr:libapr.dll
+ 0004:00000408       __imp__apr_hash_clear@4    10023408     libapr:libapr.dll
+ 0004:0000040c       __imp__apr_hash_get@12     1002340c     libapr:libapr.dll
+ 0004:00000410       __imp__apr_hash_make@4     10023410     libapr:libapr.dll
+ 0004:00000414       __imp__apr_thread_mutex_destroy@4 10023414     libapr:libapr.dll
+ 0004:00000418       __imp__apr_thread_mutex_create@12 10023418     libapr:libapr.dll
+ 0004:0000041c       \177libapr_NULL_THUNK_DATA 1002341c     libapr:libapr.dll
+ 0004:00000478       __imp__apr_thread_pool_create@16 10023478     libaprutil:libaprutil.dll
+ 0004:0000047c       __imp__apr_thread_pool_destroy@4 1002347c     libaprutil:libaprutil.dll
+ 0004:00000480       __imp__apr_thread_pool_push@20 10023480     libaprutil:libaprutil.dll
+ 0004:00000484       __imp__apr_thread_pool_schedule@24 10023484     libaprutil:libaprutil.dll
+ 0004:00000488       __imp__apr_thread_pool_tasks_cancel@8 10023488     libaprutil:libaprutil.dll
+ 0004:0000048c       __imp__apr_thread_pool_idle_wait_set@12 1002348c     libaprutil:libaprutil.dll
+ 0004:00000490       __imp__apr_md5_init@4      10023490     libaprutil:libaprutil.dll
+ 0004:00000494       __imp__apr_md5_update@12   10023494     libaprutil:libaprutil.dll
+ 0004:00000498       __imp__apr_md5_final@8     10023498     libaprutil:libaprutil.dll
+ 0004:0000049c       \177libaprutil_NULL_THUNK_DATA 1002349c     libaprutil:libaprutil.dll
+ 0004:000004cc       __imp__curl_global_init    100234cc     libcurl.dll:libcurl.dll
+ 0004:000004d0       __imp__curl_global_cleanup 100234d0     libcurl.dll:libcurl.dll
+ 0004:000004d4       __imp__curl_easy_strerror  100234d4     libcurl.dll:libcurl.dll
+ 0004:000004d8       __imp__curl_easy_init      100234d8     libcurl.dll:libcurl.dll
+ 0004:000004dc       __imp__curl_easy_cleanup   100234dc     libcurl.dll:libcurl.dll
+ 0004:000004e0       __imp__curl_easy_reset     100234e0     libcurl.dll:libcurl.dll
+ 0004:000004e4       __imp__curl_slist_append   100234e4     libcurl.dll:libcurl.dll
+ 0004:000004e8       __imp__curl_easy_setopt    100234e8     libcurl.dll:libcurl.dll
+ 0004:000004ec       __imp__curl_easy_perform   100234ec     libcurl.dll:libcurl.dll
+ 0004:000004f0       __imp__curl_easy_getinfo   100234f0     libcurl.dll:libcurl.dll
+ 0004:000004f4       __imp__curl_slist_free_all 100234f4     libcurl.dll:libcurl.dll
+ 0004:000004f8       \177libcurl_NULL_THUNK_DATA 100234f8     libcurl.dll:libcurl.dll
+ 0004:0000052c       __IMPORT_DESCRIPTOR_libapr 1002352c     libapr:libapr.dll
+ 0004:00000540       __IMPORT_DESCRIPTOR_libaprutil 10023540     libaprutil:libaprutil.dll
+ 0004:00000554       __IMPORT_DESCRIPTOR_libcurl 10023554     libcurl.dll:libcurl.dll
+ 0004:00000568       __IMPORT_DESCRIPTOR_WS2_32 10023568     ws2_32:WS2_32.dll
+ 0004:0000057c       __IMPORT_DESCRIPTOR_VCRUNTIME140 1002357c     vcruntime:VCRUNTIME140.dll
+ 0004:00000590       __IMPORT_DESCRIPTOR_api-ms-win-crt-utility-l1-1-0 10023590     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0004:000005a4       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 100235a4     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:000005b8       __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0 100235b8     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0004:000005cc       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 100235cc     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0004:000005e0       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 100235e0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:000005f4       __IMPORT_DESCRIPTOR_api-ms-win-crt-convert-l1-1-0 100235f4     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0004:00000608       __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 10023608     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0004:0000061c       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 1002361c     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0004:00000630       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 10023630     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000644       __IMPORT_DESCRIPTOR_KERNEL32 10023644     kernel32:KERNEL32.dll
+ 0004:00000658       __NULL_IMPORT_DESCRIPTOR   10023658     libapr:libapr.dll
+ 0005:00000000       ___guard_check_icall_fptr  10025000     MSVCRT:guard_support.obj
+ 0005:00000004       ___guard_xfg_check_icall_fptr 10025004     MSVCRT:guard_support.obj
+ 0005:00000008       ___castguard_check_failure_os_handled_fptr 10025008     MSVCRT:guard_support.obj
+
+ entry point at        0001:000005dc
+
+ Static symbols
+
+ 0000:fffd7000       .debug$S                   10000000     httpdns.exp
+ 0000:00000000       _volmd                     10000000     hdns_api.obj
+ 0000:00000000       _volmd                     10000000     hdns_client.obj
+ 0000:00000000       _volmd                     10000000     hdns_config.obj
+ 0000:00000000       _volmd                     10000000     hdns_file.obj
+ 0000:00000000       _volmd                     10000000     hdns_log.obj
+ 0000:00000000       _volmd                     10000000     hdns_net.obj
+ 0000:00000000       _volmd                     10000000     hdns_resolver.obj
+ 0000:00000000       _volmd                     10000000     hdns_scheduler.obj
+ 0000:00000000       _volmd                     10000000     hdns_session.obj
+ 0000:00000000       _volmd                     10000000     hdns_sign.obj
+ 0000:00000000       _volmd                     10000000     hdns_status.obj
+ 0000:00000000       _volmd                     10000000     hdns_transport.obj
+ 0000:00000000       _volmd                     10000000     hdns_utils.obj
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     ws2_32:WS2_32.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libapr:libapr.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libaprutil:libaprutil.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffd7000       .debug$S                   10000000     libcurl.dll:libcurl.dll
+ 0000:fffdb000       __guard_fids___except_handler4 10000000     MSVCRT:chandler4gs.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:cpu_disp.obj
+ 0000:fffdb000       __guard_fids_?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10000000     MSVCRT:dll_dllmain.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:gs_report.obj
+ 0000:fffdb000       __guard_fids__             10000000     MSVCRT:guard_support.obj
+ 0000:fffdb000       __guard_fids__             10000000     MSVCRT:guard_support.obj
+ 0000:fffdb000       __guard_fids___guard_icall_checks_enforced 10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:fffdb000       __guard_fids____scrt_set_unhandled_exception_filter 10000000     MSVCRT:utility_desktop.obj
+ 0000:fffd7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffd7000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:0000000c       _volmd                     1000000c     hdns_net.obj
+ 0000:00000010       _volmd                     10000010     hdns_api.obj
+ 0000:00000010       _volmd                     10000010     hdns_client.obj
+ 0000:00000010       _volmd                     10000010     hdns_file.obj
+ 0000:00000010       _volmd                     10000010     hdns_scheduler.obj
+ 0000:00000010       _volmd                     10000010     hdns_status.obj
+ 0000:00000010       _volmd                     10000010     hdns_transport.obj
+ 0000:00000010       _volmd                     10000010     hdns_utils.obj
+ 0000:00000014       _volmd                     10000014     hdns_session.obj
+ 0000:00000018       _volmd                     10000018     hdns_net.obj
+ 0000:00000020       _volmd                     10000020     hdns_api.obj
+ 0000:00000020       _volmd                     10000020     hdns_client.obj
+ 0000:00000020       _volmd                     10000020     hdns_file.obj
+ 0000:00000020       _volmd                     10000020     hdns_scheduler.obj
+ 0000:00000020       _volmd                     10000020     hdns_utils.obj
+ 0000:00000028       _volmd                     10000028     hdns_net.obj
+ 0000:00000030       _volmd                     10000030     hdns_api.obj
+ 0000:00000030       _volmd                     10000030     hdns_client.obj
+ 0000:00000030       _volmd                     10000030     hdns_scheduler.obj
+ 0000:00000030       _volmd                     10000030     hdns_utils.obj
+ 0000:00000038       _volmd                     10000038     hdns_net.obj
+ 0000:00000040       _volmd                     10000040     hdns_api.obj
+ 0000:00000040       _volmd                     10000040     hdns_client.obj
+ 0000:00000048       _volmd                     10000048     hdns_net.obj
+ 0000:00000050       _volmd                     10000050     hdns_api.obj
+ 0000:00000050       _volmd                     10000050     hdns_client.obj
+ 0000:00000058       _volmd                     10000058     hdns_net.obj
+ 0000:00000060       _volmd                     10000060     hdns_api.obj
+ 0000:00000060       _volmd                     10000060     hdns_client.obj
+ 0000:00000068       _volmd                     10000068     hdns_net.obj
+ 0000:00000070       _volmd                     10000070     hdns_api.obj
+ 0000:00000078       _volmd                     10000078     hdns_net.obj
+ 0000:00000080       _volmd                     10000080     hdns_api.obj
+ 0000:00000088       _volmd                     10000088     hdns_net.obj
+ 0000:00000094       _volmd                     10000094     hdns_api.obj
+ 0000:0000009c       _volmd                     1000009c     hdns_net.obj
+ 0001:00000d30       _time                      10001d30 f   hdns_api.obj
+ 0001:000029f0       _empty_hdns_resv_done_callback 100039f0 f   hdns_api.obj
+ 0001:00002ad0       _hdns_get_result_for_host_sync 10003ad0 f   hdns_api.obj
+ 0001:00002c10       _hdns_get_results_for_hosts_sync 10003c10 f   hdns_api.obj
+ 0001:00002de0       _hdns_single_resv_with_custom_req_task@8 10003de0 f   hdns_api.obj
+ 0001:00002ea0       _hdns_single_resv_task@8   10003ea0 f   hdns_api.obj
+ 0001:00002f80       _hdns_batch_resv_task@8    10003f80 f   hdns_api.obj
+ 0001:00003060       _is_net_match              10004060 f   hdns_api.obj
+ 0001:000030f0       _hdns_select_ip            100040f0 f   hdns_api.obj
+ 0001:00003250       _hdns_client_cleanup_task@8 10004250 f   hdns_api.obj
+ 0001:000043d0       _get_cache_key             100053d0 f   hdns_cache.obj
+ 0001:00004410       _select_hash_table         10005410 f   hdns_cache.obj
+ 0001:00004440       _hdns_hash_do_get_keys_and_values_callback_fn 10005440 f   hdns_cache.obj
+ 0001:00004470       _hdns_hash_do_get_keys_callback_fn 10005470 f   hdns_cache.obj
+ 0001:00004640       _hdns_cache_entry_is_expired 10005640 f   hdns_client.obj
+ 0001:00005c50       _unwrap_auto_query_type    10006c50 f   hdns_client.obj
+ 0001:00005c90       _collect_resv_resp_in_cache_or_localdns 10006c90 f   hdns_client.obj
+ 0001:00005d90       _is_query_match            10006d90 f   hdns_client.obj
+ 0001:00005e20       _hdns_update_cache_on_net_change_with_type 10006e20 f   hdns_client.obj
+ 0001:000060d0       _hdns_apply_custom_ttl     100070d0 f   hdns_client.obj
+ 0001:00006130       _hdns_probe_resv_resp_ips  10007130 f   hdns_client.obj
+ 0001:00006c80       _generate_session_id       10007c80 f   hdns_config.obj
+ 0001:00006cd0       _init_boot_servers         10007cd0 f   hdns_config.obj
+ 0001:00007130       _set_default_hdns_config   10008130 f   hdns_config.obj
+ 0001:00007c30       $LN11                      10008c30     hdns_fstack.obj
+ 0001:00007fe0       _hdns_http_read_body       10008fe0 f   hdns_http.obj
+ 0001:000080d0       _hdns_http_write_body      100090d0 f   hdns_http.obj
+ 0001:00008a10       _hdns_list_insert          10009a10 f   hdns_list.obj
+ 0001:00008a40       _hdns_list_insert_head     10009a40 f   hdns_list.obj
+ 0001:00008a60       _hdns_list_init            10009a60 f   hdns_list.obj
+ 0001:00009bf0       _detect_net_stack_by_winsock 1000abf0 f   hdns_net.obj
+ 0001:00009d30       _detect_net_stack_by_dns   1000ad30 f   hdns_net.obj
+ 0001:00009e70       _detect_net_stack          1000ae70 f   hdns_net.obj
+ 0001:00009fb0       _hdns_net_chg_cb_task_runner@8 1000afb0 f   hdns_net.obj
+ 0001:00009fe0       _hdns_net_change_detect_task@8 1000afe0 f   hdns_net.obj
+ 0001:0000a170       _hdns_net_speed_detect_runner@8 1000b170 f   hdns_net.obj
+ 0001:0000a430       _hdns_net_speed_detect_task@8 1000b430 f   hdns_net.obj
+ 0001:0000b850       _hdns_query_type_to_string 1000c850 f   hdns_resolver.obj
+ 0001:0000b880       _parse_single_resv_resp    1000c880 f   hdns_resolver.obj
+ 0001:0000b930       _parse_multi_resv_resp     1000c930 f   hdns_resolver.obj
+ 0001:0000ba60       _parse_ip_array            1000ca60 f   hdns_resolver.obj
+ 0001:0000bad0       _decode_html               1000cad0 f   hdns_resolver.obj
+ 0001:0000bc70       _parse_resv_resp_from_json 1000cc70 f   hdns_resolver.obj
+ 0001:0000bf30       _fill_ips_and_append_resps 1000cf30 f   hdns_resolver.obj
+ 0001:0000ca20       _parse_ip_array            1000da20 f   hdns_scheduler.obj
+ 0001:0000ce60       _hdns_sched_do_parse_sched_resp 1000de60 f   hdns_scheduler.obj
+ 0001:0000cf70       _generate_nonce            1000df70 f   hdns_scheduler.obj
+ 0001:0000cff0       _hdns_probe_resolvers      1000dff0 f   hdns_scheduler.obj
+ 0001:0000d0c0       _hdns_parse_sched_resp_body 1000e0c0 f   hdns_scheduler.obj
+ 0001:0000d2a0       _get_boot_servers          1000e2a0 f   hdns_scheduler.obj
+ 0001:0000d350       _create_hdns_schd_req      1000e350 f   hdns_scheduler.obj
+ 0001:0000d510       _hdns_sched_refresh_task@8 1000e510 f   hdns_scheduler.obj
+ 0001:0000e110       _hdns_generate_sign        1000f110 f   hdns_sign.obj
+ 0001:0000ed50       _hdns_is_quote             1000fd50 f   hdns_string.obj
+ 0001:0000ed80       _hdns_is_space             1000fd80 f   hdns_string.obj
+ 0001:0000edb0       _hdns_is_space_or_cntrl    1000fdb0 f   hdns_string.obj
+ 0001:0000efa0       _hdns_strip_str_func       1000ffa0 f   hdns_string.obj
+ 0001:0000f0f0       _hdns_strlchr              100100f0 f   hdns_transport.obj
+ 0001:0000f390       _hdns_curl_transport_setup 10010390 f   hdns_transport.obj
+ 0001:0000f88c       $LN23                      1001088c     hdns_transport.obj
+ 0001:0000f8a0       _hdns_init_curl_headers    100108a0 f   hdns_transport.obj
+ 0001:0000f9c0       _hdns_init_curl_sni        100109c0 f   hdns_transport.obj
+ 0001:0000faa0       _hdns_init_curl_url        10010aa0 f   hdns_transport.obj
+ 0001:0000fd60       _hdns_curl_default_header_callback 10010d60 f   hdns_transport.obj
+ 0001:0000fde0       _hdns_curl_default_write_callback 10010de0 f   hdns_transport.obj
+ 0001:0000ff00       _hdns_curl_default_read_callback 10010f00 f   hdns_transport.obj
+ 0001:0000fff0       _hdns_curl_debug_callback  10010ff0 f   hdns_transport.obj
+ 0001:000100b0       _hdns_url_encode           100110b0 f   hdns_transport.obj
+ 0001:00010210       _hdns_query_params_to_string 10011210 f   hdns_transport.obj
+ 0001:000104f0       _hdns_curl_transport_headers_done 100114f0 f   hdns_transport.obj
+ 0001:00010640       _hdns_curl_code_to_status  10011640 f   hdns_transport.obj
+ 0001:0001069c       $LN15                      1001169c     hdns_transport.obj
+ 0001:000106b8       $LN14                      100116b8     hdns_transport.obj
+ 0001:000106f0       _hdns_curl_transport_finish 100116f0 f   hdns_transport.obj
+ 0001:00010890       _hdns_move_transport_state 10011890 f   hdns_transport.obj
+ 0001:000112b0       _internal_malloc           100122b0 f   cjson:cJSON.c.obj
+ 0001:000112c0       _internal_free             100122c0 f   cjson:cJSON.c.obj
+ 0001:000112d0       _internal_realloc          100122d0 f   cjson:cJSON.c.obj
+ 0001:00011320       _add_item_to_array         10012320 f   cjson:cJSON.c.obj
+ 0001:00011380       _add_item_to_object        10012380 f   cjson:cJSON.c.obj
+ 0001:00011440       _buffer_skip_whitespace    10012440 f   cjson:cJSON.c.obj
+ 0001:000119f8       $LN73                      100129f8     cjson:cJSON.c.obj
+ 0001:00011a00       $LN72                      10012a00     cjson:cJSON.c.obj
+ 0001:00011a80       $LN75                      10012a80     cjson:cJSON.c.obj
+ 0001:00011a98       $LN74                      10012a98     cjson:cJSON.c.obj
+ 0001:00012914       $LN23                      10013914     cjson:cJSON.c.obj
+ 0001:00012924       $LN22                      10013924     cjson:cJSON.c.obj
+ 0001:00012990       _cJSON_New_Item            10013990 f   cjson:cJSON.c.obj
+ 0001:00013000       _cJSON_strdup              10014000 f   cjson:cJSON.c.obj
+ 0001:00013060       _case_insensitive_strcmp   10014060 f   cjson:cJSON.c.obj
+ 0001:00013100       _cast_away_const           10014100 f   cjson:cJSON.c.obj
+ 0001:00013110       _compare_double            10014110 f   cjson:cJSON.c.obj
+ 0001:00013160       _create_reference          10014160 f   cjson:cJSON.c.obj
+ 0001:000131d0       _ensure                    100141d0 f   cjson:cJSON.c.obj
+ 0001:000132c0       _get_array_item            100142c0 f   cjson:cJSON.c.obj
+ 0001:000132f0       _get_decimal_point         100142f0 f   cjson:cJSON.c.obj
+ 0001:00013300       _get_object_item           10014300 f   cjson:cJSON.c.obj
+ 0001:000133b0       _minify_string             100143b0 f   cjson:cJSON.c.obj
+ 0001:00013430       _parse_array               10014430 f   cjson:cJSON.c.obj
+ 0001:00013570       _parse_hex4                10014570 f   cjson:cJSON.c.obj
+ 0001:000135f0       _parse_number              100145f0 f   cjson:cJSON.c.obj
+ 0001:00013710       $LN40                      10014710     cjson:cJSON.c.obj
+ 0001:0001371c       $LN39                      1001471c     cjson:cJSON.c.obj
+ 0001:000137b0       _parse_object              100147b0 f   cjson:cJSON.c.obj
+ 0001:00013980       _parse_string              10014980 f   cjson:cJSON.c.obj
+ 0001:00013b28       $LN43                      10014b28     cjson:cJSON.c.obj
+ 0001:00013b48       $LN42                      10014b48     cjson:cJSON.c.obj
+ 0001:00013c30       _parse_value               10014c30 f   cjson:cJSON.c.obj
+ 0001:00013df0       _print                     10014df0 f   cjson:cJSON.c.obj
+ 0001:00013f40       _print_array               10014f40 f   cjson:cJSON.c.obj
+ 0001:00014020       _print_number              10015020 f   cjson:cJSON.c.obj
+ 0001:00014350       _print_object              10015350 f   cjson:cJSON.c.obj
+ 0001:00014530       _print_string              10015530 f   cjson:cJSON.c.obj
+ 0001:00014550       _print_string_ptr          10015550 f   cjson:cJSON.c.obj
+ 0001:000146a8       $LN49                      100156a8     cjson:cJSON.c.obj
+ 0001:000146b0       $LN48                      100156b0     cjson:cJSON.c.obj
+ 0001:00014708       $LN51                      10015708     cjson:cJSON.c.obj
+ 0001:00014728       $LN50                      10015728     cjson:cJSON.c.obj
+ 0001:00014810       _print_value               10015810 f   cjson:cJSON.c.obj
+ 0001:00014940       $LN27                      10015940     cjson:cJSON.c.obj
+ 0001:00014964       $LN26                      10015964     cjson:cJSON.c.obj
+ 0001:00014a60       _replace_item_in_object    10015a60 f   cjson:cJSON.c.obj
+ 0001:00014ae0       _skip_multiline_comment    10015ae0 f   cjson:cJSON.c.obj
+ 0001:00014b20       _skip_oneline_comment      10015b20 f   cjson:cJSON.c.obj
+ 0001:00014b50       _skip_utf8_bom             10015b50 f   cjson:cJSON.c.obj
+ 0001:00014bd0       _suffix_object             10015bd0 f   cjson:cJSON.c.obj
+ 0001:00014bf0       _update_offset             10015bf0 f   cjson:cJSON.c.obj
+ 0001:00014c30       _utf16_literal_to_utf8     10015c30 f   cjson:cJSON.c.obj
+ 0001:00014fb0       $$000000                   10015fb0     MSVCRT:llmul.obj
+ 0001:00014fc9       hard                       10015fc9     MSVCRT:llmul.obj
+ 0001:00015000       $$000000                   10016000     MSVCRT:lldiv.obj
+ 0001:00015021       L1                         10016021     MSVCRT:lldiv.obj
+ 0001:0001503d       L2                         1001603d     MSVCRT:lldiv.obj
+ 0001:00015059       L3                         10016059     MSVCRT:lldiv.obj
+ 0001:00015067       L5                         10016067     MSVCRT:lldiv.obj
+ 0001:00015095       L6                         10016095     MSVCRT:lldiv.obj
+ 0001:00015096       L7                         10016096     MSVCRT:lldiv.obj
+ 0001:0001509a       L4                         1001609a     MSVCRT:lldiv.obj
+ 0001:000150a4       L8                         100160a4     MSVCRT:lldiv.obj
+ 0001:000154b0       $$000000                   100164b0     MSVCRT:chkstk.obj
+ 0001:000154c4       cs10                       100164c4     MSVCRT:chkstk.obj
+ 0001:000154d2       cs20                       100164d2     MSVCRT:chkstk.obj
+ 0001:000154e5       ?dllmain_crt_dispatch@@YGHQAUHINSTANCE__@@KQAX@Z 100164e5 f   MSVCRT:dll_dllmain.obj
+ 0001:0001554c       ?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1001654c f   MSVCRT:dll_dllmain.obj
+ 0001:00015694       ?dllmain_crt_process_detach@@YAH_N@Z 10016694 f   MSVCRT:dll_dllmain.obj
+ 0001:00015770       ?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10016770 f   MSVCRT:dll_dllmain.obj
+ 0001:000158bd       ?dllmain_raw@@YGHQAUHINSTANCE__@@KQAX@Z 100168bd f   MSVCRT:dll_dllmain.obj
+ 0001:00015928       ___get_entropy             10016928 f   MSVCRT:gs_support.obj
+ 0001:00015a61       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 10016a61 f   MSVCRT:utility.obj
+ 0001:00015abb       ?is_potentially_valid_image_base@@YA_NQAX@Z 10016abb f   MSVCRT:utility.obj
+ 0001:000161a0       $$000000                   100171a0     MSVCRT:sehprolg4.obj
+ 0001:00016200       $$000000                   10017200     MSVCRT:sehprolg4.obj
+ 0001:000162f7       ___castguard_check_failure_os_handled_wrapper 100172f7 f   MSVCRT:guard_support.obj
+ 0001:0001634d       ___castguard_check_failure_user_handled_wrapper 1001734d f   MSVCRT:guard_support.obj
+ 0001:00016373       ___castguard_compat_check  10017373 f   MSVCRT:guard_support.obj
+ 0001:000164c1       ___castguard_slow_path_compat_check 100174c1 f   MSVCRT:guard_support.obj
+ 0002:00000820       ?alphanum@?1??generate_session_id@@9@9 1001a820     hdns_config.obj
+ 0002:000008ec       ?default_buffer_size@?1??print@@9@9 1001a8ec     cjson:cJSON.c.obj
+ 0002:000009b4       _GS_ExceptionPointers      1001a9b4     MSVCRT:gs_report.obj
+ 0002:000015b0       __sehtable$?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1001b5b0     MSVCRT:dll_dllmain.obj
+ 0002:000015d0       __sehtable$?dllmain_crt_process_detach@@YAH_N@Z 1001b5d0     MSVCRT:dll_dllmain.obj
+ 0002:00001600       __sehtable$?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 1001b600     MSVCRT:dll_dllmain.obj
+ 0002:00001620       __sehtable$___scrt_is_nonwritable_in_current_image 1001b620     MSVCRT:utility.obj
+ 0002:00001750       .edata                     1001b750     httpdns.exp
+ 0002:00001778       rgpv                       1001b778     httpdns.exp
+ 0002:00001b30       rgszName                   1001bb30     httpdns.exp
+ 0002:00001ee8       rgwOrd                     1001bee8     httpdns.exp
+ 0002:000020c4       szName                     1001c0c4     httpdns.exp
+ 0002:000020d0       $N00001                    1001c0d0     httpdns.exp
+ 0002:000020ee       $N00002                    1001c0ee     httpdns.exp
+ 0002:00002109       $N00003                    1001c109     httpdns.exp
+ 0002:00002123       $N00004                    1001c123     httpdns.exp
+ 0002:00002138       $N00005                    1001c138     httpdns.exp
+ 0002:0000214f       $N00006                    1001c14f     httpdns.exp
+ 0002:00002167       $N00007                    1001c167     httpdns.exp
+ 0002:00002181       $N00008                    1001c181     httpdns.exp
+ 0002:0000219b       $N00009                    1001c19b     httpdns.exp
+ 0002:000021b5       $N00010                    1001c1b5     httpdns.exp
+ 0002:000021d6       $N00011                    1001c1d6     httpdns.exp
+ 0002:000021f9       $N00012                    1001c1f9     httpdns.exp
+ 0002:00002211       $N00013                    1001c211     httpdns.exp
+ 0002:0000222b       $N00014                    1001c22b     httpdns.exp
+ 0002:00002247       $N00015                    1001c247     httpdns.exp
+ 0002:00002260       $N00016                    1001c260     httpdns.exp
+ 0002:0000227c       $N00017                    1001c27c     httpdns.exp
+ 0002:00002297       $N00018                    1001c297     httpdns.exp
+ 0002:000022b0       $N00019                    1001c2b0     httpdns.exp
+ 0002:000022cc       $N00020                    1001c2cc     httpdns.exp
+ 0002:000022e5       $N00021                    1001c2e5     httpdns.exp
+ 0002:000022f7       $N00022                    1001c2f7     httpdns.exp
+ 0002:0000230c       $N00023                    1001c30c     httpdns.exp
+ 0002:0000232a       $N00024                    1001c32a     httpdns.exp
+ 0002:0000233e       $N00025                    1001c33e     httpdns.exp
+ 0002:00002359       $N00026                    1001c359     httpdns.exp
+ 0002:0000236e       $N00027                    1001c36e     httpdns.exp
+ 0002:00002388       $N00028                    1001c388     httpdns.exp
+ 0002:000023a0       $N00029                    1001c3a0     httpdns.exp
+ 0002:000023b4       $N00030                    1001c3b4     httpdns.exp
+ 0002:000023ca       $N00031                    1001c3ca     httpdns.exp
+ 0002:000023e0       $N00032                    1001c3e0     httpdns.exp
+ 0002:000023ff       $N00033                    1001c3ff     httpdns.exp
+ 0002:00002412       $N00034                    1001c412     httpdns.exp
+ 0002:00002428       $N00035                    1001c428     httpdns.exp
+ 0002:00002443       $N00036                    1001c443     httpdns.exp
+ 0002:00002462       $N00037                    1001c462     httpdns.exp
+ 0002:00002476       $N00038                    1001c476     httpdns.exp
+ 0002:00002486       $N00039                    1001c486     httpdns.exp
+ 0002:000024a3       $N00040                    1001c4a3     httpdns.exp
+ 0002:000024c1       $N00041                    1001c4c1     httpdns.exp
+ 0002:000024ec       $N00042                    1001c4ec     httpdns.exp
+ 0002:00002509       $N00043                    1001c509     httpdns.exp
+ 0002:00002527       $N00044                    1001c527     httpdns.exp
+ 0002:00002552       $N00045                    1001c552     httpdns.exp
+ 0002:00002570       $N00046                    1001c570     httpdns.exp
+ 0002:00002583       $N00047                    1001c583     httpdns.exp
+ 0002:00002599       $N00048                    1001c599     httpdns.exp
+ 0002:000025af       $N00049                    1001c5af     httpdns.exp
+ 0002:000025c4       $N00050                    1001c5c4     httpdns.exp
+ 0002:000025dc       $N00051                    1001c5dc     httpdns.exp
+ 0002:000025f3       $N00052                    1001c5f3     httpdns.exp
+ 0002:00002617       $N00053                    1001c617     httpdns.exp
+ 0002:0000262f       $N00054                    1001c62f     httpdns.exp
+ 0002:00002646       $N00055                    1001c646     httpdns.exp
+ 0002:00002659       $N00056                    1001c659     httpdns.exp
+ 0002:00002675       $N00057                    1001c675     httpdns.exp
+ 0002:00002686       $N00058                    1001c686     httpdns.exp
+ 0002:00002696       $N00059                    1001c696     httpdns.exp
+ 0002:000026a7       $N00060                    1001c6a7     httpdns.exp
+ 0002:000026ba       $N00061                    1001c6ba     httpdns.exp
+ 0002:000026ca       $N00062                    1001c6ca     httpdns.exp
+ 0002:000026dc       $N00063                    1001c6dc     httpdns.exp
+ 0002:000026ee       $N00064                    1001c6ee     httpdns.exp
+ 0002:000026fd       $N00065                    1001c6fd     httpdns.exp
+ 0002:0000270f       $N00066                    1001c70f     httpdns.exp
+ 0002:0000271f       $N00067                    1001c71f     httpdns.exp
+ 0002:0000272f       $N00068                    1001c72f     httpdns.exp
+ 0002:0000273e       $N00069                    1001c73e     httpdns.exp
+ 0002:00002757       $N00070                    1001c757     httpdns.exp
+ 0002:00002775       $N00071                    1001c775     httpdns.exp
+ 0002:0000278d       $N00072                    1001c78d     httpdns.exp
+ 0002:0000279c       $N00073                    1001c79c     httpdns.exp
+ 0002:000027b4       $N00074                    1001c7b4     httpdns.exp
+ 0002:000027d0       $N00075                    1001c7d0     httpdns.exp
+ 0002:000027ea       $N00076                    1001c7ea     httpdns.exp
+ 0002:00002807       $N00077                    1001c807     httpdns.exp
+ 0002:00002825       $N00078                    1001c825     httpdns.exp
+ 0002:00002850       $N00079                    1001c850     httpdns.exp
+ 0002:00002870       $N00080                    1001c870     httpdns.exp
+ 0002:0000288a       $N00081                    1001c88a     httpdns.exp
+ 0002:000028a2       $N00082                    1001c8a2     httpdns.exp
+ 0002:000028b3       $N00083                    1001c8b3     httpdns.exp
+ 0002:000028c1       $N00084                    1001c8c1     httpdns.exp
+ 0002:000028d1       $N00085                    1001c8d1     httpdns.exp
+ 0002:000028e8       $N00086                    1001c8e8     httpdns.exp
+ 0002:000028fe       $N00087                    1001c8fe     httpdns.exp
+ 0002:0000290c       $N00088                    1001c90c     httpdns.exp
+ 0002:00002920       $N00089                    1001c920     httpdns.exp
+ 0002:00002935       $N00090                    1001c935     httpdns.exp
+ 0002:0000294c       $N00091                    1001c94c     httpdns.exp
+ 0002:00002965       $N00092                    1001c965     httpdns.exp
+ 0002:0000297d       $N00093                    1001c97d     httpdns.exp
+ 0002:00002995       $N00094                    1001c995     httpdns.exp
+ 0002:000029aa       $N00095                    1001c9aa     httpdns.exp
+ 0002:000029ca       $N00096                    1001c9ca     httpdns.exp
+ 0002:000029e8       $N00097                    1001c9e8     httpdns.exp
+ 0002:00002a09       $N00098                    1001ca09     httpdns.exp
+ 0002:00002a1d       $N00099                    1001ca1d     httpdns.exp
+ 0002:00002a30       $N00100                    1001ca30     httpdns.exp
+ 0002:00002a4e       $N00101                    1001ca4e     httpdns.exp
+ 0002:00002a73       $N00102                    1001ca73     httpdns.exp
+ 0002:00002aa4       $N00103                    1001caa4     httpdns.exp
+ 0002:00002abf       $N00104                    1001cabf     httpdns.exp
+ 0002:00002ad6       $N00105                    1001cad6     httpdns.exp
+ 0002:00002af2       $N00106                    1001caf2     httpdns.exp
+ 0002:00002b19       $N00107                    1001cb19     httpdns.exp
+ 0002:00002b31       $N00108                    1001cb31     httpdns.exp
+ 0002:00002b4d       $N00109                    1001cb4d     httpdns.exp
+ 0002:00002b69       $N00110                    1001cb69     httpdns.exp
+ 0002:00002b84       $N00111                    1001cb84     httpdns.exp
+ 0002:00002b96       $N00112                    1001cb96     httpdns.exp
+ 0002:00002baa       $N00113                    1001cbaa     httpdns.exp
+ 0002:00002bbd       $N00114                    1001cbbd     httpdns.exp
+ 0002:00002bda       $N00115                    1001cbda     httpdns.exp
+ 0002:00002bec       $N00116                    1001cbec     httpdns.exp
+ 0002:00002bfc       $N00117                    1001cbfc     httpdns.exp
+ 0002:00002c12       $N00118                    1001cc12     httpdns.exp
+ 0002:00002c29       $N00119                    1001cc29     httpdns.exp
+ 0002:00002c49       $N00120                    1001cc49     httpdns.exp
+ 0002:00002c59       $N00121                    1001cc59     httpdns.exp
+ 0002:00002c68       $N00122                    1001cc68     httpdns.exp
+ 0002:00002c7d       $N00123                    1001cc7d     httpdns.exp
+ 0002:00002c8c       $N00124                    1001cc8c     httpdns.exp
+ 0002:00002c9c       $N00125                    1001cc9c     httpdns.exp
+ 0002:00002caf       $N00126                    1001ccaf     httpdns.exp
+ 0002:00002cc3       $N00127                    1001ccc3     httpdns.exp
+ 0002:00002cd3       $N00128                    1001ccd3     httpdns.exp
+ 0002:00002ce4       $N00129                    1001cce4     httpdns.exp
+ 0002:00002cfb       $N00130                    1001ccfb     httpdns.exp
+ 0002:00002d13       $N00131                    1001cd13     httpdns.exp
+ 0002:00002d3d       $N00132                    1001cd3d     httpdns.exp
+ 0002:00002d70       $N00133                    1001cd70     httpdns.exp
+ 0002:00002d9d       $N00134                    1001cd9d     httpdns.exp
+ 0002:00002dc6       $N00135                    1001cdc6     httpdns.exp
+ 0002:00002df8       $N00136                    1001cdf8     httpdns.exp
+ 0002:00002e24       $N00137                    1001ce24     httpdns.exp
+ 0002:00002e50       $N00138                    1001ce50     httpdns.exp
+ 0002:00002e7f       $N00139                    1001ce7f     httpdns.exp
+ 0002:00002eaa       $N00140                    1001ceaa     httpdns.exp
+ 0002:00002ed8       $N00141                    1001ced8     httpdns.exp
+ 0002:00002eec       $N00142                    1001ceec     httpdns.exp
+ 0002:00002f03       $N00143                    1001cf03     httpdns.exp
+ 0002:00002f1f       $N00144                    1001cf1f     httpdns.exp
+ 0002:00002f38       $N00145                    1001cf38     httpdns.exp
+ 0002:00002f52       $N00146                    1001cf52     httpdns.exp
+ 0002:00002f69       $N00147                    1001cf69     httpdns.exp
+ 0002:00002f80       $N00148                    1001cf80     httpdns.exp
+ 0002:00002f9b       $N00149                    1001cf9b     httpdns.exp
+ 0002:00002fb7       $N00150                    1001cfb7     httpdns.exp
+ 0002:00002fc3       $N00151                    1001cfc3     httpdns.exp
+ 0002:00002fd2       $N00152                    1001cfd2     httpdns.exp
+ 0002:00002fe1       $N00153                    1001cfe1     httpdns.exp
+ 0002:00002ff4       $N00154                    1001cff4     httpdns.exp
+ 0002:00003007       $N00155                    1001d007     httpdns.exp
+ 0002:00003015       $N00156                    1001d015     httpdns.exp
+ 0002:00003027       $N00157                    1001d027     httpdns.exp
+ 0002:00003039       $N00158                    1001d039     httpdns.exp
+ 0002:0000304b       $N00159                    1001d04b     httpdns.exp
+ 0002:0000305c       $N00160                    1001d05c     httpdns.exp
+ 0002:0000306a       $N00161                    1001d06a     httpdns.exp
+ 0002:00003078       $N00162                    1001d078     httpdns.exp
+ 0002:00003088       $N00163                    1001d088     httpdns.exp
+ 0002:00003097       $N00164                    1001d097     httpdns.exp
+ 0002:000030a5       $N00165                    1001d0a5     httpdns.exp
+ 0002:000030bb       $N00166                    1001d0bb     httpdns.exp
+ 0002:000030d1       $N00167                    1001d0d1     httpdns.exp
+ 0002:000030df       $N00168                    1001d0df     httpdns.exp
+ 0002:000030ed       $N00169                    1001d0ed     httpdns.exp
+ 0002:000030fb       $N00170                    1001d0fb     httpdns.exp
+ 0002:0000310c       $N00171                    1001d10c     httpdns.exp
+ 0002:0000311d       $N00172                    1001d11d     httpdns.exp
+ 0002:0000312f       $N00173                    1001d12f     httpdns.exp
+ 0002:0000313e       $N00174                    1001d13e     httpdns.exp
+ 0002:0000314d       $N00175                    1001d14d     httpdns.exp
+ 0002:00003163       $N00176                    1001d163     httpdns.exp
+ 0002:00003174       $N00177                    1001d174     httpdns.exp
+ 0002:00003184       $N00178                    1001d184     httpdns.exp
+ 0002:00003194       $N00179                    1001d194     httpdns.exp
+ 0002:000031ac       $N00180                    1001d1ac     httpdns.exp
+ 0002:000031bb       $N00181                    1001d1bb     httpdns.exp
+ 0002:000031d2       $N00182                    1001d1d2     httpdns.exp
+ 0002:000031e6       $N00183                    1001d1e6     httpdns.exp
+ 0002:000031f9       $N00184                    1001d1f9     httpdns.exp
+ 0002:00003214       $N00185                    1001d214     httpdns.exp
+ 0002:0000322b       $N00186                    1001d22b     httpdns.exp
+ 0002:0000323f       $N00187                    1001d23f     httpdns.exp
+ 0002:00003252       $N00188                    1001d252     httpdns.exp
+ 0002:0000325b       $N00189                    1001d25b     httpdns.exp
+ 0002:00003274       $N00190                    1001d274     httpdns.exp
+ 0002:00003293       $N00191                    1001d293     httpdns.exp
+ 0002:000032af       $N00192                    1001d2af     httpdns.exp
+ 0002:000032c9       $N00193                    1001d2c9     httpdns.exp
+ 0002:000032e2       $N00194                    1001d2e2     httpdns.exp
+ 0002:000032f9       $N00195                    1001d2f9     httpdns.exp
+ 0002:0000330b       $N00196                    1001d30b     httpdns.exp
+ 0002:0000331f       $N00197                    1001d31f     httpdns.exp
+ 0002:00003334       $N00198                    1001d334     httpdns.exp
+ 0002:00003341       $N00199                    1001d341     httpdns.exp
+ 0002:00003358       $N00200                    1001d358     httpdns.exp
+ 0002:00003378       $N00201                    1001d378     httpdns.exp
+ 0002:0000338e       $N00202                    1001d38e     httpdns.exp
+ 0002:000033a2       $N00203                    1001d3a2     httpdns.exp
+ 0002:000033b7       $N00204                    1001d3b7     httpdns.exp
+ 0002:000033ca       $N00205                    1001d3ca     httpdns.exp
+ 0002:000033dc       $N00206                    1001d3dc     httpdns.exp
+ 0002:000033f8       $N00207                    1001d3f8     httpdns.exp
+ 0002:00003414       $N00208                    1001d414     httpdns.exp
+ 0002:0000342b       $N00209                    1001d42b     httpdns.exp
+ 0002:00003448       $N00210                    1001d448     httpdns.exp
+ 0002:0000345c       $N00211                    1001d45c     httpdns.exp
+ 0002:00003471       $N00212                    1001d471     httpdns.exp
+ 0002:0000348d       $N00213                    1001d48d     httpdns.exp
+ 0002:000034a4       $N00214                    1001d4a4     httpdns.exp
+ 0002:000034ba       $N00215                    1001d4ba     httpdns.exp
+ 0002:000034cd       $N00216                    1001d4cd     httpdns.exp
+ 0002:000034e4       $N00217                    1001d4e4     httpdns.exp
+ 0002:000034fa       $N00218                    1001d4fa     httpdns.exp
+ 0002:00003512       $N00219                    1001d512     httpdns.exp
+ 0002:00003525       $N00220                    1001d525     httpdns.exp
+ 0002:00003542       $N00221                    1001d542     httpdns.exp
+ 0002:00003553       $N00222                    1001d553     httpdns.exp
+ 0002:00003561       $N00223                    1001d561     httpdns.exp
+ 0002:00003576       $N00224                    1001d576     httpdns.exp
+ 0002:0000358e       $N00225                    1001d58e     httpdns.exp
+ 0002:000035a8       $N00226                    1001d5a8     httpdns.exp
+ 0002:000035bf       $N00227                    1001d5bf     httpdns.exp
+ 0002:000035d4       $N00228                    1001d5d4     httpdns.exp
+ 0002:000035e9       $N00229                    1001d5e9     httpdns.exp
+ 0002:000035fb       $N00230                    1001d5fb     httpdns.exp
+ 0002:0000360d       $N00231                    1001d60d     httpdns.exp
+ 0002:0000361c       $N00232                    1001d61c     httpdns.exp
+ 0002:0000362d       $N00233                    1001d62d     httpdns.exp
+ 0002:0000363d       $N00234                    1001d63d     httpdns.exp
+ 0002:00003651       $N00235                    1001d651     httpdns.exp
+ 0002:00003662       $N00236                    1001d662     httpdns.exp
+ 0002:0000367c       $N00237                    1001d67c     httpdns.exp
+ 0002:0000368d       $N00238                    1001d68d     httpdns.exp
+ 0003:00000000       $SG37548                   1001e000     hdns_api.obj
+ 0003:00000018       $SG37549                   1001e018     hdns_api.obj
+ 0003:00000038       $SG37550                   1001e038     hdns_api.obj
+ 0003:00000070       $SG37553                   1001e070     hdns_api.obj
+ 0003:000000bc       $SG37554                   1001e0bc     hdns_api.obj
+ 0003:000000dc       $SG37555                   1001e0dc     hdns_api.obj
+ 0003:00000114       $SG37568                   1001e114     hdns_api.obj
+ 0003:00000130       $SG37569                   1001e130     hdns_api.obj
+ 0003:00000140       $SG37570                   1001e140     hdns_api.obj
+ 0003:00000178       $SG37573                   1001e178     hdns_api.obj
+ 0003:000001a0       $SG37574                   1001e1a0     hdns_api.obj
+ 0003:000001b0       $SG37575                   1001e1b0     hdns_api.obj
+ 0003:000001e8       $SG37578                   1001e1e8     hdns_api.obj
+ 0003:00000214       $SG37579                   1001e214     hdns_api.obj
+ 0003:00000224       $SG37580                   1001e224     hdns_api.obj
+ 0003:0000025c       $SG37605                   1001e25c     hdns_api.obj
+ 0003:00000270       $SG37689                   1001e270     hdns_api.obj
+ 0003:00000294       $SG37698                   1001e294     hdns_api.obj
+ 0003:000002b4       $SG37709                   1001e2b4     hdns_api.obj
+ 0003:000002e4       $SG37716                   1001e2e4     hdns_api.obj
+ 0003:0000030c       $SG37725                   1001e30c     hdns_api.obj
+ 0003:00000330       $SG37745                   1001e330     hdns_api.obj
+ 0003:00000350       $SG37757                   1001e350     hdns_api.obj
+ 0003:00000368       $SG37780                   1001e368     hdns_api.obj
+ 0003:00000380       $SG37811                   1001e380     hdns_api.obj
+ 0003:00000398       $SG37814                   1001e398     hdns_api.obj
+ 0003:000003a8       $SG37816                   1001e3a8     hdns_api.obj
+ 0003:000003c0       $SG37863                   1001e3c0     hdns_api.obj
+ 0003:000003d4       $SG37865                   1001e3d4     hdns_api.obj
+ 0003:000003e8       $SG37903                   1001e3e8     hdns_api.obj
+ 0003:000003fc       $SG37905                   1001e3fc     hdns_api.obj
+ 0003:00000410       $SG37923                   1001e410     hdns_api.obj
+ 0003:00000424       $SG37925                   1001e424     hdns_api.obj
+ 0003:00000438       $SG37965                   1001e438     hdns_api.obj
+ 0003:0000044c       $SG37968                   1001e44c     hdns_api.obj
+ 0003:0000045c       $SG37970                   1001e45c     hdns_api.obj
+ 0003:00000470       $SG37990                   1001e470     hdns_api.obj
+ 0003:00000484       $SG37993                   1001e484     hdns_api.obj
+ 0003:00000494       $SG37995                   1001e494     hdns_api.obj
+ 0003:000004a8       $SG38005                   1001e4a8     hdns_api.obj
+ 0003:000004cc       $SG38006                   1001e4cc     hdns_api.obj
+ 0003:000004e8       $SG38007                   1001e4e8     hdns_api.obj
+ 0003:00000520       $SG38008                   1001e520     hdns_api.obj
+ 0003:00000538       $SG38096                   1001e538     hdns_api.obj
+ 0003:00000558       $SG38097                   1001e558     hdns_api.obj
+ 0003:00000574       $SG38098                   1001e574     hdns_api.obj
+ 0003:000006d0       $SG37377                   1001e6d0     hdns_cache.obj
+ 0003:00000704       $SG37378                   1001e704     hdns_cache.obj
+ 0003:0000071c       $SG37379                   1001e71c     hdns_cache.obj
+ 0003:00000770       $SG37539                   1001e770     hdns_client.obj
+ 0003:00000780       $SG37540                   1001e780     hdns_client.obj
+ 0003:000007ac       $SG37541                   1001e7ac     hdns_client.obj
+ 0003:000007e8       $SG37727                   1001e7e8     hdns_client.obj
+ 0003:00000804       $SG37732                   1001e804     hdns_client.obj
+ 0003:0000083c       $SG36888                   1001e83c     hdns_config.obj
+ 0003:00000848       $SG36889                   1001e848     hdns_config.obj
+ 0003:00000858       $SG36890                   1001e858     hdns_config.obj
+ 0003:00000868       $SG36891                   1001e868     hdns_config.obj
+ 0003:00000878       $SG36892                   1001e878     hdns_config.obj
+ 0003:00000888       $SG36893                   1001e888     hdns_config.obj
+ 0003:00000894       $SG36894                   1001e894     hdns_config.obj
+ 0003:000008b8       $SG36895                   1001e8b8     hdns_config.obj
+ 0003:000008cc       $SG36896                   1001e8cc     hdns_config.obj
+ 0003:000008e0       $SG36897                   1001e8e0     hdns_config.obj
+ 0003:000008f8       $SG36898                   1001e8f8     hdns_config.obj
+ 0003:00000910       $SG36899                   1001e910     hdns_config.obj
+ 0003:00000934       $SG36900                   1001e934     hdns_config.obj
+ 0003:00000938       $SG36901                   1001e938     hdns_config.obj
+ 0003:0000093c       $SG36902                   1001e93c     hdns_config.obj
+ 0003:0000094c       $SG36903                   1001e94c     hdns_config.obj
+ 0003:0000095c       $SG36904                   1001e95c     hdns_config.obj
+ 0003:00000980       $SG36905                   1001e980     hdns_config.obj
+ 0003:00000994       $SG36906                   1001e994     hdns_config.obj
+ 0003:000009a8       $SG36907                   1001e9a8     hdns_config.obj
+ 0003:000009cc       $SG36908                   1001e9cc     hdns_config.obj
+ 0003:000009d0       $SG36909                   1001e9d0     hdns_config.obj
+ 0003:000009d4       $SG36910                   1001e9d4     hdns_config.obj
+ 0003:000009e4       $SG36911                   1001e9e4     hdns_config.obj
+ 0003:000009f4       $SG36912                   1001e9f4     hdns_config.obj
+ 0003:00000a18       $SG36913                   1001ea18     hdns_config.obj
+ 0003:00000a2c       $SG36914                   1001ea2c     hdns_config.obj
+ 0003:00000a40       $SG36915                   1001ea40     hdns_config.obj
+ 0003:00000a64       $SG36916                   1001ea64     hdns_config.obj
+ 0003:00000a68       $SG36917                   1001ea68     hdns_config.obj
+ 0003:00000a6c       $SG36918                   1001ea6c     hdns_config.obj
+ 0003:00000a7c       $SG36919                   1001ea7c     hdns_config.obj
+ 0003:00000a8c       $SG36920                   1001ea8c     hdns_config.obj
+ 0003:00000ab0       $SG36921                   1001eab0     hdns_config.obj
+ 0003:00000ac4       $SG36922                   1001eac4     hdns_config.obj
+ 0003:00000ad8       $SG36923                   1001ead8     hdns_config.obj
+ 0003:00000afc       $SG36924                   1001eafc     hdns_config.obj
+ 0003:00000b00       $SG36925                   1001eb00     hdns_config.obj
+ 0003:00000b04       $SG36926                   1001eb04     hdns_config.obj
+ 0003:00000b14       $SG36927                   1001eb14     hdns_config.obj
+ 0003:00000b24       $SG36928                   1001eb24     hdns_config.obj
+ 0003:00000b48       $SG36929                   1001eb48     hdns_config.obj
+ 0003:00000b5c       $SG36930                   1001eb5c     hdns_config.obj
+ 0003:00000b70       $SG36931                   1001eb70     hdns_config.obj
+ 0003:00000b94       $SG36932                   1001eb94     hdns_config.obj
+ 0003:00000b98       $SG36933                   1001eb98     hdns_config.obj
+ 0003:00000b9c       $SG36941                   1001eb9c     hdns_config.obj
+ 0003:00000ba4       $SG36942                   1001eba4     hdns_config.obj
+ 0003:00000ba8       $SG36960                   1001eba8     hdns_config.obj
+ 0003:00000bac       $SG36970                   1001ebac     hdns_config.obj
+ 0003:00000bbc       $SG36973                   1001ebbc     hdns_config.obj
+ 0003:00000bd0       $SG36976                   1001ebd0     hdns_config.obj
+ 0003:00000bf4       $SG36979                   1001ebf4     hdns_config.obj
+ 0003:00000c04       $SG36982                   1001ec04     hdns_config.obj
+ 0003:00000c20       $SG36984                   1001ec20     hdns_config.obj
+ 0003:00000d04       $SG36926                   1001ed04     hdns_file.obj
+ 0003:00000d2c       $SG36927                   1001ed2c     hdns_file.obj
+ 0003:00000d4c       $SG36928                   1001ed4c     hdns_file.obj
+ 0003:00000d64       $SG36929                   1001ed64     hdns_file.obj
+ 0003:00000da0       $SG36933                   1001eda0     hdns_file.obj
+ 0003:00000dc0       $SG36934                   1001edc0     hdns_file.obj
+ 0003:00000dd8       $SG36935                   1001edd8     hdns_file.obj
+ 0003:00000e14       $SG36937                   1001ee14     hdns_file.obj
+ 0003:00000e38       $SG36938                   1001ee38     hdns_file.obj
+ 0003:00000e50       $SG36939                   1001ee50     hdns_file.obj
+ 0003:00000e8c       $SG36961                   1001ee8c     hdns_file.obj
+ 0003:00000eb8       $SG36962                   1001eeb8     hdns_file.obj
+ 0003:00000ec8       $SG36963                   1001eec8     hdns_file.obj
+ 0003:00000f04       $SG36965                   1001ef04     hdns_file.obj
+ 0003:00000f30       $SG36966                   1001ef30     hdns_file.obj
+ 0003:00000f40       $SG36967                   1001ef40     hdns_file.obj
+ 0003:00000f7c       $SG36994                   1001ef7c     hdns_file.obj
+ 0003:00000f98       $SG36995                   1001ef98     hdns_file.obj
+ 0003:00000fa8       $SG36996                   1001efa8     hdns_file.obj
+ 0003:00001074       $SG36941                   1001f074     hdns_http.obj
+ 0003:00001094       $SG36955                   1001f094     hdns_http.obj
+ 0003:000010a0       $SG36956                   1001f0a0     hdns_http.obj
+ 0003:000010dc       $SG36754                   1001f0dc     hdns_log.obj
+ 0003:000010e4       $SG36755                   1001f0e4     hdns_log.obj
+ 0003:000010ec       $SG36756                   1001f0ec     hdns_log.obj
+ 0003:000010f4       $SG36757                   1001f0f4     hdns_log.obj
+ 0003:000010fc       $SG36758                   1001f0fc     hdns_log.obj
+ 0003:00001104       $SG36759                   1001f104     hdns_log.obj
+ 0003:0000110c       _level_strings             1001f10c     hdns_log.obj
+ 0003:00001124       $SG36781                   1001f124     hdns_log.obj
+ 0003:00001128       $SG36805                   1001f128     hdns_log.obj
+ 0003:0000117c       $SG42877                   1001f17c     hdns_net.obj
+ 0003:00001190       $SG42878                   1001f190     hdns_net.obj
+ 0003:000011ac       $SG42879                   1001f1ac     hdns_net.obj
+ 0003:000011e4       $SG42884                   1001f1e4     hdns_net.obj
+ 0003:000011f8       $SG42885                   1001f1f8     hdns_net.obj
+ 0003:00001214       $SG42886                   1001f214     hdns_net.obj
+ 0003:0000124c       $SG42888                   1001f24c     hdns_net.obj
+ 0003:00001270       $SG42889                   1001f270     hdns_net.obj
+ 0003:0000128c       $SG42890                   1001f28c     hdns_net.obj
+ 0003:000012c4       $SG42956                   1001f2c4     hdns_net.obj
+ 0003:000012d8       $SG42957                   1001f2d8     hdns_net.obj
+ 0003:000012f4       $SG42958                   1001f2f4     hdns_net.obj
+ 0003:0000132c       $SG42960                   1001f32c     hdns_net.obj
+ 0003:00001358       $SG42961                   1001f358     hdns_net.obj
+ 0003:00001374       $SG42962                   1001f374     hdns_net.obj
+ 0003:000013ac       $SG42999                   1001f3ac     hdns_net.obj
+ 0003:000013ec       $SG43000                   1001f3ec     hdns_net.obj
+ 0003:00001404       $SG43001                   1001f404     hdns_net.obj
+ 0003:0000143c       $SG43006                   1001f43c     hdns_net.obj
+ 0003:0000145c       $SG43007                   1001f45c     hdns_net.obj
+ 0003:00001474       $SG43008                   1001f474     hdns_net.obj
+ 0003:000014ac       $SG43011                   1001f4ac     hdns_net.obj
+ 0003:000014cc       $SG43012                   1001f4cc     hdns_net.obj
+ 0003:000014e4       $SG43013                   1001f4e4     hdns_net.obj
+ 0003:0000151c       $SG43018                   1001f51c     hdns_net.obj
+ 0003:00001540       $SG43019                   1001f540     hdns_net.obj
+ 0003:00001554       $SG43020                   1001f554     hdns_net.obj
+ 0003:0000158c       $SG43021                   1001f58c     hdns_net.obj
+ 0003:0000159c       $SG43024                   1001f59c     hdns_net.obj
+ 0003:000015c0       $SG43025                   1001f5c0     hdns_net.obj
+ 0003:000015d4       $SG43026                   1001f5d4     hdns_net.obj
+ 0003:0000160c       $SG43028                   1001f60c     hdns_net.obj
+ 0003:00001628       $SG43029                   1001f628     hdns_net.obj
+ 0003:0000163c       $SG43030                   1001f63c     hdns_net.obj
+ 0003:00001674       $SG43071                   1001f674     hdns_net.obj
+ 0003:000016b0       $SG43072                   1001f6b0     hdns_net.obj
+ 0003:000016c4       $SG43073                   1001f6c4     hdns_net.obj
+ 0003:000016fc       $SG43076                   1001f6fc     hdns_net.obj
+ 0003:00001738       $SG43077                   1001f738     hdns_net.obj
+ 0003:0000174c       $SG43078                   1001f74c     hdns_net.obj
+ 0003:00001784       $SG43081                   1001f784     hdns_net.obj
+ 0003:000017a0       $SG43082                   1001f7a0     hdns_net.obj
+ 0003:000017b4       $SG43083                   1001f7b4     hdns_net.obj
+ 0003:000017ec       $SG43127                   1001f7ec     hdns_net.obj
+ 0003:00001800       $SG43128                   1001f800     hdns_net.obj
+ 0003:00001814       $SG43129                   1001f814     hdns_net.obj
+ 0003:0000184c       $SG43132                   1001f84c     hdns_net.obj
+ 0003:00001870       $SG43133                   1001f870     hdns_net.obj
+ 0003:00001884       $SG43134                   1001f884     hdns_net.obj
+ 0003:000018bc       $SG43137                   1001f8bc     hdns_net.obj
+ 0003:000018e0       $SG43138                   1001f8e0     hdns_net.obj
+ 0003:000018f4       $SG43139                   1001f8f4     hdns_net.obj
+ 0003:00001ab8       $SG37577                   1001fab8     hdns_resolver.obj
+ 0003:00001abc       $SG37579                   1001fabc     hdns_resolver.obj
+ 0003:00001ac0       $SG37581                   1001fac0     hdns_resolver.obj
+ 0003:00001ac4       $SG37627                   1001fac4     hdns_resolver.obj
+ 0003:00001acc       $SG37629                   1001facc     hdns_resolver.obj
+ 0003:00001ad4       $SG37631                   1001fad4     hdns_resolver.obj
+ 0003:00001adc       $SG37633                   1001fadc     hdns_resolver.obj
+ 0003:00001ae4       $SG37635                   1001fae4     hdns_resolver.obj
+ 0003:00001aec       $SG37672                   1001faec     hdns_resolver.obj
+ 0003:00001af4       $SG37674                   1001faf4     hdns_resolver.obj
+ 0003:00001b00       $SG37676                   1001fb00     hdns_resolver.obj
+ 0003:00001b04       $SG37678                   1001fb04     hdns_resolver.obj
+ 0003:00001b10       $SG37680                   1001fb10     hdns_resolver.obj
+ 0003:00001b18       $SG37684                   1001fb18     hdns_resolver.obj
+ 0003:00001b1c       $SG37685                   1001fb1c     hdns_resolver.obj
+ 0003:00001b24       $SG37687                   1001fb24     hdns_resolver.obj
+ 0003:00001b28       $SG37688                   1001fb28     hdns_resolver.obj
+ 0003:00001b30       $SG37690                   1001fb30     hdns_resolver.obj
+ 0003:00001b34       $SG37691                   1001fb34     hdns_resolver.obj
+ 0003:00001b3c       $SG37694                   1001fb3c     hdns_resolver.obj
+ 0003:00001b44       $SG37705                   1001fb44     hdns_resolver.obj
+ 0003:00001b70       $SG37706                   1001fb70     hdns_resolver.obj
+ 0003:00001b88       $SG37707                   1001fb88     hdns_resolver.obj
+ 0003:00001bc8       $SG37710                   1001fbc8     hdns_resolver.obj
+ 0003:00001bfc       $SG37711                   1001fbfc     hdns_resolver.obj
+ 0003:00001c14       $SG37712                   1001fc14     hdns_resolver.obj
+ 0003:00001c54       $SG37731                   1001fc54     hdns_resolver.obj
+ 0003:00001c80       $SG37732                   1001fc80     hdns_resolver.obj
+ 0003:00001c98       $SG37733                   1001fc98     hdns_resolver.obj
+ 0003:00001cd8       $SG37736                   1001fcd8     hdns_resolver.obj
+ 0003:00001d0c       $SG37737                   1001fd0c     hdns_resolver.obj
+ 0003:00001d24       $SG37738                   1001fd24     hdns_resolver.obj
+ 0003:00001d64       $SG37739                   1001fd64     hdns_resolver.obj
+ 0003:00001d68       $SG37743                   1001fd68     hdns_resolver.obj
+ 0003:00001d90       $SG37744                   1001fd90     hdns_resolver.obj
+ 0003:00001da8       $SG37745                   1001fda8     hdns_resolver.obj
+ 0003:00001de8       $SG37758                   1001fde8     hdns_resolver.obj
+ 0003:00001df4       $SG37759                   1001fdf4     hdns_resolver.obj
+ 0003:00001dfc       $SG37760                   1001fdfc     hdns_resolver.obj
+ 0003:00001e0c       $SG37761                   1001fe0c     hdns_resolver.obj
+ 0003:00001e18       $SG37762                   1001fe18     hdns_resolver.obj
+ 0003:00001e20       $SG37763                   1001fe20     hdns_resolver.obj
+ 0003:00001e24       $SG37764                   1001fe24     hdns_resolver.obj
+ 0003:00001e28       $SG37765                   1001fe28     hdns_resolver.obj
+ 0003:00001e30       $SG37766                   1001fe30     hdns_resolver.obj
+ 0003:00001e38       $SG37767                   1001fe38     hdns_resolver.obj
+ 0003:00001e40       $SG37768                   1001fe40     hdns_resolver.obj
+ 0003:00001e4c       $SG37769                   1001fe4c     hdns_resolver.obj
+ 0003:00001e70       $SG37770                   1001fe70     hdns_resolver.obj
+ 0003:00001e7c       $SG37771                   1001fe7c     hdns_resolver.obj
+ 0003:00001e80       $SG37773                   1001fe80     hdns_resolver.obj
+ 0003:00001e84       $SG37774                   1001fe84     hdns_resolver.obj
+ 0003:00001e88       $SG37776                   1001fe88     hdns_resolver.obj
+ 0003:00001e8c       $SG37827                   1001fe8c     hdns_resolver.obj
+ 0003:00001e98       $SG37830                   1001fe98     hdns_resolver.obj
+ 0003:00001eac       $SG37833                   1001feac     hdns_resolver.obj
+ 0003:00001ed0       $SG37836                   1001fed0     hdns_resolver.obj
+ 0003:00001ee0       $SG37838                   1001fee0     hdns_resolver.obj
+ 0003:00001ef8       $SG37883                   1001fef8     hdns_resolver.obj
+ 0003:00001f0c       $SG37887                   1001ff0c     hdns_resolver.obj
+ 0003:00001f10       $SG37889                   1001ff10     hdns_resolver.obj
+ 0003:00001f14       $SG37890                   1001ff14     hdns_resolver.obj
+ 0003:00001f18       $SG37893                   1001ff18     hdns_resolver.obj
+ 0003:00001f1c       $SG37894                   1001ff1c     hdns_resolver.obj
+ 0003:00001f20       $SG37895                   1001ff20     hdns_resolver.obj
+ 0003:00001f24       $SG37896                   1001ff24     hdns_resolver.obj
+ 0003:00001f28       $SG37897                   1001ff28     hdns_resolver.obj
+ 0003:00001f2c       $SG37898                   1001ff2c     hdns_resolver.obj
+ 0003:00001f34       $SG37899                   1001ff34     hdns_resolver.obj
+ 0003:00001f3c       $SG37900                   1001ff3c     hdns_resolver.obj
+ 0003:00001f4c       $SG37901                   1001ff4c     hdns_resolver.obj
+ 0003:00001f50       $SG37902                   1001ff50     hdns_resolver.obj
+ 0003:00001f58       $SG37903                   1001ff58     hdns_resolver.obj
+ 0003:00001f5c       $SG37904                   1001ff5c     hdns_resolver.obj
+ 0003:00001f68       $SG37905                   1001ff68     hdns_resolver.obj
+ 0003:00001f6c       $SG37906                   1001ff6c     hdns_resolver.obj
+ 0003:00001f74       $SG37907                   1001ff74     hdns_resolver.obj
+ 0003:00001f78       $SG37909                   1001ff78     hdns_resolver.obj
+ 0003:00001f84       $SG37911                   1001ff84     hdns_resolver.obj
+ 0003:00001f8c       $SG37912                   1001ff8c     hdns_resolver.obj
+ 0003:00001f90       $SG37913                   1001ff90     hdns_resolver.obj
+ 0003:00001f98       $SG37914                   1001ff98     hdns_resolver.obj
+ 0003:00001fa0       $SG37915                   1001ffa0     hdns_resolver.obj
+ 0003:00001fa4       $SG37917                   1001ffa4     hdns_resolver.obj
+ 0003:00001fb0       $SG37919                   1001ffb0     hdns_resolver.obj
+ 0003:000020d0       $SG37569                   100200d0     hdns_scheduler.obj
+ 0003:00002100       $SG37570                   10020100     hdns_scheduler.obj
+ 0003:00002120       $SG37571                   10020120     hdns_scheduler.obj
+ 0003:00002160       $SG37574                   10020160     hdns_scheduler.obj
+ 0003:00002198       $SG37575                   10020198     hdns_scheduler.obj
+ 0003:000021b8       $SG37576                   100201b8     hdns_scheduler.obj
+ 0003:000021f8       $SG37577                   100201f8     hdns_scheduler.obj
+ 0003:00002204       $SG37579                   10020204     hdns_scheduler.obj
+ 0003:00002214       $SG37600                   10020214     hdns_scheduler.obj
+ 0003:00002248       $SG37601                   10020248     hdns_scheduler.obj
+ 0003:00002260       $SG37602                   10020260     hdns_scheduler.obj
+ 0003:000022a0       $SG37620                   100202a0     hdns_scheduler.obj
+ 0003:000022d4       $SG37621                   100202d4     hdns_scheduler.obj
+ 0003:000022f0       $SG37622                   100202f0     hdns_scheduler.obj
+ 0003:00002330       $SG37626                   10020330     hdns_scheduler.obj
+ 0003:0000237c       $SG37627                   1002037c     hdns_scheduler.obj
+ 0003:00002398       $SG37628                   10020398     hdns_scheduler.obj
+ 0003:000023d8       $SG37632                   100203d8     hdns_scheduler.obj
+ 0003:00002424       $SG37633                   10020424     hdns_scheduler.obj
+ 0003:00002440       $SG37634                   10020440     hdns_scheduler.obj
+ 0003:00002480       $SG37643                   10020480     hdns_scheduler.obj
+ 0003:00002488       $SG37671                   10020488     hdns_scheduler.obj
+ 0003:00002490       $SG37672                   10020490     hdns_scheduler.obj
+ 0003:00002494       $SG37673                   10020494     hdns_scheduler.obj
+ 0003:00002498       $SG37674                   10020498     hdns_scheduler.obj
+ 0003:000024a0       $SG37675                   100204a0     hdns_scheduler.obj
+ 0003:000024a8       $SG37676                   100204a8     hdns_scheduler.obj
+ 0003:000024b4       $SG37677                   100204b4     hdns_scheduler.obj
+ 0003:000024d8       $SG37678                   100204d8     hdns_scheduler.obj
+ 0003:000024e4       $SG37679                   100204e4     hdns_scheduler.obj
+ 0003:000024e8       $SG37681                   100204e8     hdns_scheduler.obj
+ 0003:000024ec       $SG37682                   100204ec     hdns_scheduler.obj
+ 0003:000024f0       $SG37683                   100204f0     hdns_scheduler.obj
+ 0003:000024f4       $SG37699                   100204f4     hdns_scheduler.obj
+ 0003:00002520       $SG37700                   10020520     hdns_scheduler.obj
+ 0003:00002538       $SG37701                   10020538     hdns_scheduler.obj
+ 0003:00002578       $SG37703                   10020578     hdns_scheduler.obj
+ 0003:00002590       $SG37704                   10020590     hdns_scheduler.obj
+ 0003:000025a8       $SG37705                   100205a8     hdns_scheduler.obj
+ 0003:000025e8       $SG37717                   100205e8     hdns_scheduler.obj
+ 0003:000025fc       $SG37739                   100205fc     hdns_scheduler.obj
+ 0003:00002618       $SG37742                   10020618     hdns_scheduler.obj
+ 0003:0000262c       $SG37744                   1002062c     hdns_scheduler.obj
+ 0003:00002650       $SG37745                   10020650     hdns_scheduler.obj
+ 0003:00002674       $SG37746                   10020674     hdns_scheduler.obj
+ 0003:000026b4       $SG37751                   100206b4     hdns_scheduler.obj
+ 0003:000026e0       $SG37752                   100206e0     hdns_scheduler.obj
+ 0003:00002704       $SG37753                   10020704     hdns_scheduler.obj
+ 0003:00002748       $SG37755                   10020748     hdns_scheduler.obj
+ 0003:0000278c       $SG37756                   1002078c     hdns_scheduler.obj
+ 0003:000027b0       $SG37757                   100207b0     hdns_scheduler.obj
+ 0003:000027f0       $SG37772                   100207f0     hdns_scheduler.obj
+ 0003:00002804       $SG37773                   10020804     hdns_scheduler.obj
+ 0003:00002818       $SG37774                   10020818     hdns_scheduler.obj
+ 0003:00002858       $SG37780                   10020858     hdns_scheduler.obj
+ 0003:0000285c       $SG37782                   1002085c     hdns_scheduler.obj
+ 0003:00002888       $SG37783                   10020888     hdns_scheduler.obj
+ 0003:0000289c       $SG37784                   1002089c     hdns_scheduler.obj
+ 0003:000028e0       $SG37795                   100208e0     hdns_scheduler.obj
+ 0003:00002924       $SG37796                   10020924     hdns_scheduler.obj
+ 0003:0000293c       $SG37797                   1002093c     hdns_scheduler.obj
+ 0003:00002b38       $SG36775                   10020b38     hdns_session.obj
+ 0003:00002b60       $SG36776                   10020b60     hdns_session.obj
+ 0003:00002b78       $SG36777                   10020b78     hdns_session.obj
+ 0003:00002bb4       $SG36780                   10020bb4     hdns_session.obj
+ 0003:00002bdc       $SG36781                   10020bdc     hdns_session.obj
+ 0003:00002bf4       $SG36782                   10020bf4     hdns_session.obj
+ 0003:00002c30       $SG36785                   10020c30     hdns_session.obj
+ 0003:00002c60       $SG36786                   10020c60     hdns_session.obj
+ 0003:00002c78       $SG36787                   10020c78     hdns_session.obj
+ 0003:00002d00       $SG36808                   10020d00     hdns_sign.obj
+ 0003:00002d08       $SG36809                   10020d08     hdns_sign.obj
+ 0003:00002d0c       $SG36810                   10020d0c     hdns_sign.obj
+ 0003:00002d10       $SG36812                   10020d10     hdns_sign.obj
+ 0003:00002d3c       $SG36813                   10020d3c     hdns_sign.obj
+ 0003:00002d50       $SG36814                   10020d50     hdns_sign.obj
+ 0003:00002da4       $SG37157                   10020da4     hdns_transport.obj
+ 0003:00002db8       $SG37103                   10020db8     hdns_transport.obj
+ 0003:00002dd0       $SG37104                   10020dd0     hdns_transport.obj
+ 0003:00002dec       $SG37105                   10020dec     hdns_transport.obj
+ 0003:00002e2c       $SG37108                   10020e2c     hdns_transport.obj
+ 0003:00002e4c       $SG37109                   10020e4c     hdns_transport.obj
+ 0003:00002e68       $SG37110                   10020e68     hdns_transport.obj
+ 0003:00002ea8       $SG37113                   10020ea8     hdns_transport.obj
+ 0003:00002ec8       $SG37114                   10020ec8     hdns_transport.obj
+ 0003:00002ee4       $SG37115                   10020ee4     hdns_transport.obj
+ 0003:00002f24       $SG37127                   10020f24     hdns_transport.obj
+ 0003:00002f2c       $SG37142                   10020f2c     hdns_transport.obj
+ 0003:00002f44       $SG37143                   10020f44     hdns_transport.obj
+ 0003:00002f4c       ?hex@?1??hdns_url_encode@@9@9 10020f4c     hdns_transport.obj
+ 0003:00002f50       $SG37186                   10020f50     hdns_transport.obj
+ 0003:00002f74       $SG37187                   10020f74     hdns_transport.obj
+ 0003:00002f90       $SG37188                   10020f90     hdns_transport.obj
+ 0003:00002fd0       $SG37189                   10020fd0     hdns_transport.obj
+ 0003:00002fd8       $SG37193                   10020fd8     hdns_transport.obj
+ 0003:00002ffc       $SG37194                   10020ffc     hdns_transport.obj
+ 0003:00003018       $SG37195                   10021018     hdns_transport.obj
+ 0003:00003058       $SG37196                   10021058     hdns_transport.obj
+ 0003:0000305c       $SG37199                   1002105c     hdns_transport.obj
+ 0003:0000307c       $SG37200                   1002107c     hdns_transport.obj
+ 0003:00003098       $SG37201                   10021098     hdns_transport.obj
+ 0003:000030d8       $SG37214                   100210d8     hdns_transport.obj
+ 0003:000030f0       $SG37216                   100210f0     hdns_transport.obj
+ 0003:00003110       $SG37220                   10021110     hdns_transport.obj
+ 0003:0000311c       $SG37222                   1002111c     hdns_transport.obj
+ 0003:00003120       $SG37223                   10021120     hdns_transport.obj
+ 0003:00003124       $SG37226                   10021124     hdns_transport.obj
+ 0003:0000312c       $SG37227                   1002112c     hdns_transport.obj
+ 0003:00003138       $SG37229                   10021138     hdns_transport.obj
+ 0003:00003140       $SG37230                   10021140     hdns_transport.obj
+ 0003:00003154       $SG37231                   10021154     hdns_transport.obj
+ 0003:00003194       $SG37286                   10021194     hdns_transport.obj
+ 0003:000031a4       $SG37287                   100211a4     hdns_transport.obj
+ 0003:000031c8       $SG37288                   100211c8     hdns_transport.obj
+ 0003:00003208       $SG37291                   10021208     hdns_transport.obj
+ 0003:00003224       $SG37292                   10021224     hdns_transport.obj
+ 0003:00003248       $SG37293                   10021248     hdns_transport.obj
+ 0003:00003288       $SG37297                   10021288     hdns_transport.obj
+ 0003:000032bc       $SG37298                   100212bc     hdns_transport.obj
+ 0003:000032e0       $SG37299                   100212e0     hdns_transport.obj
+ 0003:00003320       $SG37312                   10021320     hdns_transport.obj
+ 0003:00003338       $SG37313                   10021338     hdns_transport.obj
+ 0003:0000335c       $SG37314                   1002135c     hdns_transport.obj
+ 0003:0000339c       $SG37317                   1002139c     hdns_transport.obj
+ 0003:000033b8       $SG37318                   100213b8     hdns_transport.obj
+ 0003:000033dc       $SG37319                   100213dc     hdns_transport.obj
+ 0003:0000341c       $SG37320                   1002141c     hdns_transport.obj
+ 0003:00003430       $SG37332                   10021430     hdns_transport.obj
+ 0003:00003448       $SG37333                   10021448     hdns_transport.obj
+ 0003:00003468       $SG37334                   10021468     hdns_transport.obj
+ 0003:000034a8       $SG37337                   100214a8     hdns_transport.obj
+ 0003:000034c0       $SG37338                   100214c0     hdns_transport.obj
+ 0003:000034e0       $SG37339                   100214e0     hdns_transport.obj
+ 0003:00003520       $SG37340                   10021520     hdns_transport.obj
+ 0003:00003534       $SG37366                   10021534     hdns_transport.obj
+ 0003:00003564       $SG37367                   10021564     hdns_transport.obj
+ 0003:00003580       $SG37368                   10021580     hdns_transport.obj
+ 0003:000035c0       $SG37372                   100215c0     hdns_transport.obj
+ 0003:000035f0       $SG37373                   100215f0     hdns_transport.obj
+ 0003:0000360c       $SG37374                   1002160c     hdns_transport.obj
+ 0003:0000364c       $SG37394                   1002164c     hdns_transport.obj
+ 0003:00003658       $SG37407                   10021658     hdns_transport.obj
+ 0003:00003660       $SG37418                   10021660     hdns_transport.obj
+ 0003:00003688       $SG37419                   10021688     hdns_transport.obj
+ 0003:000036a4       $SG37420                   100216a4     hdns_transport.obj
+ 0003:000038bc       $SG36844                   100218bc     hdns_utils.obj
+ 0003:000038c8       $SG36848                   100218c8     hdns_utils.obj
+ 0003:000038f0       $SG36849                   100218f0     hdns_utils.obj
+ 0003:00003908       $SG36850                   10021908     hdns_utils.obj
+ 0003:00003944       $SG36851                   10021944     hdns_utils.obj
+ 0003:0000394c       $SG36873                   1002194c     hdns_utils.obj
+ 0003:00003980       _global_hooks              10021980     cjson:cJSON.c.obj
+ 0003:00003b68       _g_hdns_api_pool           10021b68     hdns_api.obj
+ 0003:00003b6c       _g_hdns_api_thread_pool    10021b6c     hdns_api.obj
+ 0003:00003b70       _g_hdns_api_initialized    10021b70     hdns_api.obj
+ 0003:00003b74       _g_hdns_net_detector       10021b74     hdns_api.obj
+ 0003:00003b85       $SG37908                   10021b85     hdns_resolver.obj
+ 0003:00003b86       $SG37910                   10021b86     hdns_resolver.obj
+ 0003:00003b87       $SG37916                   10021b87     hdns_resolver.obj
+ 0003:00003b88       $SG37918                   10021b88     hdns_resolver.obj
+ 0003:00003b90       _g_hdns_session_stack_mutex 10021b90     hdns_session.obj
+ 0003:00003b94       _g_hdns_session_stack_size 10021b94     hdns_session.obj
+ 0003:00003b98       _g_hdns_session_stack      10021b98     hdns_session.obj
+ 0003:00003c18       _g_hdns_session_pool       10021c18     hdns_session.obj
+ 0003:00003c1c       _g_hdns_session_initialized 10021c1c     hdns_session.obj
+ 0003:00003c3c       _global_error              10021c3c     cjson:cJSON.c.obj
+ 0003:00003c44       ?version@?1??cJSON_Version@@9@9 10021c44     cjson:cJSON.c.obj
+ 0003:00003c58       _GS_ExceptionRecord        10021c58     MSVCRT:gs_report.obj
+ 0003:00003ca8       _GS_ContextRecord          10021ca8     MSVCRT:gs_report.obj
+ 0003:00004014       ?__proc_attached@@3HA      10022014     MSVCRT:dll_dllmain.obj
+ 0003:0000404c       ?is_initialized_as_dll@@3_NA 1002204c     MSVCRT:utility.obj
+ 0003:0000404d       ?module_local_atexit_table_initialized@@3_NA 1002204d     MSVCRT:utility.obj
+ 0003:00004050       ?module_local_atexit_table@@3U_onexit_table_t@@A 10022050     MSVCRT:utility.obj
+ 0003:0000405c       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 1002205c     MSVCRT:utility.obj
+ 0004:000010fe       .idata$6                   100240fe     libapr:libapr.dll
+ 0004:00001204       .idata$6                   10024204     libaprutil:libaprutil.dll
+ 0004:000012f2       .idata$6                   100242f2     libcurl.dll:libcurl.dll
+ 0004:00001334       .idata$6                   10024334     ws2_32:WS2_32.dll
+ 0004:000013c2       .idata$6                   100243c2     vcruntime:VCRUNTIME140.dll
+ 0004:000015c4       .idata$6                   100245c4     ucrt:api-ms-win-crt-utility-l1-1-0.dll
+ 0004:000015e6       .idata$6                   100245e6     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:00001608       .idata$6                   10024608     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0004:00001628       .idata$6                   10024628     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0004:00001648       .idata$6                   10024648     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00001668       .idata$6                   10024668     ucrt:api-ms-win-crt-convert-l1-1-0.dll
+ 0004:0000168a       .idata$6                   1002468a     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0004:000016ac       .idata$6                   100246ac     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0004:000016cc       .idata$6                   100246cc     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00001838       .idata$6                   10024838     kernel32:KERNEL32.dll
+ 0006:000001c0       $R000000                   100261c0     Resource.res
+ 0006:000004a0       $R0002E0                   100264a0     Resource.res

@@ -1,0 +1,981 @@
+ CommFunc
+
+ Timestamp is 6711ba07 (Fri Oct 18 09:29:43 2024)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001dc0H .text$di                CODE
+ 0001:00001dc0 00006950H .text$mn                CODE
+ 0001:00008710 00001550H .text$x                 CODE
+ 0001:00009c60 0000107dH .text$yd                CODE
+ 0002:00000000 00000104H .CRT$XCA                DATA
+ 0002:00000104 00000114H .CRT$XCU                DATA
+ 0002:00000218 00000104H .CRT$XCZ                DATA
+ 0002:0000031c 00000104H .CRT$XIA                DATA
+ 0002:00000420 00000104H .CRT$XIZ                DATA
+ 0002:00000524 00000104H .CRT$XPA                DATA
+ 0002:00000628 00000104H .CRT$XPZ                DATA
+ 0002:0000072c 00000104H .CRT$XTA                DATA
+ 0002:00000830 00000108H .CRT$XTZ                DATA
+ 0002:00000938 00000388H .rdata                  DATA
+ 0002:00000cc0 00000180H .rdata$CastGuardVftablesA DATA
+ 0002:00000e40 0000014cH .rdata$CastGuardVftablesC DATA
+ 0002:00000f8c 00000274H .rdata$r                DATA
+ 0002:00001200 00000160H .rdata$sxdata           DATA
+ 0002:00001360 0000018cH .rdata$zzzdbg           DATA
+ 0002:000014ec 00000104H .rtc$IAA                DATA
+ 0002:000015f0 00000104H .rtc$IZZ                DATA
+ 0002:000016f4 00000104H .rtc$TAA                DATA
+ 0002:000017f8 00000108H .rtc$TZZ                DATA
+ 0002:00001900 00000930H .xdata$x                DATA
+ 0002:00002230 0000028aH .edata                  DATA
+ 0003:00000000 000001c8H .data                   DATA
+ 0003:000001c8 00000178H .data$r                 DATA
+ 0003:00000340 00000120H .data$rs                DATA
+ 0003:00000460 00000458H .bss                    DATA
+ 0004:00000000 00000358H .idata$5                DATA
+ 0004:00000358 000000a0H .idata$2                DATA
+ 0004:000003f8 00000014H .idata$3                DATA
+ 0004:0000040c 00000358H .idata$4                DATA
+ 0004:00000764 0000106aH .idata$6                DATA
+ 0005:00000000 0000010eH .00cfg                  DATA
+ 0006:00000000 00000170H .rsrc$01                DATA
+ 0006:00000170 00000400H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___AbsoluteZero            00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table  00000000     <absolute>
+ 0000:00000000       ___arm64x_extra_rfe_table_size 00000000     <absolute>
+ 0000:00000000       ___arm64x_native_entrypoint 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata 00000000     <absolute>
+ 0000:00000000       ___arm64x_redirection_metadata_count 00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000000       ___enclave_config          00000000     <absolute>
+ 0000:00000000       ___guard_check_icall_a64n_fptr 00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_count     00000000     <absolute>
+ 0000:00000000       ___guard_eh_cont_table     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_delayload_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat    00000000     <absolute>
+ 0000:00000000       ___hybrid_auxiliary_iat_copy 00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map         00000000     <absolute>
+ 0000:00000000       ___hybrid_code_map_count   00000000     <absolute>
+ 0000:00000000       ___hybrid_image_info_bitfield 00000000     <absolute>
+ 0000:00000000       ___volatile_metadata       00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points 00000000     <absolute>
+ 0000:00000000       ___x64_code_ranges_to_entry_points_count 00000000     <absolute>
+ 0000:00000014       ___safe_se_handler_count   00000014     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               10000000     <linker-defined>
+ 0001:00001dc0       ?HttpDnsSetup@@YA_N_N@Z    10002dc0 f   HttpDns.obj
+ 0001:00001e20       ?HttpDnsCleanup@@YAXXZ     10002e20 f   HttpDns.obj
+ 0001:00001e40       ?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z 10002e40 f   HttpDns.obj
+ 0001:000021c0       ?Resolve@@YA?AVQUrl@@V1@@Z 100031c0 f   HttpDns.obj
+ 0001:00002480       ?HttpDnsResolved@@YA_NVQUrl@@@Z 10003480 f   HttpDns.obj
+ 0001:000025a0       ?HttpDnsResolved@@YA_NXZ   100035a0 f   HttpDns.obj
+ 0001:00002850       ??$?0$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z 10003850 f i HttpDns.obj
+ 0001:00002880       ??$?0AAPAUHttpDns@@@?$_Compressed_pair@U?$default_delete@UHttpDns@@@std@@PAUHttpDns@@$00@std@@QAE@U_Zero_then_variadic_args_t@1@AAPAUHttpDns@@@Z 10003880 f i HttpDns.obj
+ 0001:000028b0       ??$?0U?$default_delete@UHttpDns@@@std@@$0A@@?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAE@$$QAV01@@Z 100038b0 f i HttpDns.obj
+ 0001:00002910       ??$?0U?$default_delete@UHttpDns@@@std@@$0A@@?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAE@PAUHttpDns@@@Z 10003910 f i HttpDns.obj
+ 0001:00002940       ??$?0U?$default_delete@UHttpDns@@@std@@PAUHttpDns@@@?$_Compressed_pair@U?$default_delete@UHttpDns@@@std@@PAUHttpDns@@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$default_delete@UHttpDns@@@1@$$QAPAUHttpDns@@@Z 10003940 f i HttpDns.obj
+ 0001:00002980       ??$?0V?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAV?$allocator@D@1@@Z 10003980 f i HttpDns.obj
+ 0001:000029b0       ??$?4U?$default_delete@UHttpDns@@@std@@$0A@@?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAEAAV01@$$QAV01@@Z 100039b0 f i HttpDns.obj
+ 0001:00002a00       ??$_Allocate@$07U_Default_allocate_traits@std@@@std@@YAPAXI@Z 10003a00 f i HttpDns.obj
+ 0001:00002a40       ??$_Allocate_at_least_helper@V?$allocator@D@std@@@std@@YAPADAAV?$allocator@D@0@AAI@Z 10003a40 f i HttpDns.obj
+ 0001:00002a60       ??$_Allocate_for_capacity@$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAPADAAV?$allocator@D@1@AAI@Z 10003a60 f i HttpDns.obj
+ 0001:00002ab0       ??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z 10003ab0 f i HttpDns.obj
+ 0001:00002b30       ??$_Atomic_address_as@HU?$_Atomic_padded@H@std@@@std@@YAPDHABU?$_Atomic_padded@H@0@@Z 10003b30 f i HttpDns.obj
+ 0001:00002b40       ??$_Atomic_address_as@JU?$_Atomic_padded@H@std@@@std@@YAPCJAAU?$_Atomic_padded@H@0@@Z 10003b40 f i HttpDns.obj
+ 0001:00002b50       ??$_Construct@$00PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 10003b50 f i HttpDns.obj
+ 0001:00002cd0       ??$_Construct@$01PBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXQBDI@Z 10003cd0 f i HttpDns.obj
+ 0001:00002e10       ??$_Construct_in_place@PADABQAD@std@@YAXAAPADABQAD@Z 10003e10 f i HttpDns.obj
+ 0001:00002e60       ??$_Convert_size@II@std@@YAII@Z 10003e60 f i HttpDns.obj
+ 0001:00002e70       ??$_Deallocate@$07@std@@YAXPAXI@Z 10003e70 f i HttpDns.obj
+ 0001:00002ef0       ??$_Destroy_in_place@PAD@std@@YAXAAPAD@Z 10003ef0 f i HttpDns.obj
+ 0001:00002f00       ??$_Get_size_of_n@$00@std@@YAII@Z 10003f00 f i HttpDns.obj
+ 0001:00002f20       ??$_Max_limit@H@std@@YAHXZ 10003f20 f i HttpDns.obj
+ 0001:00002f40       ??$_Unfancy@D@std@@YAPADPAD@Z 10003f40 f i HttpDns.obj
+ 0001:00002f50       ??$addressof@PAD@std@@YAPAPADAAPAD@Z 10003f50 f i HttpDns.obj
+ 0001:00002f60       ??$callDestructorIfNecessary@VQString@@@QMapNodeBase@@SAXAAVQString@@@Z 10003f60 f i HttpDns.obj
+ 0001:00002f80       ??$deref@H@?$QAtomicOps@H@@SA_NAAU?$atomic@H@std@@@Z 10003f80 f i HttpDns.obj
+ 0001:00002fc0       ??$exchange@PAUHttpDns@@$$T@std@@YAPAUHttpDns@@AAPAU1@$$QA$$T@Z 10003fc0 f i HttpDns.obj
+ 0001:00002ff0       ??$exchange@PAUHttpDns@@AAPAU1@@std@@YAPAUHttpDns@@AAPAU1@0@Z 10003ff0 f i HttpDns.obj
+ 0001:00003020       ??$forward@AAPAUHttpDns@@@std@@YAAAPAUHttpDns@@AAPAU1@@Z 10004020 f i HttpDns.obj
+ 0001:00003030       ??$forward@ABQAD@std@@YAABQADABQAD@Z 10004030 f i HttpDns.obj
+ 0001:00003040       ??$forward@PAUHttpDns@@@std@@YA$$QAPAUHttpDns@@AAPAU1@@Z 10004040 f i HttpDns.obj
+ 0001:00003050       ??$forward@U?$default_delete@UHttpDns@@@std@@@std@@YA$$QAU?$default_delete@UHttpDns@@@0@AAU10@@Z 10004050 f i HttpDns.obj
+ 0001:00003060       ??$forward@V?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z 10004060 f i HttpDns.obj
+ 0001:00003070       ??$loadRelaxed@H@?$QAtomicOps@H@@SAHABU?$atomic@H@std@@@Z 10004070 f i HttpDns.obj
+ 0001:00003090       ??$make_unique@UHttpDns@@$$V$0A@@std@@YA?AV?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@0@XZ 10004090 f i HttpDns.obj
+ 0001:00003160       ??$max@I@std@@YAABIABI0@Z  10004160 f i HttpDns.obj
+ 0001:000031a0       ??$min@I@std@@YAABIABI0@Z  100041a0 f i HttpDns.obj
+ 0001:000031e0       ??$move@AAV?$QList@VQString@@@@@std@@YA$$QAV?$QList@VQString@@@@AAV1@@Z 100041e0 f i HttpDns.obj
+ 0001:000031f0       ??$qMapLessThanKey@VQString@@@@YA_NABVQString@@0@Z 100041f0 f i HttpDns.obj
+ 0001:00003210       ??0?$QFlags@W4ComponentFormattingOption@QUrl@@@@QAE@W4ComponentFormattingOption@QUrl@@@Z 10004210 f i HttpDns.obj
+ 0001:00003230       ??0?$QList@VQString@@@@QAE@$$QAV0@@Z 10004230 f i HttpDns.obj
+ 0001:00003260       ??0?$QList@VQString@@@@QAE@XZ 10004260 f i HttpDns.obj
+ 0001:00003280       ??0?$QMap@VQString@@V1@@@QAE@XZ 10004280 f i HttpDns.obj
+ 0001:000032a0       ??0?$QUrlTwoFlags@W4UrlFormattingOption@QUrl@@W4ComponentFormattingOption@2@@@QAE@W4ComponentFormattingOption@QUrl@@@Z 100042a0 f i HttpDns.obj
+ 0001:000032c0       ??0?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 100042c0 f i HttpDns.obj
+ 0001:00003300       ??0?$allocator@D@std@@QAE@XZ 10004300 f i HttpDns.obj
+ 0001:00003320       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 10004320 f i HttpDns.obj
+ 0001:000033d0       ??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 100043d0 f i HttpDns.obj
+ 0001:00003470       ??0HttpDns@@QAE@XZ         10004470 f i HttpDns.obj
+ 0001:00003700       ??0QStringList@@QAE@$$QAV?$QList@VQString@@@@@Z 10004700 f i HttpDns.obj
+ 0001:00003730       ??0_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 10004730 f i HttpDns.obj
+ 0001:00003760       ??0_Fake_proxy_ptr_impl@std@@QAE@ABU_Fake_allocator@1@ABU_Container_base0@1@@Z 10004760 f i HttpDns.obj
+ 0001:00003780       ??0bad_alloc@std@@AAE@QBD@Z 10004780 f i HttpDns.obj
+ 0001:000037b0       ??0bad_alloc@std@@QAE@ABV01@@Z 100047b0 f i HttpDns.obj
+ 0001:000037e0       ??0bad_array_new_length@std@@QAE@ABV01@@Z 100047e0 f i HttpDns.obj
+ 0001:00003810       ??0bad_array_new_length@std@@QAE@XZ 10004810 f i HttpDns.obj
+ 0001:00003840       ??0const_iterator@?$QMap@VQString@@V1@@@QAE@PBU?$QMapNode@VQString@@V1@@@@Z 10004840 f i HttpDns.obj
+ 0001:00003860       ??0exception@std@@QAE@ABV01@@Z 10004860 f i HttpDns.obj
+ 0001:000038b0       ??0exception@std@@QAE@QBDH@Z 100048b0 f i HttpDns.obj
+ 0001:000038f0       ??0iterator@?$QMap@VQString@@V1@@@QAE@PAU?$QMapNode@VQString@@V1@@@@Z 100048f0 f i HttpDns.obj
+ 0001:00003910       ??1?$QList@VQString@@@@QAE@XZ 10004910 f i HttpDns.obj
+ 0001:00003980       ??1?$QMap@VQString@@V1@@@QAE@XZ 10004980 f i HttpDns.obj
+ 0001:000039f0       ??1?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@XZ 100049f0 f i HttpDns.obj
+ 0001:00003a10       ??1?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 10004a10 f i HttpDns.obj
+ 0001:00003a30       ??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ 10004a30 f i HttpDns.obj
+ 0001:00003a60       ??1?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAE@XZ 10004a60 f i HttpDns.obj
+ 0001:00003aa0       ??1HttpDns@@QAE@XZ         10004aa0 f i HttpDns.obj
+ 0001:00003ae0       ??1QStringList@@QAE@XZ     10004ae0 f i HttpDns.obj
+ 0001:00003b00       ??1_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QAE@XZ 10004b00 f i HttpDns.obj
+ 0001:00003b10       ??1bad_alloc@std@@UAE@XZ   10004b10 f i HttpDns.obj
+ 0001:00003b30       ??1bad_array_new_length@std@@UAE@XZ 10004b30 f i HttpDns.obj
+ 0001:00003b50       ??1exception@std@@UAE@XZ   10004b50 f i HttpDns.obj
+ 0001:00003b80       ??2@YAPAXIPAX@Z            10004b80 f i HttpDns.obj
+ 0001:00003b90       ??4?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAEAAV01@$$T@Z 10004b90 f i HttpDns.obj
+ 0001:00003bb0       ??9const_iterator@?$QMap@VQString@@V1@@@QBE_NABV01@@Z 10004bb0 f i HttpDns.obj
+ 0001:00003bf0       ??C?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QBEPAUHttpDns@@XZ 10004bf0 f i HttpDns.obj
+ 0001:00003c10       ??Econst_iterator@?$QMap@VQString@@V1@@@QAEAAV01@XZ 10004c10 f i HttpDns.obj
+ 0001:00003c40       ??F?$_Atomic_integral@H$03@std@@QAEHXZ 10004c40 f i HttpDns.obj
+ 0001:00003c70       ??R?$default_delete@UHttpDns@@@std@@QBEXPAUHttpDns@@@Z 10004c70 f i HttpDns.obj
+ 0001:00003cb0       ??_GHttpDns@@QAEPAXI@Z     10004cb0 f i HttpDns.obj
+ 0001:00003cf0       ??_GQString@@QAEPAXI@Z     10004cf0 f i HttpDns.obj
+ 0001:00003d30       ??_Ebad_alloc@std@@UAEPAXI@Z 10004d30 f i HttpDns.obj
+ 0001:00003d30       ??_Gbad_alloc@std@@UAEPAXI@Z 10004d30 f i HttpDns.obj
+ 0001:00003d70       ??_Ebad_array_new_length@std@@UAEPAXI@Z 10004d70 f i HttpDns.obj
+ 0001:00003d70       ??_Gbad_array_new_length@std@@UAEPAXI@Z 10004d70 f i HttpDns.obj
+ 0001:00003db0       ??_Eexception@std@@UAEPAXI@Z 10004db0 f i HttpDns.obj
+ 0001:00003db0       ??_Gexception@std@@UAEPAXI@Z 10004db0 f i HttpDns.obj
+ 0001:00003df0       ?_Adjust_manually_vector_aligned@std@@YAXAAPAXAAI@Z 10004df0 f i HttpDns.obj
+ 0001:00003e70       ?_Allocate@_Default_allocate_traits@std@@SAPAXI@Z 10004e70 f i HttpDns.obj
+ 0001:00003e90       ?_Calculate_growth@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAIIII@Z 10004e90 f i HttpDns.obj
+ 0001:00003f00       ?_Deallocate_for_capacity@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXAAV?$allocator@D@2@QADI@Z 10004f00 f i HttpDns.obj
+ 0001:00003f60       ?_Get_first@?$_Compressed_pair@U?$default_delete@UHttpDns@@@std@@PAUHttpDns@@$00@std@@QAEAAU?$default_delete@UHttpDns@@@2@XZ 10004f60 f i HttpDns.obj
+ 0001:00003f80       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAEAAV?$allocator@D@2@XZ 10004f80 f i HttpDns.obj
+ 0001:00003fa0       ?_Get_first@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QBEABV?$allocator@D@2@XZ 10004fa0 f i HttpDns.obj
+ 0001:00003fc0       ?_Getal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEAAV?$allocator@D@2@XZ 10004fc0 f i HttpDns.obj
+ 0001:00003fe0       ?_Getal@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABEABV?$allocator@D@2@XZ 10004fe0 f i HttpDns.obj
+ 0001:00004000       ?_Large_mode_engaged@?$_String_val@U?$_Simple_types@D@std@@@std@@QBE_NXZ 10005000 f i HttpDns.obj
+ 0001:00004040       ?_Myptr@?$_String_val@U?$_Simple_types@D@std@@@std@@QBEPBDXZ 10005040 f i HttpDns.obj
+ 0001:00004090       ?_Orphan_all@_Container_base0@std@@QAEXXZ 10005090 f i HttpDns.obj
+ 0001:000040a0       ?_Release@_Fake_proxy_ptr_impl@std@@QAEXXZ 100050a0 f i HttpDns.obj
+ 0001:000040b0       ?_Switch_to_buf@_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QAEXXZ 100050b0 f i HttpDns.obj
+ 0001:000040d0       ?_Throw_bad_array_new_length@std@@YAXXZ 100050d0 f i HttpDns.obj
+ 0001:00004100       ?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AAEXXZ 10005100 f i HttpDns.obj
+ 0001:000041b0       ?_Xlen_string@std@@YAXXZ   100051b0 f i HttpDns.obj
+ 0001:000041d0       ?allocate@?$allocator@D@std@@QAEPADI@Z 100051d0 f i HttpDns.obj
+ 0001:00004200       ?append@?$QList@VQString@@@@QAEXABVQString@@@Z 10005200 f i HttpDns.obj
+ 0001:000043e0       ?assign@?$_Narrow_char_traits@DH@std@@SAXAADABD@Z 100053e0 f i HttpDns.obj
+ 0001:00004400       ?begin@?$QMap@VQString@@V1@@@QBE?AVconst_iterator@1@XZ 10005400 f i HttpDns.obj
+ 0001:00004430       ?begin@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@XZ 10005430 f i HttpDns.obj
+ 0001:00004460       ?c_str@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEPBDXZ 10005460 f i HttpDns.obj
+ 0001:00004480       ?contains@?$QMap@VQString@@V1@@@QBE_NABVQString@@@Z 10005480 f i HttpDns.obj
+ 0001:000044d0       ?contains@QStringList@@QBE_NABVQString@@W4CaseSensitivity@Qt@@@Z 100054d0 f i HttpDns.obj
+ 0001:00004500       ?copy@?$QMapNode@VQString@@V1@@@QBEPAU1@PAU?$QMapData@VQString@@V1@@@@Z 10005500 f i HttpDns.obj
+ 0001:00004600       ?copy@?$_Char_traits@DH@std@@SAPADQADQBDI@Z 10005600 f i HttpDns.obj
+ 0001:00004630       ?create@?$QMapData@VQString@@V1@@@SAPAU1@XZ 10005630 f i HttpDns.obj
+ 0001:00004640       ?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z 10005640 f i HttpDns.obj
+ 0001:000047a0       ?dealloc@?$QList@VQString@@@@AAEXPAUData@QListData@@@Z 100057a0 f i HttpDns.obj
+ 0001:000047f0       ?deallocate@?$allocator@D@std@@QAEXQADI@Z 100057f0 f i HttpDns.obj
+ 0001:00004820       ?deref@?$QBasicAtomicInteger@H@@QAE_NXZ 10005820 f i HttpDns.obj
+ 0001:00004840       ?deref@RefCount@QtPrivate@@QAE_NXZ 10005840 f i HttpDns.obj
+ 0001:00004890       ?destroy@?$QMapData@VQString@@V1@@@QAEXXZ 10005890 f i HttpDns.obj
+ 0001:000048f0       ?destroySubTree@?$QMapNode@VQString@@V1@@@QAEXXZ 100058f0 f i HttpDns.obj
+ 0001:00004940       ?detach@?$QMap@VQString@@V1@@@QAEXXZ 10005940 f i HttpDns.obj
+ 0001:00004970       ?detach_helper@?$QList@VQString@@@@AAEXH@Z 10005970 f i HttpDns.obj
+ 0001:00004a90       ?detach_helper@?$QMap@VQString@@V1@@@AAEXXZ 10005a90 f i HttpDns.obj
+ 0001:00004b30       ?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z 10005b30 f i HttpDns.obj
+ 0001:00004d20       ?doDestroySubTree@?$QMapNode@VQString@@V1@@@AAEXU?$integral_constant@_N$00@std@@@Z 10005d20 f i HttpDns.obj
+ 0001:00004d70       ?end@?$QMap@VQString@@V1@@@QBE?AVconst_iterator@1@XZ 10005d70 f i HttpDns.obj
+ 0001:00004da0       ?end@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@XZ 10005da0 f i HttpDns.obj
+ 0001:00004dc0       ?findNode@?$QMapData@VQString@@V1@@@QBEPAU?$QMapNode@VQString@@V1@@@ABVQString@@@Z 10005dc0 f i HttpDns.obj
+ 0001:00004e30       ?get_deleter@?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAEAAU?$default_delete@UHttpDns@@@2@XZ 10005e30 f i HttpDns.obj
+ 0001:00004e50       ?insert@?$QMap@VQString@@V1@@@QAE?AViterator@1@ABVQString@@0@Z 10005e50 f i HttpDns.obj
+ 0001:00004f90       ?isEmpty@?$QMap@VQString@@V1@@@QBE_NXZ 10005f90 f i HttpDns.obj
+ 0001:00004fd0       ?isShared@RefCount@QtPrivate@@QBE_NXZ 10005fd0 f i HttpDns.obj
+ 0001:00005020       ?key@const_iterator@?$QMap@VQString@@V1@@@QBEABVQString@@XZ 10006020 f i HttpDns.obj
+ 0001:00005040       ?keys@?$QMap@VQString@@V1@@@QBE?AV?$QList@VQString@@@@XZ 10006040 f i HttpDns.obj
+ 0001:00005140       ?leftNode@?$QMapNode@VQString@@V1@@@QBEPAU1@XZ 10006140 f i HttpDns.obj
+ 0001:00005160       ?length@?$_Narrow_char_traits@DH@std@@SAIQBD@Z 10006160 f i HttpDns.obj
+ 0001:00005180       ?load@?$_Atomic_storage@H$03@std@@QBEHW4memory_order@2@@Z 10006180 f i HttpDns.obj
+ 0001:000051e0       ?loadRelaxed@?$QBasicAtomicInteger@H@@QBEHXZ 100061e0 f i HttpDns.obj
+ 0001:00005200       ?lowerBound@?$QMapNode@VQString@@V1@@@QAEPAU1@ABVQString@@@Z 10006200 f i HttpDns.obj
+ 0001:00005280       ?max_size@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SAIABV?$allocator@D@2@@Z 10006280 f i HttpDns.obj
+ 0001:00005290       ?max_size@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ 10006290 f i HttpDns.obj
+ 0001:00005310       ?nextNode@?$QMapNode@VQString@@V1@@@QBEPBU1@XZ 10006310 f i HttpDns.obj
+ 0001:00005330       ?node_construct@?$QList@VQString@@@@AAEXPAUNode@1@ABVQString@@@Z 10006330 f i HttpDns.obj
+ 0001:000053e0       ?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z 100063e0 f i HttpDns.obj
+ 0001:00005650       ?node_destruct@?$QList@VQString@@@@AAEXPAUNode@1@0@Z 10006650 f i HttpDns.obj
+ 0001:000056e0       ?node_destruct@?$QList@VQString@@@@AAEXPAUNode@1@@Z 100066e0 f i HttpDns.obj
+ 0001:00005740       ?release@?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAEPAUHttpDns@@XZ 10006740 f i HttpDns.obj
+ 0001:00005770       ?reserve@?$QList@VQString@@@@QAEXH@Z 10006770 f i HttpDns.obj
+ 0001:000057d0       ?reset@?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@QAEXPAUHttpDns@@@Z 100067d0 f i HttpDns.obj
+ 0001:00005820       ?rightNode@?$QMapNode@VQString@@V1@@@QBEPAU1@XZ 10006820 f i HttpDns.obj
+ 0001:00005840       ?root@?$QMapData@VQString@@V1@@@QBEPAU?$QMapNode@VQString@@V1@@@XZ 10006840 f i HttpDns.obj
+ 0001:00005860       ?select_on_container_copy_construction@?$_Default_allocator_traits@V?$allocator@D@std@@@std@@SA?AV?$allocator@D@2@ABV32@@Z 10006860 f i HttpDns.obj
+ 0001:00005870       ?size@?$QMap@VQString@@V1@@@QBEHXZ 10006870 f i HttpDns.obj
+ 0001:00005890       ?what@exception@std@@UBEPBDXZ 10006890 f i HttpDns.obj
+ 0001:000058c5       _hdns_status_is_ok         100068c5 f   httpdns:httpdns.dll
+ 0001:000058cb       _hdns_log_set_level        100068cb f   httpdns:httpdns.dll
+ 0001:000058d1       _hdns_sdk_init             100068d1 f   httpdns:httpdns.dll
+ 0001:000058d7       _hdns_client_create        100068d7 f   httpdns:httpdns.dll
+ 0001:000058dd       _hdns_client_start         100068dd f   httpdns:httpdns.dll
+ 0001:000058e3       _hdns_client_set_timeout   100068e3 f   httpdns:httpdns.dll
+ 0001:000058e9       _hdns_client_set_using_cache 100068e9 f   httpdns:httpdns.dll
+ 0001:000058ef       _hdns_client_set_using_https 100068ef f   httpdns:httpdns.dll
+ 0001:000058f5       _hdns_client_set_using_sign 100068f5 f   httpdns:httpdns.dll
+ 0001:000058fb       _hdns_client_set_retry_times 100068fb f   httpdns:httpdns.dll
+ 0001:00005901       _hdns_client_set_region    10006901 f   httpdns:httpdns.dll
+ 0001:00005907       _hdns_list_cleanup         10006907 f   httpdns:httpdns.dll
+ 0001:0000590d       _hdns_get_result_for_host_sync_with_cache 1000690d f   httpdns:httpdns.dll
+ 0001:00005913       _hdns_select_first_ip      10006913 f   httpdns:httpdns.dll
+ 0001:00005919       _hdns_log_set_log_file_path 10006919 f   httpdns:httpdns.dll
+ 0001:0000591f       _hdns_client_cleanup       1000691f f   httpdns:httpdns.dll
+ 0001:00005925       _hdns_sdk_cleanup          10006925 f   httpdns:httpdns.dll
+ 0001:0000592b       ??0QMessageLogger@@QAE@PBDH0@Z 1000692b f   Qt5Core:Qt5Core.dll
+ 0001:00005931       ?debug@QMessageLogger@@QBE?AVQDebug@@XZ 10006931 f   Qt5Core:Qt5Core.dll
+ 0001:00005937       ??0QString@@QAE@ABV0@@Z    10006937 f   Qt5Core:Qt5Core.dll
+ 0001:0000593d       ??1QString@@QAE@XZ         1000693d f   Qt5Core:Qt5Core.dll
+ 0001:00005943       ??4QString@@QAEAAV0@ABV0@@Z 10006943 f   Qt5Core:Qt5Core.dll
+ 0001:00005949       ??M@YA_NABVQString@@0@Z    10006949 f   Qt5Core:Qt5Core.dll
+ 0001:0000594f       ??0QString@@QAE@PBD@Z      1000694f f   Qt5Core:Qt5Core.dll
+ 0001:00005955       ?fromStdString@QString@@SA?AV1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 10006955 f   Qt5Core:Qt5Core.dll
+ 0001:0000595b       ?toStdString@QString@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 1000695b f   Qt5Core:Qt5Core.dll
+ 0001:00005961       ?detach@QListData@@QAEPAUData@1@H@Z 10006961 f   Qt5Core:Qt5Core.dll
+ 0001:00005967       ?detach_grow@QListData@@QAEPAUData@1@PAHH@Z 10006967 f   Qt5Core:Qt5Core.dll
+ 0001:0000596d       ?realloc@QListData@@QAEXH@Z 1000696d f   Qt5Core:Qt5Core.dll
+ 0001:00005973       ?dispose@QListData@@QAEXXZ 10006973 f   Qt5Core:Qt5Core.dll
+ 0001:00005979       ?dispose@QListData@@SAXPAUData@1@@Z 10006979 f   Qt5Core:Qt5Core.dll
+ 0001:0000597f       ?append@QListData@@QAEPAPAXXZ 1000697f f   Qt5Core:Qt5Core.dll
+ 0001:00005985       ?begin@QListData@@QBEPAPAXXZ 10006985 f   Qt5Core:Qt5Core.dll
+ 0001:0000598b       ?end@QListData@@QBEPAPAXXZ 1000698b f   Qt5Core:Qt5Core.dll
+ 0001:00005991       ?QStringList_contains@QtPrivate@@YA_NPBVQStringList@@ABVQString@@W4CaseSensitivity@Qt@@@Z 10006991 f   Qt5Core:Qt5Core.dll
+ 0001:00005997       ??0QUrl@@QAE@$$QAV0@@Z     10006997 f   Qt5Core:Qt5Core.dll
+ 0001:0000599d       ??1QUrl@@QAE@XZ            1000699d f   Qt5Core:Qt5Core.dll
+ 0001:000059a3       ?toString@QUrl@@QBE?AVQString@@V?$QUrlTwoFlags@W4UrlFormattingOption@QUrl@@W4ComponentFormattingOption@2@@@@Z 100069a3 f   Qt5Core:Qt5Core.dll
+ 0001:000059a9       ?setHost@QUrl@@QAEXABVQString@@W4ParsingMode@1@@Z 100069a9 f   Qt5Core:Qt5Core.dll
+ 0001:000059af       ?host@QUrl@@QBE?AVQString@@V?$QFlags@W4ComponentFormattingOption@QUrl@@@@@Z 100069af f   Qt5Core:Qt5Core.dll
+ 0001:000059b5       ?nextNode@QMapNodeBase@@QBEPBU1@XZ 100069b5 f   Qt5Core:Qt5Core.dll
+ 0001:000059bb       ?color@QMapNodeBase@@QBE?AW4Color@1@XZ 100069bb f   Qt5Core:Qt5Core.dll
+ 0001:000059c1       ?setColor@QMapNodeBase@@QAEXW4Color@1@@Z 100069c1 f   Qt5Core:Qt5Core.dll
+ 0001:000059c7       ?setParent@QMapNodeBase@@QAEXPAU1@@Z 100069c7 f   Qt5Core:Qt5Core.dll
+ 0001:000059cd       ?freeNodeAndRebalance@QMapDataBase@@QAEXPAUQMapNodeBase@@@Z 100069cd f   Qt5Core:Qt5Core.dll
+ 0001:000059d3       ?recalcMostLeftNode@QMapDataBase@@QAEXXZ 100069d3 f   Qt5Core:Qt5Core.dll
+ 0001:000059d9       ?createNode@QMapDataBase@@QAEPAUQMapNodeBase@@HHPAU2@_N@Z 100069d9 f   Qt5Core:Qt5Core.dll
+ 0001:000059df       ?freeTree@QMapDataBase@@QAEXPAUQMapNodeBase@@H@Z 100069df f   Qt5Core:Qt5Core.dll
+ 0001:000059e5       ?createData@QMapDataBase@@SAPAU1@XZ 100069e5 f   Qt5Core:Qt5Core.dll
+ 0001:000059eb       ?freeData@QMapDataBase@@SAXPAU1@@Z 100069eb f   Qt5Core:Qt5Core.dll
+ 0001:000059f1       ??1QDebug@@QAE@XZ          100069f1 f   Qt5Core:Qt5Core.dll
+ 0001:000059f7       ??6QDebug@@QAEAAV0@PBD@Z   100069f7 f   Qt5Core:Qt5Core.dll
+ 0001:000059fd       ??6QDebug@@QAEAAV0@ABVQString@@@Z 100069fd f   Qt5Core:Qt5Core.dll
+ 0001:00005a03       ??0QReadWriteLock@@QAE@W4RecursionMode@0@@Z 10006a03 f   Qt5Core:Qt5Core.dll
+ 0001:00005a09       ??1QReadWriteLock@@QAE@XZ  10006a09 f   Qt5Core:Qt5Core.dll
+ 0001:00005a0f       ?lockForRead@QReadWriteLock@@QAEXXZ 10006a0f f   Qt5Core:Qt5Core.dll
+ 0001:00005a15       ?lockForWrite@QReadWriteLock@@QAEXXZ 10006a15 f   Qt5Core:Qt5Core.dll
+ 0001:00005a1b       ?unlock@QReadWriteLock@@QAEXXZ 10006a1b f   Qt5Core:Qt5Core.dll
+ 0001:00005a21       ??0QReadLocker@@QAE@PAVQReadWriteLock@@@Z 10006a21 f   Qt5Core:Qt5Core.dll
+ 0001:00005a27       ??1QReadLocker@@QAE@XZ     10006a27 f   Qt5Core:Qt5Core.dll
+ 0001:00005a2d       ??0QDir@@QAE@ABVQString@@@Z 10006a2d f   Qt5Core:Qt5Core.dll
+ 0001:00005a33       ??1QDir@@QAE@XZ            10006a33 f   Qt5Core:Qt5Core.dll
+ 0001:00005a39       ?absoluteFilePath@QDir@@QBE?AVQString@@ABV2@@Z 10006a39 f   Qt5Core:Qt5Core.dll
+ 0001:00005a3f       ?applicationDirPath@QCoreApplication@@SA?AVQString@@XZ 10006a3f f   Qt5Core:Qt5Core.dll
+ 0001:00005a45       ?_Xlength_error@std@@YAXPBD@Z 10006a45 f   msvcprt:MSVCP140.dll
+ 0001:00005a4b       ??2@YAPAXI@Z               10006a4b f   MSVCRT:new_scalar.obj
+ 0001:00005a87       ??3@YAXPAXI@Z              10006a87 f   MSVCRT:delete_scalar_size.obj
+ 0001:00005a98       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 10006a98 f i MSVCRT:utility.obj
+ 0001:00005afd       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 10006afd f i MSVCRT:utility.obj
+ 0001:00005b41       _NtCurrentTeb              10006b41 f i MSVCRT:utility.obj
+ 0001:00005b48       ___scrt_acquire_startup_lock 10006b48 f   MSVCRT:utility.obj
+ 0001:00005b86       ___scrt_dllmain_after_initialize_c 10006b86 f   MSVCRT:utility.obj
+ 0001:00005bbb       ___scrt_dllmain_before_initialize_c 10006bbb f   MSVCRT:utility.obj
+ 0001:00005bcc       ___scrt_dllmain_crt_thread_attach 10006bcc f   MSVCRT:utility.obj
+ 0001:00005bf2       ___scrt_dllmain_crt_thread_detach 10006bf2 f   MSVCRT:utility.obj
+ 0001:00005c02       ___scrt_dllmain_exception_filter 10006c02 f   MSVCRT:utility.obj
+ 0001:00005c43       ___scrt_dllmain_uninitialize_c 10006c43 f   MSVCRT:utility.obj
+ 0001:00005c6e       ___scrt_dllmain_uninitialize_critical 10006c6e f   MSVCRT:utility.obj
+ 0001:00005c7e       ___scrt_initialize_crt     10006c7e f   MSVCRT:utility.obj
+ 0001:00005cc5       ___scrt_initialize_onexit_tables 10006cc5 f   MSVCRT:utility.obj
+ 0001:00005d6d       ___scrt_is_nonwritable_in_current_image 10006d6d f   MSVCRT:utility.obj
+ 0001:00005e26       ___scrt_release_startup_lock 10006e26 f   MSVCRT:utility.obj
+ 0001:00005e4a       ___scrt_uninitialize_crt   10006e4a f   MSVCRT:utility.obj
+ 0001:00005e7c       __onexit                   10006e7c f   MSVCRT:utility.obj
+ 0001:00005eb4       _at_quick_exit             10006eb4 f   MSVCRT:utility.obj
+ 0001:00005edf       _atexit                    10006edf f   MSVCRT:utility.obj
+ 0001:00005ef9       @__security_check_cookie@4 10006ef9 f   MSVCRT:secchk.obj
+ 0001:00005f0a       ??1type_info@@UAE@XZ       10006f0a f   MSVCRT:std_type_info_static.obj
+ 0001:00005f11       ??_Etype_info@@UAEPAXI@Z   10006f11 f i MSVCRT:std_type_info_static.obj
+ 0001:00005f11       ??_Gtype_info@@UAEPAXI@Z   10006f11 f i MSVCRT:std_type_info_static.obj
+ 0001:00006349       __CRT_INIT@12              10007349 f   MSVCRT:dll_dllmain.obj
+ 0001:00006354       __DllMainCRTStartup@12     10007354 f   MSVCRT:dll_dllmain.obj
+ 0001:0000637f       ??0bad_alloc@std@@QAE@XZ   1000737f f i MSVCRT:throw_bad_alloc.obj
+ 0001:0000639d       ?__scrt_throw_std_bad_alloc@@YAXXZ 1000739d f   MSVCRT:throw_bad_alloc.obj
+ 0001:000063c1       ?__scrt_throw_std_bad_array_new_length@@YAXXZ 100073c1 f   MSVCRT:throw_bad_alloc.obj
+ 0001:000063e5       ??3@YAXPAX@Z               100073e5 f   MSVCRT:delete_scalar.obj
+ 0001:000063ea       ___isa_available_init      100073ea f   MSVCRT:cpu_disp.obj
+ 0001:000067e2       __get_startup_argv_mode    100077e2 f   MSVCRT:argv_mode.obj
+ 0001:000067e6       ___scrt_is_ucrt_dll_in_use 100077e6 f   MSVCRT:ucrt_detection.obj
+ 0001:000067f5       ___scrt_fastfail           100077f5 f   MSVCRT:utility_desktop.obj
+ 0001:0000694f       ___scrt_get_show_window_mode 1000794f f   MSVCRT:utility_desktop.obj
+ 0001:0000698c       ___scrt_initialize_mta     1000798c f   MSVCRT:utility_desktop.obj
+ 0001:00006991       ___scrt_initialize_winrt   10007991 f   MSVCRT:utility_desktop.obj
+ 0001:00006994       ___scrt_is_managed_app     10007994 f   MSVCRT:utility_desktop.obj
+ 0001:000069e6       ___scrt_set_unhandled_exception_filter 100079e6 f   MSVCRT:utility_desktop.obj
+ 0001:000069f5       ___scrt_exe_initialize_mta 100079f5 f   MSVCRT:utility_desktop.obj
+ 0001:000069f5       ___scrt_stub_for_initialize_mta 100079f5 f   MSVCRT:utility_desktop.obj
+ 0001:000069f8       ___scrt_unhandled_exception_filter@4 100079f8 f   MSVCRT:utility_desktop.obj
+ 0001:00006a63       __crt_debugger_hook        10007a63 f   MSVCRT:utility_desktop.obj
+ 0001:00006a70       __SEH_prolog4              10007a70 f   MSVCRT:sehprolg4.obj
+ 0001:00006ad0       __SEH_epilog4              10007ad0 f   MSVCRT:sehprolg4.obj
+ 0001:00006ae9       __except_handler4          10007ae9 f   MSVCRT:chandler4gs.obj
+ 0001:00006b23       @_guard_check_icall_nop@4  10007b23 f i MSVCRT:guard_support.obj
+ 0001:00006b26       _ReadNoFence               10007b26 f i MSVCRT:guard_support.obj
+ 0001:00006b32       _ReadPointerNoFence        10007b32 f i MSVCRT:guard_support.obj
+ 0001:00006b3e       __InlineInterlockedExchangePointer 10007b3e f i MSVCRT:guard_support.obj
+ 0001:00006b4e       ___castguard_check_failure_debugbreak 10007b4e f i MSVCRT:guard_support.obj
+ 0001:00006b6f       ___castguard_check_failure_fastfail 10007b6f f i MSVCRT:guard_support.obj
+ 0001:00006b95       ___castguard_check_failure_nop 10007b95 f i MSVCRT:guard_support.obj
+ 0001:00006b98       ___castguard_check_failure_os_handled 10007b98 f i MSVCRT:guard_support.obj
+ 0001:00006bdc       ___castguard_check_failure_user_handled 10007bdc f i MSVCRT:guard_support.obj
+ 0001:00006c64       ___castguard_set_user_handler 10007c64 f i MSVCRT:guard_support.obj
+ 0001:00006c76       ___castguard_slow_path_check_debugbreak 10007c76 f i MSVCRT:guard_support.obj
+ 0001:00006cae       ___castguard_slow_path_check_fastfail 10007cae f i MSVCRT:guard_support.obj
+ 0001:00006ceb       ___castguard_slow_path_check_nop 10007ceb f i MSVCRT:guard_support.obj
+ 0001:00006cee       ___castguard_slow_path_check_os_handled 10007cee f i MSVCRT:guard_support.obj
+ 0001:00006d39       ___castguard_slow_path_check_user_handled 10007d39 f i MSVCRT:guard_support.obj
+ 0001:00006db1       __guard_icall_checks_enforced 10007db1 f i MSVCRT:guard_support.obj
+ 0001:00006dc7       ___raise_securityfailure   10007dc7 f   MSVCRT:gs_report.obj
+ 0001:00006df9       ___report_gsfailure        10007df9 f   MSVCRT:gs_report.obj
+ 0001:00006f32       ___report_rangecheckfailure 10007f32 f   MSVCRT:gs_report.obj
+ 0001:00006f42       ___report_securityfailure  10007f42 f   MSVCRT:gs_report.obj
+ 0001:00007046       ___report_securityfailureEx 10008046 f   MSVCRT:gs_report.obj
+ 0001:00007201       ___security_init_cookie    10008201 f   MSVCRT:gs_support.obj
+ 0001:0000725e       _DllMain@12                1000825e f   MSVCRT:dll_dllmain_stub.obj
+ 0001:00007288       ?__scrt_initialize_type_info@@YAXXZ 10008288 f   MSVCRT:tncleanup.obj
+ 0001:00007297       ?__scrt_uninitialize_type_info@@YAXXZ 10008297 f   MSVCRT:tncleanup.obj
+ 0001:000072a6       ___local_stdio_printf_options 100082a6 f i MSVCRT:default_local_stdio_options.obj
+ 0001:000072ac       ___local_stdio_scanf_options 100082ac f i MSVCRT:default_local_stdio_options.obj
+ 0001:000072b2       ___scrt_initialize_default_local_stdio_options 100082b2 f   MSVCRT:default_local_stdio_options.obj
+ 0001:000072d6       ___scrt_get_dyn_tls_init_callback 100082d6 f   MSVCRT:dyn_tls_init.obj
+ 0001:000072dc       __RTC_Initialize           100082dc f   MSVCRT:initsect.obj
+ 0001:00007313       __RTC_Terminate            10008313 f   MSVCRT:initsect.obj
+ 0001:0000734a       _memcpy                    1000834a f   vcruntime:VCRUNTIME140.dll
+ 0001:00007350       ___std_exception_copy      10008350 f   vcruntime:VCRUNTIME140.dll
+ 0001:00007356       ___std_exception_destroy   10008356 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000735c       __CxxThrowException@8      1000835c f   vcruntime:VCRUNTIME140.dll
+ 0001:00007362       ___CxxFrameHandler3        10008362 f   vcruntime:VCRUNTIME140.dll
+ 0001:00007368       ___current_exception       10008368 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000736e       ___current_exception_context 1000836e f   vcruntime:VCRUNTIME140.dll
+ 0001:00007374       _memset                    10008374 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000737a       __except_handler4_common   1000837a f   vcruntime:VCRUNTIME140.dll
+ 0001:00007380       ___std_type_info_destroy_list 10008380 f   vcruntime:VCRUNTIME140.dll
+ 0001:00007386       __invalid_parameter_noinfo_noreturn 10008386 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000738c       _strlen                    1000838c f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00007392       __callnewh                 10008392 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00007398       _malloc                    10008398 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000739e       __seh_filter_dll           1000839e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073a4       __configure_narrow_argv    100083a4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073aa       __initialize_narrow_environment 100083aa f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073b0       __initialize_onexit_table  100083b0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073b6       __register_onexit_function 100083b6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073bc       __execute_onexit_table     100083bc f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073c2       __crt_atexit               100083c2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073c8       __crt_at_quick_exit        100083c8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073ce       __cexit                    100083ce f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073d4       __initterm                 100083d4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073da       __initterm_e               100083da f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073e0       _free                      100083e0 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000073e6       _terminate                 100083e6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000073ec       _IsProcessorFeaturePresent@4 100083ec f   kernel32:KERNEL32.dll
+ 0001:000073f2       _IsDebuggerPresent@0       100083f2 f   kernel32:KERNEL32.dll
+ 0001:000073f8       _UnhandledExceptionFilter@4 100083f8 f   kernel32:KERNEL32.dll
+ 0001:000073fe       _SetUnhandledExceptionFilter@4 100083fe f   kernel32:KERNEL32.dll
+ 0001:00007404       _GetStartupInfoW@4         10008404 f   kernel32:KERNEL32.dll
+ 0001:0000740a       _GetModuleHandleW@4        1000840a f   kernel32:KERNEL32.dll
+ 0001:00007410       _GetCurrentProcess@0       10008410 f   kernel32:KERNEL32.dll
+ 0001:00007416       _TerminateProcess@8        10008416 f   kernel32:KERNEL32.dll
+ 0001:0000741c       _QueryPerformanceCounter@4 1000841c f   kernel32:KERNEL32.dll
+ 0001:00007422       _GetCurrentProcessId@0     10008422 f   kernel32:KERNEL32.dll
+ 0001:00007428       _GetCurrentThreadId@0      10008428 f   kernel32:KERNEL32.dll
+ 0001:0000742e       _GetSystemTimeAsFileTime@4 1000842e f   kernel32:KERNEL32.dll
+ 0001:00007434       _DisableThreadLibraryCalls@4 10008434 f   kernel32:KERNEL32.dll
+ 0001:0000743a       _InitializeSListHead@4     1000843a f   kernel32:KERNEL32.dll
+ 0001:00007440       ___acrt_initialize         10008440 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007440       ___scrt_stub_for_acrt_initialize 10008440 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007440       ___vcrt_initialize         10008440 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007443       ___acrt_thread_attach      10008443 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007443       ___scrt_stub_for_acrt_thread_attach 10008443 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007443       ___vcrt_thread_attach      10008443 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007446       ___acrt_thread_detach      10008446 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007446       ___scrt_stub_for_acrt_thread_detach 10008446 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007446       ___vcrt_thread_detach      10008446 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007449       ___acrt_uninitialize       10008449 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007449       ___scrt_stub_for_acrt_uninitialize 10008449 f   MSVCRT:ucrt_stubs.obj
+ 0001:00007449       ___vcrt_uninitialize       10008449 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000744c       ___acrt_uninitialize_critical 1000844c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000744c       ___scrt_stub_for_acrt_uninitialize_critical 1000844c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000744c       ___vcrt_uninitialize_critical 1000844c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000744f       ___scrt_stub_for_is_c_termination_complete 1000844f f   MSVCRT:ucrt_stubs.obj
+ 0001:0000744f       __is_c_termination_complete 1000844f f   MSVCRT:ucrt_stubs.obj
+ 0001:00007452       __filter_x86_sse2_floating_point_exception 10008452 f   MSVCRT:x86_exception_filter.obj
+ 0001:00007452       __filter_x86_sse2_floating_point_exception_default 10008452 f   MSVCRT:x86_exception_filter.obj
+ 0002:00000000       ___xc_a                    1000c000     MSVCRT:initializers.obj
+ 0002:00000218       ___xc_z                    1000c218     MSVCRT:initializers.obj
+ 0002:0000031c       ___xi_a                    1000c31c     MSVCRT:initializers.obj
+ 0002:00000420       ___xi_z                    1000c420     MSVCRT:initializers.obj
+ 0002:00000524       ___xp_a                    1000c524     MSVCRT:initializers.obj
+ 0002:00000628       ___xp_z                    1000c628     MSVCRT:initializers.obj
+ 0002:0000072c       ___xt_a                    1000c72c     MSVCRT:initializers.obj
+ 0002:00000830       ___xt_z                    1000c830     MSVCRT:initializers.obj
+ 0002:0000098c       ??_C@_06MAPHFPON@139450@   1000c98c     HttpDns.obj
+ 0002:00000994       ??_C@_08MPODPIDC@xxxxxxxx@ 1000c994     HttpDns.obj
+ 0002:000009c0       ??_7exception@std@@6B@     1000c9c0     HttpDns.obj
+ 0002:000009cc       ??_C@_0BC@EOODALEL@Unknown?5exception@ 1000c9cc     HttpDns.obj
+ 0002:000009e8       ??_7bad_alloc@std@@6B@     1000c9e8     HttpDns.obj
+ 0002:000009f8       ??_7bad_array_new_length@std@@6B@ 1000c9f8     HttpDns.obj
+ 0002:00000a04       ??_C@_0BF@KINCDENJ@bad?5array?5new?5length@ 1000ca04     HttpDns.obj
+ 0002:00000a20       ??_C@_0BA@JFNIOLAK@string?5too?5long@ 1000ca20     HttpDns.obj
+ 0002:00000a34       ??_C@_0BA@PKLMDPEK@Log?1httpdns?4log@ 1000ca34     HttpDns.obj
+ 0002:00000a48       ??_C@_06FJKEMHGD@global@   1000ca48     HttpDns.obj
+ 0002:00000a54       ??_7type_info@@6B@         1000ca54     MSVCRT:std_type_info_static.obj
+ 0002:00000a5c       __pDefaultRawDllMain       1000ca5c     MSVCRT:dll_dllmain.obj
+ 0002:00000a5c       __pRawDllMain              1000ca5c     MSVCRT:dll_dllmain.obj
+ 0002:00000a60       ??_C@_0P@GHFPNOJB@bad?5allocation@ 1000ca60     MSVCRT:throw_bad_alloc.obj
+ 0002:00000a80       __load_config_used         1000ca80     MSVCRT:loadcfg.obj
+ 0002:00000cc0       ___CastGuardVftablesStart  1000ccc0     MSVCRT:guard_support.obj
+ 0002:00000e40       ___CastGuardVftablesEnd    1000ce40     MSVCRT:guard_support.obj
+ 0002:00000f8c       ??_R4exception@std@@6B@    1000cf8c     HttpDns.obj
+ 0002:00000fa4       ??_R3exception@std@@8      1000cfa4     HttpDns.obj
+ 0002:00000fb8       ??_R2exception@std@@8      1000cfb8     HttpDns.obj
+ 0002:00000fc0       ??_R1A@?0A@EA@exception@std@@8 1000cfc0     HttpDns.obj
+ 0002:00000fe4       ??_R4bad_array_new_length@std@@6B@ 1000cfe4     HttpDns.obj
+ 0002:00000ffc       ??_R3bad_array_new_length@std@@8 1000cffc     HttpDns.obj
+ 0002:00001010       ??_R2bad_array_new_length@std@@8 1000d010     HttpDns.obj
+ 0002:00001020       ??_R1A@?0A@EA@bad_array_new_length@std@@8 1000d020     HttpDns.obj
+ 0002:00001044       ??_R1A@?0A@EA@bad_alloc@std@@8 1000d044     HttpDns.obj
+ 0002:00001068       ??_R3bad_alloc@std@@8      1000d068     HttpDns.obj
+ 0002:0000107c       ??_R2bad_alloc@std@@8      1000d07c     HttpDns.obj
+ 0002:00001088       ??_R4bad_alloc@std@@6B@    1000d088     HttpDns.obj
+ 0002:000010a0       ??_R4type_info@@6B@        1000d0a0     MSVCRT:std_type_info_static.obj
+ 0002:000010b8       ??_R3type_info@@8          1000d0b8     MSVCRT:std_type_info_static.obj
+ 0002:000010cc       ??_R2type_info@@8          1000d0cc     MSVCRT:std_type_info_static.obj
+ 0002:000010d4       ??_R1A@?0A@EA@type_info@@8 1000d0d4     MSVCRT:std_type_info_static.obj
+ 0002:00001200       ___safe_se_handler_table   1000d200     <linker-defined>
+ 0002:000014ec       ___rtc_iaa                 1000d4ec     MSVCRT:initsect.obj
+ 0002:000015f0       ___rtc_izz                 1000d5f0     MSVCRT:initsect.obj
+ 0002:000016f4       ___rtc_taa                 1000d6f4     MSVCRT:initsect.obj
+ 0002:000017f8       ___rtc_tzz                 1000d7f8     MSVCRT:initsect.obj
+ 0002:00001f34       __CT??_R0?AVexception@std@@@8??0exception@std@@QAE@ABV01@@Z12 1000df34     HttpDns.obj
+ 0002:00001f54       __TI3?AVbad_array_new_length@std@@ 1000df54     HttpDns.obj
+ 0002:00001f68       __CTA3?AVbad_array_new_length@std@@ 1000df68     HttpDns.obj
+ 0002:00001f7c       __CT??_R0?AVbad_array_new_length@std@@@8??0bad_array_new_length@std@@QAE@ABV01@@Z12 1000df7c     HttpDns.obj
+ 0002:00001f9c       __CT??_R0?AVbad_alloc@std@@@8??0bad_alloc@std@@QAE@ABV01@@Z12 1000df9c     HttpDns.obj
+ 0002:00002050       __TI2?AVbad_alloc@std@@    1000e050     MSVCRT:throw_bad_alloc.obj
+ 0002:00002064       __CTA2?AVbad_alloc@std@@   1000e064     MSVCRT:throw_bad_alloc.obj
+ 0003:00000000       ___scrt_native_dllmain_reason 1000f000     MSVCRT:utility.obj
+ 0003:00000040       ___security_cookie         1000f040     MSVCRT:gs_cookie.obj
+ 0003:00000080       ___security_cookie_complement 1000f080     MSVCRT:gs_cookie.obj
+ 0003:00000098       ___isa_inverted            1000f098     MSVCRT:cpu_disp.obj
+ 0003:000000a0       ___isa_enabled             1000f0a0     MSVCRT:cpu_disp.obj
+ 0003:000000b0       ___scrt_ucrt_dll_is_in_use 1000f0b0     MSVCRT:ucrt_stubs.obj
+ 0003:000001c8       ??_R0?AVexception@std@@@8  1000f1c8     HttpDns.obj
+ 0003:000001ec       ??_R0?AVbad_array_new_length@std@@@8 1000f1ec     HttpDns.obj
+ 0003:0000021c       ??_R0?AVbad_alloc@std@@@8  1000f21c     HttpDns.obj
+ 0003:00000340       ??_R0?AVtype_info@@@8      1000f340     MSVCRT:std_type_info_static.obj
+ 0003:00000460       ?m_bUseHttpDns@@3_NA       1000f460     HttpDns.obj
+ 0003:00000464       ?m_dnsLock@@3VQReadWriteLock@@A 1000f464     HttpDns.obj
+ 0003:00000468       ?m_dnsCache@@3V?$QMap@VQString@@V1@@@A 1000f468     HttpDns.obj
+ 0003:0000046c       ?appPath@@3VQDir@@A        1000f46c     HttpDns.obj
+ 0003:00000470       ?s_httpdns@@3V?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@std@@A 1000f470     HttpDns.obj
+ 0003:00000478       ___scrt_current_native_startup_state 1000f478     MSVCRT:utility.obj
+ 0003:0000047c       ___scrt_native_startup_lock 1000f47c     MSVCRT:utility.obj
+ 0003:000004a8       ___avx10_version           1000f4a8     MSVCRT:cpu_disp.obj
+ 0003:000004ac       ___isa_available           1000f4ac     MSVCRT:cpu_disp.obj
+ 0003:000004b0       ___favor                   1000f4b0     MSVCRT:cpu_disp.obj
+ 0003:000004b8       ___scrt_debugger_hook_flag 1000f4b8     MSVCRT:utility_desktop.obj
+ 0003:000004bc       ___castguard_check_failure_user_handled_fptr 1000f4bc     MSVCRT:guard_support.obj
+ 0003:00000880       ?__type_info_root_node@@3U__type_info_node@@A 1000f880     MSVCRT:tncleanup.obj
+ 0003:00000890       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 1000f890     MSVCRT:default_local_stdio_options.obj
+ 0003:000008a0       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 1000f8a0     MSVCRT:default_local_stdio_options.obj
+ 0003:000008ac       ___dyn_tls_init_callback   1000f8ac     <common>
+ 0004:00000000       __imp__GetCurrentProcess@0 10010000     kernel32:KERNEL32.dll
+ 0004:00000004       __imp__InitializeSListHead@4 10010004     kernel32:KERNEL32.dll
+ 0004:00000008       __imp__DisableThreadLibraryCalls@4 10010008     kernel32:KERNEL32.dll
+ 0004:0000000c       __imp__GetSystemTimeAsFileTime@4 1001000c     kernel32:KERNEL32.dll
+ 0004:00000010       __imp__GetCurrentThreadId@0 10010010     kernel32:KERNEL32.dll
+ 0004:00000014       __imp__GetCurrentProcessId@0 10010014     kernel32:KERNEL32.dll
+ 0004:00000018       __imp__QueryPerformanceCounter@4 10010018     kernel32:KERNEL32.dll
+ 0004:0000001c       __imp__TerminateProcess@8  1001001c     kernel32:KERNEL32.dll
+ 0004:00000020       __imp__IsDebuggerPresent@0 10010020     kernel32:KERNEL32.dll
+ 0004:00000024       __imp__GetModuleHandleW@4  10010024     kernel32:KERNEL32.dll
+ 0004:00000028       __imp__GetStartupInfoW@4   10010028     kernel32:KERNEL32.dll
+ 0004:0000002c       __imp__SetUnhandledExceptionFilter@4 1001002c     kernel32:KERNEL32.dll
+ 0004:00000030       __imp__UnhandledExceptionFilter@4 10010030     kernel32:KERNEL32.dll
+ 0004:00000034       __imp__IsProcessorFeaturePresent@4 10010034     kernel32:KERNEL32.dll
+ 0004:00000038       \177KERNEL32_NULL_THUNK_DATA 10010038     kernel32:KERNEL32.dll
+ 0004:0000006c       __imp_?_Xlength_error@std@@YAXPBD@Z 1001006c     msvcprt:MSVCP140.dll
+ 0004:00000070       \177MSVCP140_NULL_THUNK_DATA 10010070     msvcprt:MSVCP140.dll
+ 0004:0000009c       __imp_?shared_null@QMapDataBase@@2U1@B 1001009c     Qt5Core:Qt5Core.dll
+ 0004:000000a0       __imp_??0QMessageLogger@@QAE@PBDH0@Z 100100a0     Qt5Core:Qt5Core.dll
+ 0004:000000a4       __imp_?debug@QMessageLogger@@QBE?AVQDebug@@XZ 100100a4     Qt5Core:Qt5Core.dll
+ 0004:000000a8       __imp_??0QString@@QAE@ABV0@@Z 100100a8     Qt5Core:Qt5Core.dll
+ 0004:000000ac       __imp_??1QString@@QAE@XZ   100100ac     Qt5Core:Qt5Core.dll
+ 0004:000000b0       __imp_??4QString@@QAEAAV0@ABV0@@Z 100100b0     Qt5Core:Qt5Core.dll
+ 0004:000000b4       __imp_??M@YA_NABVQString@@0@Z 100100b4     Qt5Core:Qt5Core.dll
+ 0004:000000b8       __imp_??0QString@@QAE@PBD@Z 100100b8     Qt5Core:Qt5Core.dll
+ 0004:000000bc       __imp_?fromStdString@QString@@SA?AV1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z 100100bc     Qt5Core:Qt5Core.dll
+ 0004:000000c0       __imp_?toStdString@QString@@QBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ 100100c0     Qt5Core:Qt5Core.dll
+ 0004:000000c4       __imp_?detach@QListData@@QAEPAUData@1@H@Z 100100c4     Qt5Core:Qt5Core.dll
+ 0004:000000c8       __imp_?detach_grow@QListData@@QAEPAUData@1@PAHH@Z 100100c8     Qt5Core:Qt5Core.dll
+ 0004:000000cc       __imp_?realloc@QListData@@QAEXH@Z 100100cc     Qt5Core:Qt5Core.dll
+ 0004:000000d0       __imp_?dispose@QListData@@QAEXXZ 100100d0     Qt5Core:Qt5Core.dll
+ 0004:000000d4       __imp_?dispose@QListData@@SAXPAUData@1@@Z 100100d4     Qt5Core:Qt5Core.dll
+ 0004:000000d8       __imp_?append@QListData@@QAEPAPAXXZ 100100d8     Qt5Core:Qt5Core.dll
+ 0004:000000dc       __imp_?begin@QListData@@QBEPAPAXXZ 100100dc     Qt5Core:Qt5Core.dll
+ 0004:000000e0       __imp_?end@QListData@@QBEPAPAXXZ 100100e0     Qt5Core:Qt5Core.dll
+ 0004:000000e4       __imp_?QStringList_contains@QtPrivate@@YA_NPBVQStringList@@ABVQString@@W4CaseSensitivity@Qt@@@Z 100100e4     Qt5Core:Qt5Core.dll
+ 0004:000000e8       __imp_??0QUrl@@QAE@$$QAV0@@Z 100100e8     Qt5Core:Qt5Core.dll
+ 0004:000000ec       __imp_??1QUrl@@QAE@XZ      100100ec     Qt5Core:Qt5Core.dll
+ 0004:000000f0       __imp_?toString@QUrl@@QBE?AVQString@@V?$QUrlTwoFlags@W4UrlFormattingOption@QUrl@@W4ComponentFormattingOption@2@@@@Z 100100f0     Qt5Core:Qt5Core.dll
+ 0004:000000f4       __imp_?setHost@QUrl@@QAEXABVQString@@W4ParsingMode@1@@Z 100100f4     Qt5Core:Qt5Core.dll
+ 0004:000000f8       __imp_?host@QUrl@@QBE?AVQString@@V?$QFlags@W4ComponentFormattingOption@QUrl@@@@@Z 100100f8     Qt5Core:Qt5Core.dll
+ 0004:000000fc       __imp_?nextNode@QMapNodeBase@@QBEPBU1@XZ 100100fc     Qt5Core:Qt5Core.dll
+ 0004:00000100       __imp_?color@QMapNodeBase@@QBE?AW4Color@1@XZ 10010100     Qt5Core:Qt5Core.dll
+ 0004:00000104       __imp_?setColor@QMapNodeBase@@QAEXW4Color@1@@Z 10010104     Qt5Core:Qt5Core.dll
+ 0004:00000108       __imp_?setParent@QMapNodeBase@@QAEXPAU1@@Z 10010108     Qt5Core:Qt5Core.dll
+ 0004:0000010c       __imp_?freeNodeAndRebalance@QMapDataBase@@QAEXPAUQMapNodeBase@@@Z 1001010c     Qt5Core:Qt5Core.dll
+ 0004:00000110       __imp_?recalcMostLeftNode@QMapDataBase@@QAEXXZ 10010110     Qt5Core:Qt5Core.dll
+ 0004:00000114       __imp_?createNode@QMapDataBase@@QAEPAUQMapNodeBase@@HHPAU2@_N@Z 10010114     Qt5Core:Qt5Core.dll
+ 0004:00000118       __imp_?freeTree@QMapDataBase@@QAEXPAUQMapNodeBase@@H@Z 10010118     Qt5Core:Qt5Core.dll
+ 0004:0000011c       __imp_?createData@QMapDataBase@@SAPAU1@XZ 1001011c     Qt5Core:Qt5Core.dll
+ 0004:00000120       __imp_?freeData@QMapDataBase@@SAXPAU1@@Z 10010120     Qt5Core:Qt5Core.dll
+ 0004:00000124       __imp_??1QDebug@@QAE@XZ    10010124     Qt5Core:Qt5Core.dll
+ 0004:00000128       __imp_??6QDebug@@QAEAAV0@PBD@Z 10010128     Qt5Core:Qt5Core.dll
+ 0004:0000012c       __imp_??6QDebug@@QAEAAV0@ABVQString@@@Z 1001012c     Qt5Core:Qt5Core.dll
+ 0004:00000130       __imp_??0QReadWriteLock@@QAE@W4RecursionMode@0@@Z 10010130     Qt5Core:Qt5Core.dll
+ 0004:00000134       __imp_??1QReadWriteLock@@QAE@XZ 10010134     Qt5Core:Qt5Core.dll
+ 0004:00000138       __imp_?lockForRead@QReadWriteLock@@QAEXXZ 10010138     Qt5Core:Qt5Core.dll
+ 0004:0000013c       __imp_?lockForWrite@QReadWriteLock@@QAEXXZ 1001013c     Qt5Core:Qt5Core.dll
+ 0004:00000140       __imp_?unlock@QReadWriteLock@@QAEXXZ 10010140     Qt5Core:Qt5Core.dll
+ 0004:00000144       __imp_??0QReadLocker@@QAE@PAVQReadWriteLock@@@Z 10010144     Qt5Core:Qt5Core.dll
+ 0004:00000148       __imp_??1QReadLocker@@QAE@XZ 10010148     Qt5Core:Qt5Core.dll
+ 0004:0000014c       __imp_??0QDir@@QAE@ABVQString@@@Z 1001014c     Qt5Core:Qt5Core.dll
+ 0004:00000150       __imp_??1QDir@@QAE@XZ      10010150     Qt5Core:Qt5Core.dll
+ 0004:00000154       __imp_?absoluteFilePath@QDir@@QBE?AVQString@@ABV2@@Z 10010154     Qt5Core:Qt5Core.dll
+ 0004:00000158       __imp_?applicationDirPath@QCoreApplication@@SA?AVQString@@XZ 10010158     Qt5Core:Qt5Core.dll
+ 0004:0000015c       __imp_?shared_null@QListData@@2UData@1@B 1001015c     Qt5Core:Qt5Core.dll
+ 0004:00000160       \177Qt5Core_NULL_THUNK_DATA 10010160     Qt5Core:Qt5Core.dll
+ 0004:000001b0       __imp___CxxThrowException@8 100101b0     vcruntime:VCRUNTIME140.dll
+ 0004:000001b4       __imp____std_type_info_destroy_list 100101b4     vcruntime:VCRUNTIME140.dll
+ 0004:000001b8       __imp___except_handler4_common 100101b8     vcruntime:VCRUNTIME140.dll
+ 0004:000001bc       __imp__memcpy              100101bc     vcruntime:VCRUNTIME140.dll
+ 0004:000001c0       __imp____std_exception_copy 100101c0     vcruntime:VCRUNTIME140.dll
+ 0004:000001c4       __imp____std_exception_destroy 100101c4     vcruntime:VCRUNTIME140.dll
+ 0004:000001c8       __imp____current_exception_context 100101c8     vcruntime:VCRUNTIME140.dll
+ 0004:000001cc       __imp____CxxFrameHandler3  100101cc     vcruntime:VCRUNTIME140.dll
+ 0004:000001d0       __imp____current_exception 100101d0     vcruntime:VCRUNTIME140.dll
+ 0004:000001d4       __imp__memset              100101d4     vcruntime:VCRUNTIME140.dll
+ 0004:000001d8       \177VCRUNTIME140_NULL_THUNK_DATA 100101d8     vcruntime:VCRUNTIME140.dll
+ 0004:0000020c       __imp__free                1001020c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00000210       __imp___callnewh           10010210     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00000214       __imp__malloc              10010214     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00000218       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 10010218     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:00000244       __imp___crt_atexit         10010244     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000248       __imp___invalid_parameter_noinfo_noreturn 10010248     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:0000024c       __imp___initterm_e         1001024c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000250       __imp___seh_filter_dll     10010250     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000254       __imp___configure_narrow_argv 10010254     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000258       __imp___initialize_narrow_environment 10010258     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:0000025c       __imp___initialize_onexit_table 1001025c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000260       __imp___register_onexit_function 10010260     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000264       __imp___execute_onexit_table 10010264     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000268       __imp___initterm           10010268     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:0000026c       __imp___crt_at_quick_exit  1001026c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000270       __imp___cexit              10010270     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000274       __imp__terminate           10010274     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:00000278       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 10010278     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000002ac       __imp__strlen              100102ac     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:000002b0       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 100102b0     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:000002dc       __imp__hdns_client_cleanup 100102dc     httpdns:httpdns.dll
+ 0004:000002e0       __imp__hdns_status_is_ok   100102e0     httpdns:httpdns.dll
+ 0004:000002e4       __imp__hdns_sdk_cleanup    100102e4     httpdns:httpdns.dll
+ 0004:000002e8       __imp__hdns_log_set_log_file_path 100102e8     httpdns:httpdns.dll
+ 0004:000002ec       __imp__hdns_select_first_ip 100102ec     httpdns:httpdns.dll
+ 0004:000002f0       __imp__hdns_get_result_for_host_sync_with_cache 100102f0     httpdns:httpdns.dll
+ 0004:000002f4       __imp__hdns_list_cleanup   100102f4     httpdns:httpdns.dll
+ 0004:000002f8       __imp__hdns_client_set_region 100102f8     httpdns:httpdns.dll
+ 0004:000002fc       __imp__hdns_client_set_retry_times 100102fc     httpdns:httpdns.dll
+ 0004:00000300       __imp__hdns_client_set_using_sign 10010300     httpdns:httpdns.dll
+ 0004:00000304       __imp__hdns_client_set_using_https 10010304     httpdns:httpdns.dll
+ 0004:00000308       __imp__hdns_client_set_using_cache 10010308     httpdns:httpdns.dll
+ 0004:0000030c       __imp__hdns_client_set_timeout 1001030c     httpdns:httpdns.dll
+ 0004:00000310       __imp__hdns_client_start   10010310     httpdns:httpdns.dll
+ 0004:00000314       __imp__hdns_client_create  10010314     httpdns:httpdns.dll
+ 0004:00000318       __imp__hdns_sdk_init       10010318     httpdns:httpdns.dll
+ 0004:0000031c       __imp__hdns_log_set_level  1001031c     httpdns:httpdns.dll
+ 0004:00000320       \177httpdns_NULL_THUNK_DATA 10010320     httpdns:httpdns.dll
+ 0004:00000358       __IMPORT_DESCRIPTOR_httpdns 10010358     httpdns:httpdns.dll
+ 0004:0000036c       __IMPORT_DESCRIPTOR_Qt5Core 1001036c     Qt5Core:Qt5Core.dll
+ 0004:00000380       __IMPORT_DESCRIPTOR_MSVCP140 10010380     msvcprt:MSVCP140.dll
+ 0004:00000394       __IMPORT_DESCRIPTOR_VCRUNTIME140 10010394     vcruntime:VCRUNTIME140.dll
+ 0004:000003a8       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 100103a8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000003bc       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 100103bc     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:000003d0       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 100103d0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:000003e4       __IMPORT_DESCRIPTOR_KERNEL32 100103e4     kernel32:KERNEL32.dll
+ 0004:000003f8       __NULL_IMPORT_DESCRIPTOR   100103f8     httpdns:httpdns.dll
+ 0005:00000000       ___guard_check_icall_fptr  10012000     MSVCRT:guard_support.obj
+ 0005:00000004       ___guard_xfg_check_icall_fptr 10012004     MSVCRT:guard_support.obj
+ 0005:00000008       ___castguard_check_failure_os_handled_fptr 10012008     MSVCRT:guard_support.obj
+
+ entry point at        0001:0000048d
+
+ Static symbols
+
+ 0000:fffeb000       .debug$S                   10000000     CommFunc.exp
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:00000000       _volmd                     10000000     HttpDns.obj
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     kernel32:KERNEL32.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     httpdns:httpdns.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffeb000       .debug$S                   10000000     Qt5Core:Qt5Core.dll
+ 0000:fffee000       __guard_fids___except_handler4 10000000     MSVCRT:chandler4gs.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:cpu_disp.obj
+ 0000:fffee000       __guard_fids_?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 10000000     MSVCRT:dll_dllmain.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:gs_report.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:guard_support.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:guard_support.obj
+ 0000:fffee000       __guard_fids___guard_icall_checks_enforced 10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:00000000       _volmd                     10000000     MSVCRT:guard_support.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:std_type_info_static.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids__             10000000     MSVCRT:throw_bad_alloc.obj
+ 0000:fffee000       __guard_fids____scrt_set_unhandled_exception_filter 10000000     MSVCRT:utility_desktop.obj
+ 0000:fffeb000       .debug$S                   10000000     msvcprt:MSVCP140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:fffeb000       .debug$S                   10000000     vcruntime:VCRUNTIME140.dll
+ 0000:0000000c       _volmd                     1000000c     HttpDns.obj
+ 0000:00000018       _volmd                     10000018     HttpDns.obj
+ 0000:00000028       _volmd                     10000028     HttpDns.obj
+ 0000:00000038       _volmd                     10000038     HttpDns.obj
+ 0000:00000048       _volmd                     10000048     HttpDns.obj
+ 0001:00000a10       ??__EappPath@@YAXXZ        10001a10 f   HttpDns.obj
+ 0001:00000ab0       ??__Em_dnsCache@@YAXXZ     10001ab0 f   HttpDns.obj
+ 0001:00000ae0       ??__Em_dnsLock@@YAXXZ      10001ae0 f   HttpDns.obj
+ 0001:00000b10       ??__Es_httpdns@@YAXXZ      10001b10 f   HttpDns.obj
+ 0001:0000426c       __catch$?append@?$QList@VQString@@@@QAEXABVQString@@@Z$0 1000526c f i HttpDns.obj
+ 0001:000042ce       __catch$?append@?$QList@VQString@@@@QAEXABVQString@@@Z$2 100052ce f i HttpDns.obj
+ 0001:0000432e       __catch$?append@?$QList@VQString@@@@QAEXABVQString@@@Z$4 1000532e f i HttpDns.obj
+ 0001:000046d9       __catch$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z$0 100056d9 f i HttpDns.obj
+ 0001:00004708       __catch$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z$2 10005708 f i HttpDns.obj
+ 0001:000049e5       __catch$?detach_helper@?$QList@VQString@@@@AAEXH@Z$0 100059e5 f i HttpDns.obj
+ 0001:00004baf       __catch$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z$0 10005baf f i HttpDns.obj
+ 0001:00004c1c       __catch$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z$2 10005c1c f i HttpDns.obj
+ 0001:0000547e       __catch$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z$0 1000647e f i HttpDns.obj
+ 0001:00005537       __catch$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z$2 10006537 f i HttpDns.obj
+ 0001:00005aa8       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 10006aa8 f   MSVCRT:utility.obj
+ 0001:00005b02       ?is_potentially_valid_image_base@@YA_NQAX@Z 10006b02 f   MSVCRT:utility.obj
+ 0001:00005f3c       ?dllmain_crt_dispatch@@YGHQAUHINSTANCE__@@KQAX@Z 10006f3c f   MSVCRT:dll_dllmain.obj
+ 0001:00005fa3       ?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 10006fa3 f   MSVCRT:dll_dllmain.obj
+ 0001:000060eb       ?dllmain_crt_process_detach@@YAH_N@Z 100070eb f   MSVCRT:dll_dllmain.obj
+ 0001:000061c7       ?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 100071c7 f   MSVCRT:dll_dllmain.obj
+ 0001:00006314       ?dllmain_raw@@YGHQAUHINSTANCE__@@KQAX@Z 10007314 f   MSVCRT:dll_dllmain.obj
+ 0001:00006a70       $$000000                   10007a70     MSVCRT:sehprolg4.obj
+ 0001:00006ad0       $$000000                   10007ad0     MSVCRT:sehprolg4.obj
+ 0001:00006bc7       ___castguard_check_failure_os_handled_wrapper 10007bc7 f   MSVCRT:guard_support.obj
+ 0001:00006c1d       ___castguard_check_failure_user_handled_wrapper 10007c1d f   MSVCRT:guard_support.obj
+ 0001:00006c43       ___castguard_compat_check  10007c43 f   MSVCRT:guard_support.obj
+ 0001:00006d91       ___castguard_slow_path_compat_check 10007d91 f   MSVCRT:guard_support.obj
+ 0001:000071a1       ___get_entropy             100081a1 f   MSVCRT:gs_support.obj
+ 0001:00008710       __unwindfunclet$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z$0 10009710 f   HttpDns.obj
+ 0001:0000871c       __unwindfunclet$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z$1 1000971c f   HttpDns.obj
+ 0001:00008728       __unwindfunclet$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z$2 10009728 f   HttpDns.obj
+ 0001:00008734       __unwindfunclet$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z$3 10009734 f   HttpDns.obj
+ 0001:00008740       __unwindfunclet$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z$5 10009740 f   HttpDns.obj
+ 0001:0000874c       __unwindfunclet$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z$6 1000974c f   HttpDns.obj
+ 0001:0000875d       __ehhandler$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z 1000975d f   HttpDns.obj
+ 0001:00008787       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$0 10009787 f   HttpDns.obj
+ 0001:00008790       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$1 10009790 f   HttpDns.obj
+ 0001:00008799       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$2 10009799 f   HttpDns.obj
+ 0001:000087a2       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$3 100097a2 f   HttpDns.obj
+ 0001:000087ab       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$4 100097ab f   HttpDns.obj
+ 0001:000087b4       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$5 100097b4 f   HttpDns.obj
+ 0001:000087bc       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$6 100097bc f   HttpDns.obj
+ 0001:000087c4       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$7 100097c4 f   HttpDns.obj
+ 0001:000087d0       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$8 100097d0 f   HttpDns.obj
+ 0001:000087dc       __unwindfunclet$?Resolve@@YA?AVQUrl@@V1@@Z$9 100097dc f   HttpDns.obj
+ 0001:000087ed       __ehhandler$?Resolve@@YA?AVQUrl@@V1@@Z 100097ed f   HttpDns.obj
+ 0001:00008817       __unwindfunclet$?HttpDnsResolved@@YA_NVQUrl@@@Z$0 10009817 f   HttpDns.obj
+ 0001:00008820       __unwindfunclet$?HttpDnsResolved@@YA_NVQUrl@@@Z$1 10009820 f   HttpDns.obj
+ 0001:00008829       __unwindfunclet$?HttpDnsResolved@@YA_NVQUrl@@@Z$3 10009829 f   HttpDns.obj
+ 0001:00008836       __ehhandler$?HttpDnsResolved@@YA_NVQUrl@@@Z 10009836 f   HttpDns.obj
+ 0001:00008853       __unwindfunclet$?HttpDnsResolved@@YA_NXZ$0 10009853 f   HttpDns.obj
+ 0001:00008861       __ehhandler$?HttpDnsResolved@@YA_NXZ 10009861 f   HttpDns.obj
+ 0001:000088e0       __ehhandler$??$_Deallocate@$07@std@@YAXPAXI@Z 100098e0 f   HttpDns.obj
+ 0001:00008910       __unwindfunclet$??$make_unique@UHttpDns@@$$V$0A@@std@@YA?AV?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@0@XZ$0 10009910 f   HttpDns.obj
+ 0001:00008924       __ehhandler$??$make_unique@UHttpDns@@$$V$0A@@std@@YA?AV?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@0@XZ 10009924 f   HttpDns.obj
+ 0001:00008950       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z$0 10009950 f   HttpDns.obj
+ 0001:0000895d       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000995d f   HttpDns.obj
+ 0001:00008990       __unwindfunclet$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z$0 10009990 f   HttpDns.obj
+ 0001:0000899d       __ehhandler$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 1000999d f   HttpDns.obj
+ 0001:000089d0       __unwindfunclet$??0HttpDns@@QAE@XZ$0 100099d0 f   HttpDns.obj
+ 0001:000089dc       __unwindfunclet$??0HttpDns@@QAE@XZ$1 100099dc f   HttpDns.obj
+ 0001:000089ed       __ehhandler$??0HttpDns@@QAE@XZ 100099ed f   HttpDns.obj
+ 0001:00008a30       __ehhandler$??1?$QList@VQString@@@@QAE@XZ 10009a30 f   HttpDns.obj
+ 0001:00008a60       __ehhandler$??1?$QMap@VQString@@V1@@@QAE@XZ 10009a60 f   HttpDns.obj
+ 0001:00008a90       __unwindfunclet$??__EappPath@@YAXXZ$0 10009a90 f   HttpDns.obj
+ 0001:00008a9e       __ehhandler$??__EappPath@@YAXXZ 10009a9e f   HttpDns.obj
+ 0001:00008ad0       __ehhandler$?_Deallocate_for_capacity@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXAAV?$allocator@D@2@QADI@Z 10009ad0 f   HttpDns.obj
+ 0001:00008b00       __ehhandler$?append@?$QList@VQString@@@@QAEXABVQString@@@Z 10009b00 f   HttpDns.obj
+ 0001:00008b30       __ehhandler$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z 10009b30 f   HttpDns.obj
+ 0001:00008b60       __ehhandler$?detach_helper@?$QList@VQString@@@@AAEXH@Z 10009b60 f   HttpDns.obj
+ 0001:00008b90       __ehhandler$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z 10009b90 f   HttpDns.obj
+ 0001:00008bc0       __unwindfunclet$?keys@?$QMap@VQString@@V1@@@QBE?AV?$QList@VQString@@@@XZ$0 10009bc0 f   HttpDns.obj
+ 0001:00008bcd       __ehhandler$?keys@?$QMap@VQString@@V1@@@QBE?AV?$QList@VQString@@@@XZ 10009bcd f   HttpDns.obj
+ 0001:00008c00       __ehhandler$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z 10009c00 f   HttpDns.obj
+ 0001:00009c60       ??__FappPath@@YAXXZ        1000ac60 f   HttpDns.obj
+ 0001:00009c80       ??__Fm_dnsCache@@YAXXZ     1000ac80 f   HttpDns.obj
+ 0001:00009ca0       ??__Fm_dnsLock@@YAXXZ      1000aca0 f   HttpDns.obj
+ 0001:00009cc0       ??__Fs_httpdns@@YAXXZ      1000acc0 f   HttpDns.obj
+ 0002:00000104       ?m_dnsLock$initializer$@@3P6AXXZA 1000c104     HttpDns.obj
+ 0002:00000108       ?m_dnsCache$initializer$@@3P6AXXZA 1000c108     HttpDns.obj
+ 0002:0000010c       ?appPath$initializer$@@3P6AXXZA 1000c10c     HttpDns.obj
+ 0002:00000110       ?s_httpdns$initializer$@@3P6AXXZA 1000c110     HttpDns.obj
+ 0002:00000938       ?HTTPDNS_ACCOUNT@@3QBDB    1000c938     HttpDns.obj
+ 0002:0000093c       ?HTTPDNS_SECRET@@3QBDB     1000c93c     HttpDns.obj
+ 0002:00000940       ?_Fake_alloc@std@@3U_Fake_allocator@1@B 1000c940     HttpDns.obj
+ 0002:00000944       $SG148976                  1000c944     HttpDns.obj
+ 0002:00000950       $SG148977                  1000c950     HttpDns.obj
+ 0002:00000960       $SG149255                  1000c960     HttpDns.obj
+ 0002:00000970       $SG149256                  1000c970     HttpDns.obj
+ 0002:00000a74       _GS_ExceptionPointers      1000ca74     MSVCRT:gs_report.obj
+ 0002:00001900       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000d900     HttpDns.obj
+ 0002:00001908       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z 1000d908     HttpDns.obj
+ 0002:00001930       __unwindtable$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 1000d930     HttpDns.obj
+ 0002:00001938       __ehfuncinfo$??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z 1000d938     HttpDns.obj
+ 0002:00001960       __ehfuncinfo$?_Deallocate_for_capacity@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXAAV?$allocator@D@2@QADI@Z 1000d960     HttpDns.obj
+ 0002:00001988       __ehfuncinfo$??1?$QList@VQString@@@@QAE@XZ 1000d988     HttpDns.obj
+ 0002:000019b0       __catchsym$?append@?$QList@VQString@@@@QAEXABVQString@@@Z$8 1000d9b0     HttpDns.obj
+ 0002:000019c0       __catchsym$?append@?$QList@VQString@@@@QAEXABVQString@@@Z$7 1000d9c0     HttpDns.obj
+ 0002:000019d0       __catchsym$?append@?$QList@VQString@@@@QAEXABVQString@@@Z$6 1000d9d0     HttpDns.obj
+ 0002:000019e0       __ehfuncinfo$?append@?$QList@VQString@@@@QAEXABVQString@@@Z 1000d9e0     HttpDns.obj
+ 0002:00001a04       __unwindtable$?append@?$QList@VQString@@@@QAEXABVQString@@@Z 1000da04     HttpDns.obj
+ 0002:00001a34       __tryblocktable$?append@?$QList@VQString@@@@QAEXABVQString@@@Z 1000da34     HttpDns.obj
+ 0002:00001a84       __catchsym$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z$5 1000da84     HttpDns.obj
+ 0002:00001a94       __catchsym$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z$4 1000da94     HttpDns.obj
+ 0002:00001aa4       __unwindtable$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z 1000daa4     HttpDns.obj
+ 0002:00001ac4       __ehfuncinfo$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z 1000dac4     HttpDns.obj
+ 0002:00001ae8       __tryblocktable$?detach_helper_grow@?$QList@VQString@@@@AAEPAUNode@1@HH@Z 1000dae8     HttpDns.obj
+ 0002:00001b20       __catchsym$?detach_helper@?$QList@VQString@@@@AAEXH@Z$2 1000db20     HttpDns.obj
+ 0002:00001b30       __unwindtable$?detach_helper@?$QList@VQString@@@@AAEXH@Z 1000db30     HttpDns.obj
+ 0002:00001b40       __tryblocktable$?detach_helper@?$QList@VQString@@@@AAEXH@Z 1000db40     HttpDns.obj
+ 0002:00001b54       __ehfuncinfo$?detach_helper@?$QList@VQString@@@@AAEXH@Z 1000db54     HttpDns.obj
+ 0002:00001b80       __catchsym$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z$5 1000db80     HttpDns.obj
+ 0002:00001b90       __catchsym$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z$4 1000db90     HttpDns.obj
+ 0002:00001ba0       __unwindtable$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z 1000dba0     HttpDns.obj
+ 0002:00001bc0       __ehfuncinfo$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z 1000dbc0     HttpDns.obj
+ 0002:00001be4       __tryblocktable$?node_copy@?$QList@VQString@@@@AAEXPAUNode@1@00@Z 1000dbe4     HttpDns.obj
+ 0002:00001c1c       __unwindtable$?HttpDnsResolved@@YA_NXZ 1000dc1c     HttpDns.obj
+ 0002:00001c24       __unwindtable$?HttpDnsResolved@@YA_NVQUrl@@@Z 1000dc24     HttpDns.obj
+ 0002:00001c3c       __ehfuncinfo$?HttpDnsResolved@@YA_NXZ 1000dc3c     HttpDns.obj
+ 0002:00001c60       __ehfuncinfo$?HttpDnsResolved@@YA_NVQUrl@@@Z 1000dc60     HttpDns.obj
+ 0002:00001c84       __ehfuncinfo$?Resolve@@YA?AVQUrl@@V1@@Z 1000dc84     HttpDns.obj
+ 0002:00001ca8       __ehfuncinfo$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z 1000dca8     HttpDns.obj
+ 0002:00001ccc       __unwindtable$?Resolve@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV12@@Z 1000dccc     HttpDns.obj
+ 0002:00001cfc       __unwindtable$?Resolve@@YA?AVQUrl@@V1@@Z 1000dcfc     HttpDns.obj
+ 0002:00001d7c       __ehfuncinfo$??1?$QMap@VQString@@V1@@@QAE@XZ 1000dd7c     HttpDns.obj
+ 0002:00001da4       __unwindtable$?keys@?$QMap@VQString@@V1@@@QBE?AV?$QList@VQString@@@@XZ 1000dda4     HttpDns.obj
+ 0002:00001dac       __ehfuncinfo$?keys@?$QMap@VQString@@V1@@@QBE?AV?$QList@VQString@@@@XZ 1000ddac     HttpDns.obj
+ 0002:00001dd4       __unwindtable$??__EappPath@@YAXXZ 1000ddd4     HttpDns.obj
+ 0002:00001ddc       __ehfuncinfo$??__EappPath@@YAXXZ 1000dddc     HttpDns.obj
+ 0002:00001e04       __unwindtable$??0HttpDns@@QAE@XZ 1000de04     HttpDns.obj
+ 0002:00001e14       __ehfuncinfo$??0HttpDns@@QAE@XZ 1000de14     HttpDns.obj
+ 0002:00001e40       __unwindtable$??$make_unique@UHttpDns@@$$V$0A@@std@@YA?AV?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@0@XZ 1000de40     HttpDns.obj
+ 0002:00001e48       __ehfuncinfo$??$make_unique@UHttpDns@@$$V$0A@@std@@YA?AV?$unique_ptr@UHttpDns@@U?$default_delete@UHttpDns@@@std@@@0@XZ 1000de48     HttpDns.obj
+ 0002:00001e70       __catchsym$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z$5 1000de70     HttpDns.obj
+ 0002:00001e80       __catchsym$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z$4 1000de80     HttpDns.obj
+ 0002:00001e90       __unwindtable$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z 1000de90     HttpDns.obj
+ 0002:00001eb0       __ehfuncinfo$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z 1000deb0     HttpDns.obj
+ 0002:00001ed4       __tryblocktable$?createNode@?$QMapData@VQString@@V1@@@QAEPAU?$QMapNode@VQString@@V1@@@ABVQString@@0PAU2@_N@Z 1000ded4     HttpDns.obj
+ 0002:00001f0c       __ehfuncinfo$??$_Deallocate@$07@std@@YAXPAXI@Z 1000df0c     HttpDns.obj
+ 0002:00001fc0       __sehtable$___scrt_is_nonwritable_in_current_image 1000dfc0     MSVCRT:utility.obj
+ 0002:00001fe0       __sehtable$?dllmain_crt_process_attach@@YAHQAUHINSTANCE__@@QAX@Z 1000dfe0     MSVCRT:dll_dllmain.obj
+ 0002:00002000       __sehtable$?dllmain_crt_process_detach@@YAH_N@Z 1000e000     MSVCRT:dll_dllmain.obj
+ 0002:00002030       __sehtable$?dllmain_dispatch@@YAHQAUHINSTANCE__@@KQAX@Z 1000e030     MSVCRT:dll_dllmain.obj
+ 0002:00002230       .edata                     1000e230     CommFunc.exp
+ 0002:00002258       rgpv                       1000e258     CommFunc.exp
+ 0002:00002270       rgszName                   1000e270     CommFunc.exp
+ 0002:00002288       rgwOrd                     1000e288     CommFunc.exp
+ 0002:00002294       szName                     1000e294     CommFunc.exp
+ 0002:000022a1       $N00001                    1000e2a1     CommFunc.exp
+ 0002:000022b8       $N00002                    1000e2b8     CommFunc.exp
+ 0002:000022d8       $N00003                    1000e2d8     CommFunc.exp
+ 0002:000022f1       $N00004                    1000e2f1     CommFunc.exp
+ 0002:00002309       $N00005                    1000e309     CommFunc.exp
+ 0002:0000235e       $N00006                    1000e35e     CommFunc.exp
+ 0003:00000480       ?is_initialized_as_dll@@3_NA 1000f480     MSVCRT:utility.obj
+ 0003:00000481       ?module_local_atexit_table_initialized@@3_NA 1000f481     MSVCRT:utility.obj
+ 0003:00000484       ?module_local_atexit_table@@3U_onexit_table_t@@A 1000f484     MSVCRT:utility.obj
+ 0003:00000490       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 1000f490     MSVCRT:utility.obj
+ 0003:000004a4       ?__proc_attached@@3HA      1000f4a4     MSVCRT:dll_dllmain.obj
+ 0003:000004c0       _GS_ExceptionRecord        1000f4c0     MSVCRT:gs_report.obj
+ 0003:00000510       _GS_ContextRecord          1000f510     MSVCRT:gs_report.obj
+ 0004:00000914       .idata$6                   10010914     httpdns:httpdns.dll
+ 0004:00001140       .idata$6                   10011140     Qt5Core:Qt5Core.dll
+ 0004:0000116c       .idata$6                   1001116c     msvcprt:MSVCP140.dll
+ 0004:0000125a       .idata$6                   1001125a     vcruntime:VCRUNTIME140.dll
+ 0004:000013ac       .idata$6                   100113ac     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0004:000013ce       .idata$6                   100113ce     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0004:000013f0       .idata$6                   100113f0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0004:0000155a       .idata$6                   1001155a     kernel32:KERNEL32.dll
+ 0006:00000170       $R000000                   10013170     * linker generated manifest res *

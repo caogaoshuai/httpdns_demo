@@ -8,13 +8,16 @@
 #include <QTimer>
 #include "HttpDns.h"
 
+
 HttpDnsDemo::HttpDnsDemo(QWidget *parent)
     : QMainWindow(parent)
 {
     ui.setupUi(this);
     ui.centralWidget->layout();
 
+	manager = new QNetworkAccessManager(this);
     connect(ui.pushButton, &QPushButton::clicked, this, &HttpDnsDemo::clickbutton);
+	connect(manager, &QNetworkAccessManager::finished, this, &HttpDnsDemo::onReplyFinished);
 }
 
 HttpDnsDemo::~HttpDnsDemo()
@@ -49,42 +52,27 @@ void HttpDnsDemo::clickbutton()
 	qDebug() << "url:" << req.url().toString();
 	
 
+	manager->clearAccessCache();
+	QNetworkReply* reply = manager->sendCustomRequest(req, verb, content);
 
-
-
-	QNetworkAccessManager access;
-	access.clearAccessCache();
-
-	QNetworkReply* reply = access.sendCustomRequest(req, verb, content);
-	if (!reply)
-	{
-		ui.textEdit->append("ÍøÂçÒì³£");
-		return;
-	}
-	QEventLoop loop;
-	loop.connect(reply, &QNetworkReply::finished, &loop, &QEventLoop::quit);
-	QTimer::singleShot(5 * 1000, &loop, &QEventLoop::quit);
-	loop.exec();
-	if (!reply->isFinished())
-	{
-		ui.textEdit->append("Ó¦´ð³¬Ê±");
-		return ;
-	}
-	QString error;
-	error = reply->errorString();
-	auto httpStatusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
-	auto data = reply->readAll();
-
-	reply->deleteLater();
-	if (httpStatusCode != 200)
-	{
-		ui.textEdit->append(QString::number(httpStatusCode));
-		ui.textEdit->append(error);
-		return;
-	}
-	else 
-	{
-		ui.textEdit->append(data);
-		return;
-	}
 }
+
+void HttpDnsDemo::onReplyFinished(QNetworkReply* reply)
+{
+    int statusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
+    QByteArray data = reply->readAll();
+    QString errorString = reply->errorString();
+
+    reply->deleteLater();
+
+    if (reply->error() != QNetworkReply::NoError) {
+        ui.textEdit->append(QString("´íÎó: %1").arg(errorString));
+        ui.textEdit->append(QString("HTTP×´Ì¬Âë: %1").arg(statusCode));
+        return;
+    }
+
+    ui.textEdit->append(QString("ÏìÓ¦×´Ì¬Âë: %1").arg(statusCode));
+    ui.textEdit->append("ÏìÓ¦ÄÚÈÝ:");
+    ui.textEdit->append(data);
+}
+

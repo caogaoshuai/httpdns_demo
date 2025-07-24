@@ -7218,3 +7218,179 @@ Accept: */*
 [2025-07-24 20:02:32.742] 852 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_scheduler.c:219 Asynchronous scheduler update successfully.
 [2025-07-24 20:02:34.763] 856 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:90 Network monitoring task terminated.
 [2025-07-24 20:02:34.940] 860 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:205 Network speed monitoring task terminated.
+[2025-07-24 20:29:33.340] 236 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:363 detect net stack by udp, type=3
+[2025-07-24 20:29:33.340] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_sign.c:35 hdns_sign_t(raw=09923acdba64-15bcb3a89b384d12dfd3fa98f3d139fc-1753360173,timestamp=1753360173,sign=afd95f246dd058d913e980609b374687)
+[2025-07-24 20:29:33.340] 236 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_scheduler.c:266 try server 203.107.1.1 fetch resolve server
+[2025-07-24 20:29:33.340] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:264 url:http://203.107.1.1/181005/ss?region=global&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=NDvwwD61xvKS&s=afd95f246dd058d913e980609b374687&t=1753360173&n=09923acdba64.
+[2025-07-24 20:29:33.340] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:00A2BEE0p=> Info:   Trying 203.107.1.1:80...
+[2025-07-24 20:29:33.340] 264 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:65 Networking change.
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:00A2BEE0p=> Info: Connected to 203.107.1.1 (203.107.1.1) port 80
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:57 curl:00A2BEE0p=> Send header: GET /181005/ss?region=global&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=NDvwwD61xvKS&s=afd95f246dd058d913e980609b374687&t=1753360173&n=09923acdba64 HTTP/1.1
+Host: 203.107.1.1
+User-Agent: alibabacloud-httpdns-c-sdk-2.2.4
+Accept: */*
+
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:00A2BEE0p=> Info: Request completely sent off
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: HTTP/1.1 200 
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: Server: Tengine
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: Date: Thu, 24 Jul 2025 12:29:33 GMT
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: Content-Type: application/json;charset=ISO-8859-1
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: Content-Length: 982
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: Connection: keep-alive
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: X-Checksum-HmacMD5: FAD70684B80C6B3E40E9690EE9CAE07D
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:00A2BEE0p=> Recv header: 
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:69 curl:00A2BEE0p=> Recv data: {"service_ip":["106.11.25.175","203.107.1.67","203.107.1.65","203.107.1.35","203.107.1.66"],"service_ipv6":["2408:4003:1f40::1af","2408:4003:1f40::30a","2401:b180:7001::31d","2401:b180:7001::31b"],"enabled_domains":["cms-file.9635.com.cn","h5.integrity.com.cn","*.integrity.com.cn","marekt-ga.hrhgstock.com","cms.integrity.com.cn","market.intl3.9635.com.cn","dcdnf10.zgjys.com","hq-download-cdn.9635.com.cn","market.app2.9635.com.cn","market.intl2.9635.com.cn","download.hrhgstock.com","market.app1.9635.com.cn","cms-test.9635.com.cn","zhyt-cms.oss-cn-hangzhou.aliyuncs.com","market.intl.9635.com.cn","*.hrhgstock.com","hrhg-crash.integrity.com.cn","xiaoetong-test.integrity.com.cn","zhyt-newsinfo.oss-cn-hangzhou.aliyuncs.com","cms.hrhgstock.com","dcdnm.zgjys.com","futures-pc1.9635.com.cn","xiaoetong.9635.com.cn","ddm.integrity.com.cn","futures-app1.9635.com.cn","zhyt-file.9635.com.cn","xiaoetong.integrity.com.cn","*.9635.com.cn","cms.9635.com.cn","simulate.integrity.com.cn"]}
+[2025-07-24 20:29:33.356] 236 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:00A2BEE0p=> Info: Connection #0 to host 203.107.1.1 left intact
+[2025-07-24 20:29:33.356] 236 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_scheduler.c:286 try server 203.107.1.1 fetch resolve server success
+[2025-07-24 20:29:33.356] 236 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_scheduler.c:219 Asynchronous scheduler update successfully.
+[2025-07-24 20:29:35.402] 264 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:90 Network monitoring task terminated.
+[2025-07-24 20:29:35.465] 216 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:205 Network speed monitoring task terminated.
+[2025-07-24 20:41:37.781] 872 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:363 detect net stack by udp, type=3
+[2025-07-24 20:41:37.790] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_sign.c:35 hdns_sign_t(raw=634c504fdc6c-15bcb3a89b384d12dfd3fa98f3d139fc-1753360897,timestamp=1753360897,sign=7e1cc7567596e2cd7657ae7a3a7b8e94)
+[2025-07-24 20:41:37.790] 872 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_scheduler.c:266 try server 203.107.1.1 fetch resolve server
+[2025-07-24 20:41:37.791] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:264 url:http://203.107.1.1/181005/ss?region=global&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=7e1cc7567596e2cd7657ae7a3a7b8e94&t=1753360897&n=634c504fdc6c.
+[2025-07-24 20:41:37.791] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info:   Trying 203.107.1.1:80...
+[2025-07-24 20:41:37.798] 832 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:65 Networking change.
+[2025-07-24 20:41:37.800] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connected to 203.107.1.1 (203.107.1.1) port 80
+[2025-07-24 20:41:37.801] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:57 curl:048DA660p=> Send header: GET /181005/ss?region=global&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=7e1cc7567596e2cd7657ae7a3a7b8e94&t=1753360897&n=634c504fdc6c HTTP/1.1
+Host: 203.107.1.1
+User-Agent: alibabacloud-httpdns-c-sdk-2.2.4
+Accept: */*
+
+[2025-07-24 20:41:37.801] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Request completely sent off
+[2025-07-24 20:41:37.811] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: HTTP/1.1 200 
+[2025-07-24 20:41:37.811] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Server: Tengine
+[2025-07-24 20:41:37.811] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Date: Thu, 24 Jul 2025 12:41:37 GMT
+[2025-07-24 20:41:37.811] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Type: application/json;charset=ISO-8859-1
+[2025-07-24 20:41:37.812] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Length: 981
+[2025-07-24 20:41:37.812] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Connection: keep-alive
+[2025-07-24 20:41:37.812] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: X-Checksum-HmacMD5: 05F559B7D681FBE02349702435F98E0C
+[2025-07-24 20:41:37.812] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: 
+[2025-07-24 20:41:37.812] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:69 curl:048DA660p=> Recv data: {"service_ip":["203.107.1.66","203.107.1.33","106.11.25.239","203.107.1.1","203.107.1.35"],"service_ipv6":["2401:b180:7001::31d","2408:4003:1f40::30a","2408:4003:1f40::1af","2401:b180:7001::31b"],"enabled_domains":["cms-file.9635.com.cn","h5.integrity.com.cn","*.integrity.com.cn","marekt-ga.hrhgstock.com","cms.integrity.com.cn","market.intl3.9635.com.cn","dcdnf10.zgjys.com","hq-download-cdn.9635.com.cn","market.app2.9635.com.cn","market.intl2.9635.com.cn","download.hrhgstock.com","market.app1.9635.com.cn","cms-test.9635.com.cn","zhyt-cms.oss-cn-hangzhou.aliyuncs.com","market.intl.9635.com.cn","*.hrhgstock.com","hrhg-crash.integrity.com.cn","xiaoetong-test.integrity.com.cn","zhyt-newsinfo.oss-cn-hangzhou.aliyuncs.com","cms.hrhgstock.com","dcdnm.zgjys.com","futures-pc1.9635.com.cn","xiaoetong.9635.com.cn","ddm.integrity.com.cn","futures-app1.9635.com.cn","zhyt-file.9635.com.cn","xiaoetong.integrity.com.cn","*.9635.com.cn","cms.9635.com.cn","simulate.integrity.com.cn"]}
+[2025-07-24 20:41:37.812] 872 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connection #0 to host 203.107.1.1 left intact
+[2025-07-24 20:41:37.812] 872 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_scheduler.c:286 try server 203.107.1.1 fetch resolve server success
+[2025-07-24 20:41:37.812] 872 INFO  D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_scheduler.c:219 Asynchronous scheduler update successfully.
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_cache.c:76 cache table get entry failed, entry doesn't exists
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_cache.c:76 cache table get entry failed, entry doesn't exists
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_sign.c:35 hdns_sign_t(raw=www.aliyun.com-15bcb3a89b384d12dfd3fa98f3d139fc-1753362707,timestamp=1753362707,sign=832f2496c55904bd6391dff627c5f1b5)
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:264 url:http://106.11.251.5/181005/sign_d?host=www.aliyun.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=832f2496c55904bd6391dff627c5f1b5&t=1753362707.
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connection 0 seems to be dead
+[2025-07-24 20:41:47.741] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: shutting down connection #0
+[2025-07-24 20:41:47.742] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info:   Trying 106.11.251.5:80...
+[2025-07-24 20:41:47.752] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connected to 106.11.251.5 (106.11.251.5) port 80
+[2025-07-24 20:41:47.753] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:57 curl:048DA660p=> Send header: GET /181005/sign_d?host=www.aliyun.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=832f2496c55904bd6391dff627c5f1b5&t=1753362707 HTTP/1.1
+Host: 106.11.251.5
+User-Agent: alibabacloud-httpdns-c-sdk-2.2.4
+Accept: */*
+
+[2025-07-24 20:41:47.753] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Request completely sent off
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: HTTP/1.1 200 
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Server: Tengine
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Date: Thu, 24 Jul 2025 12:41:47 GMT
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Type: application/json;charset=UTF-8
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Length: 84
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Connection: close
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: 
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:69 curl:048DA660p=> Recv data: {"ipsv6":[],"host":"www.aliyun.com","client_ip":"121.196.212.58","ips":[],"ttl":300}
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: shutting down connection #1
+[2025-07-24 20:41:47.786] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_cache.c:76 cache table get entry failed, entry doesn't exists
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_cache.c:76 cache table get entry failed, entry doesn't exists
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_sign.c:35 hdns_sign_t(raw=httpdns-sc.aliyuncs.com-15bcb3a89b384d12dfd3fa98f3d139fc-1753362742,timestamp=1753362742,sign=8db7a7e1dc797f70f704e21c03a71658)
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:264 url:http://106.11.251.5/181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=8db7a7e1dc797f70f704e21c03a71658&t=1753362742.
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Hostname 106.11.251.5 was found in DNS cache
+[2025-07-24 20:42:22.027] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info:   Trying 106.11.251.5:80...
+[2025-07-24 20:42:22.035] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connected to 106.11.251.5 (106.11.251.5) port 80
+[2025-07-24 20:42:22.035] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:57 curl:048DA660p=> Send header: GET /181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=8db7a7e1dc797f70f704e21c03a71658&t=1753362742 HTTP/1.1
+Host: 106.11.251.5
+User-Agent: alibabacloud-httpdns-c-sdk-2.2.4
+Accept: */*
+
+[2025-07-24 20:42:22.036] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Request completely sent off
+[2025-07-24 20:42:22.044] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: HTTP/1.1 200 
+[2025-07-24 20:42:22.044] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Server: Tengine
+[2025-07-24 20:42:22.044] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Date: Thu, 24 Jul 2025 12:42:22 GMT
+[2025-07-24 20:42:22.044] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Type: application/json;charset=UTF-8
+[2025-07-24 20:42:22.044] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Length: 93
+[2025-07-24 20:42:22.044] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Connection: close
+[2025-07-24 20:42:22.044] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: 
+[2025-07-24 20:42:22.045] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:69 curl:048DA660p=> Recv data: {"ipsv6":[],"host":"httpdns-sc.aliyuncs.com","client_ip":"121.196.212.58","ips":[],"ttl":300}
+[2025-07-24 20:42:22.045] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: shutting down connection #2
+[2025-07-24 20:42:22.045] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:28.227] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:28.227] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:28.227] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_sign.c:35 hdns_sign_t(raw=httpdns-sc.aliyuncs.com-15bcb3a89b384d12dfd3fa98f3d139fc-1753362748,timestamp=1753362748,sign=be7bb8929a636a48012215ae74bcea66)
+[2025-07-24 20:42:28.227] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:264 url:http://106.11.251.5/181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=be7bb8929a636a48012215ae74bcea66&t=1753362748.
+[2025-07-24 20:42:28.227] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Hostname 106.11.251.5 was found in DNS cache
+[2025-07-24 20:42:28.227] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info:   Trying 106.11.251.5:80...
+[2025-07-24 20:42:28.235] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connected to 106.11.251.5 (106.11.251.5) port 80
+[2025-07-24 20:42:28.236] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:57 curl:048DA660p=> Send header: GET /181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=be7bb8929a636a48012215ae74bcea66&t=1753362748 HTTP/1.1
+Host: 106.11.251.5
+User-Agent: alibabacloud-httpdns-c-sdk-2.2.4
+Accept: */*
+
+[2025-07-24 20:42:28.236] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Request completely sent off
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: HTTP/1.1 200 
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Server: Tengine
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Date: Thu, 24 Jul 2025 12:42:28 GMT
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Type: application/json;charset=UTF-8
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Length: 93
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Connection: close
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: 
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:69 curl:048DA660p=> Recv data: {"ipsv6":[],"host":"httpdns-sc.aliyuncs.com","client_ip":"121.196.212.58","ips":[],"ttl":300}
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: shutting down connection #3
+[2025-07-24 20:42:28.246] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:28.810] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:28.810] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:29.476] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:29.476] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:29.477] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_sign.c:35 hdns_sign_t(raw=httpdns-sc.aliyuncs.com-15bcb3a89b384d12dfd3fa98f3d139fc-1753362749,timestamp=1753362749,sign=a391a2bce1dcdc981ac462fdf1af5fda)
+[2025-07-24 20:42:29.477] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:264 url:http://106.11.251.5/181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=a391a2bce1dcdc981ac462fdf1af5fda&t=1753362749.
+[2025-07-24 20:42:29.477] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Hostname 106.11.251.5 was found in DNS cache
+[2025-07-24 20:42:29.477] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info:   Trying 106.11.251.5:80...
+[2025-07-24 20:42:29.485] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connected to 106.11.251.5 (106.11.251.5) port 80
+[2025-07-24 20:42:29.486] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:57 curl:048DA660p=> Send header: GET /181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=a391a2bce1dcdc981ac462fdf1af5fda&t=1753362749 HTTP/1.1
+Host: 106.11.251.5
+User-Agent: alibabacloud-httpdns-c-sdk-2.2.4
+Accept: */*
+
+[2025-07-24 20:42:29.486] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Request completely sent off
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: HTTP/1.1 200 
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Server: Tengine
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Date: Thu, 24 Jul 2025 12:42:29 GMT
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Type: application/json;charset=UTF-8
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Length: 93
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Connection: close
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: 
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:69 curl:048DA660p=> Recv data: {"ipsv6":[],"host":"httpdns-sc.aliyuncs.com","client_ip":"121.196.212.58","ips":[],"ttl":300}
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: shutting down connection #4
+[2025-07-24 20:42:29.495] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:30.061] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:30.061] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:30.628] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:30.629] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3
+[2025-07-24 20:42:30.629] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_sign.c:35 hdns_sign_t(raw=httpdns-sc.aliyuncs.com-15bcb3a89b384d12dfd3fa98f3d139fc-1753362750,timestamp=1753362750,sign=a44f75b2198b983cb935e3ef3b37138f)
+[2025-07-24 20:42:30.629] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:264 url:http://106.11.251.5/181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=a44f75b2198b983cb935e3ef3b37138f&t=1753362750.
+[2025-07-24 20:42:30.629] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Hostname 106.11.251.5 was found in DNS cache
+[2025-07-24 20:42:30.629] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info:   Trying 106.11.251.5:80...
+[2025-07-24 20:42:30.637] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Connected to 106.11.251.5 (106.11.251.5) port 80
+[2025-07-24 20:42:30.637] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:57 curl:048DA660p=> Send header: GET /181005/sign_d?host=httpdns-sc.aliyuncs.com&query=4%2C6&platform=windows&sdk_version=alibabacloud-httpdns-c-sdk-2.2.4&sid=V1UHONPYK2iI&s=a44f75b2198b983cb935e3ef3b37138f&t=1753362750 HTTP/1.1
+Host: 106.11.251.5
+User-Agent: alibabacloud-httpdns-c-sdk-2.2.4
+Accept: */*
+
+[2025-07-24 20:42:30.637] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: Request completely sent off
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: HTTP/1.1 200 
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Server: Tengine
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Date: Thu, 24 Jul 2025 12:42:30 GMT
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Type: application/json;charset=UTF-8
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Content-Length: 93
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: Connection: close
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:66 curl:048DA660p=> Recv header: 
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:69 curl:048DA660p=> Recv data: {"host":"httpdns-sc.aliyuncs.com","ipsv6":[],"client_ip":"121.196.212.58","ips":[],"ttl":300}
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_transport.c:51 curl:048DA660p=> Info: shutting down connection #5
+[2025-07-24 20:42:30.647] 1972 DEBUG D:\project\httpdns_demo\httpdns_demo\httpdns\hdns_net.c:454 httpdns get net stack success, hit cache, the value is 3

@@ -499,7 +499,7 @@ hdns_status_t hdns_fetch_resv_results(hdns_client_t* client, hdns_resv_req_t* re
 			{
                 hdns_apply_custom_ttl(client, entry_cursor->data);
                 hdns_cache_table_add(cache, entry_cursor->data);
-                hdns_probe_resv_resp_ips(client, entry_cursor->data);
+                //hdns_probe_resv_resp_ips(client, entry_cursor->data);
             }
             status = hdns_status_ok(client->config->session_id);
             break;

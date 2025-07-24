@@ -44,22 +44,32 @@ static void hdns_curl_transport_finish(hdns_http_transport_t* t);
 
 static void hdns_move_transport_state(hdns_http_transport_t* t, hdns_transport_state_e s);
 
-
-static int hdns_curl_debug_callback(void* handle, curl_infotype type, char* data, size_t size, void* userp)
-{
+static int hdns_curl_debug_callback(void* handle, curl_infotype type, char* data, size_t size, void* userp) {
 	hdns_unused_var(userp);
-	switch (type)
-	{
-	default:
-		break;
+	switch (type) {
 	case CURLINFO_TEXT:
 		hdns_log_debug("curl:%pp=> Info: %.*s", handle, (int)size, data);
+		break;
+	case CURLINFO_SSL_DATA_OUT:
+		hdns_log_debug("curl:%pp=> Send ssl: %.*s", handle, (int)size, data);
 		break;
 	case CURLINFO_HEADER_OUT:
 		hdns_log_debug("curl:%pp=> Send header: %.*s", handle, (int)size, data);
 		break;
+	case CURLINFO_DATA_OUT:
+		hdns_log_debug("curl:%pp=> Send data: %.*s", handle, (int)size, data);
+		break;
+	case CURLINFO_SSL_DATA_IN:
+		hdns_log_debug("curl:%pp=> Recv ssl: %.*s", handle, (int)size, data);
+		break;
 	case CURLINFO_HEADER_IN:
 		hdns_log_debug("curl:%pp=> Recv header: %.*s", handle, (int)size, data);
+		break;
+	case CURLINFO_DATA_IN:
+		hdns_log_debug("curl:%pp=> Recv data: %.*s", handle, (int)size, data);
+		break;
+	case CURLINFO_END:
+		hdns_log_debug("curl:%pp=> info end: %.*s", handle, (int)size, data);
 		break;
 	}
 	return 0;

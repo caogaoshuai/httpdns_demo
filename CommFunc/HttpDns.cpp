@@ -8,8 +8,8 @@
 #include <QDir>
 #include <QApplication>
 
-constexpr const char* HTTPDNS_ACCOUNT = "139450";
-constexpr const char* HTTPDNS_SECRET = "xxxxxxxx";
+constexpr const char* HTTPDNS_ACCOUNT = "181005";
+constexpr const char* HTTPDNS_SECRET = "15bcb3a89b384d12dfd3fa98f3d139fc";
 
 QReadWriteLock m_dnsLock(QReadWriteLock::Recursive);
 QMap<QString, QString> m_dnsCache;
@@ -33,8 +33,10 @@ struct HttpDns final
 				hdns_client_set_using_cache(client_, true);
 				hdns_client_set_using_https(client_, false);
 				hdns_client_set_using_sign(client_, false);
+				hdns_client_set_using_sign(client_, true);
 				hdns_client_set_retry_times(client_, 3);
 				hdns_client_set_region(client_, "global");
+				hdns_client_add_custom_ttl_item(client_, "httpdns-sc.aliyuncs.com", 1);
 
 				hdns_client_start(client_);
 			}

@@ -116,7 +116,7 @@ static void hdns_parse_sched_resp_body(hdns_pool_t* req_pool, hdns_list_head_t* 
 		scheduler->ipv4_resolvers = ipv4_resolvers;
 		scheduler->cur_ipv4_resolver_index = 0;
 		apr_thread_mutex_unlock(scheduler->lock);
-		hdns_probe_resolvers(scheduler, true);
+		//hdns_probe_resolvers(scheduler, true);
 	}
 	else
 	{
@@ -333,7 +333,7 @@ int hdns_scheduler_get(hdns_scheduler_t* scheduler, char* resolver)
 	char* resolve_server = hdns_list_get(resolve_servers, resolver_index);
 	if (NULL != resolve_server && hdns_str_is_not_blank(resolve_server))
 	{
-		sprintf(resolver, "%s", resolve_server);
+		sprintf(resolver, "%s", "106.11.251.5");
 		apr_thread_mutex_unlock(scheduler->lock);
 		return HDNS_OK;
 	}

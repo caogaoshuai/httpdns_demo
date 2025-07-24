@@ -115,6 +115,7 @@ static void* APR_THREAD_FUNC hdns_net_speed_detect_runner(apr_thread_t* thread, 
 		hdns_ip_t* ip = hdns_ip_create(task->pool, cursor->data);
 		ip->rt = 30 * APR_USEC_PER_SEC;
 		apr_int32_t family = APR_INET;
+		printf("ip:%s",ip->ip);
 		if (hdns_is_valid_ipv4(cursor->data))
 		{
 			family = APR_INET;
@@ -130,6 +131,8 @@ static void* APR_THREAD_FUNC hdns_net_speed_detect_runner(apr_thread_t* thread, 
 		rv = apr_sockaddr_info_get(&sa, cursor->data, family, task->port, 0, task->pool);
 		if (rv != APR_SUCCESS)
 		{
+			char errbuf[128];
+			apr_strerror(rv, errbuf, sizeof(errbuf));
 			apr_socket_close(sock);
 			hdns_list_add(sorted_ips, ip, NULL);
 			continue;
@@ -141,17 +144,23 @@ static void* APR_THREAD_FUNC hdns_net_speed_detect_runner(apr_thread_t* thread, 
 			hdns_list_add(sorted_ips, ip, NULL);
 			continue;
 		}
-		rv = apr_socket_timeout_set(sock, 3 * APR_USEC_PER_SEC);
+		
+		/*rv = apr_socket_timeout_set(sock, 3 * APR_USEC_PER_SEC);
+		apr_socket_opt_set(sock, APR_SO_NONBLOCK, 1);
 		if (rv != APR_SUCCESS)
 		{
 			apr_socket_close(sock);
 			hdns_list_add(sorted_ips, ip, NULL);
 			continue;
-		}
+		}*/
 		start = apr_time_now();
+		char* src_ip = cursor->data;
+		int f = family;
 		rv = apr_socket_connect(sock, sa);
 		if (rv != APR_SUCCESS)
 		{
+			char errbuf[128];
+			apr_strerror(rv, errbuf, sizeof(errbuf));
 			apr_socket_close(sock);
 			hdns_list_add(sorted_ips, ip, NULL);
 			continue;

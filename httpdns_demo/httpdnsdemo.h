@@ -14,9 +14,7 @@ public:
 
 private slots:
     void clickbutton();
-    void onReplyFinished(QNetworkReply* reply);
 
 private:
     Ui::httpdnsdemo ui;
-    QNetworkAccessManager* manager;
 };

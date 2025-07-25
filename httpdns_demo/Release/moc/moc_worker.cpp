@@ -77,14 +77,14 @@ void Worker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<Worker *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->finished((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 0: _t->finished((*reinterpret_cast< const QString(*)>(_a[1]))); break;
         case 1: _t->process(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (Worker::*)(QString );
+            using _t = void (Worker::*)(const QString & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&Worker::finished)) {
                 *result = 0;
                 return;
@@ -134,7 +134,7 @@ int Worker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void Worker::finished(QString _t1)
+void Worker::finished(const QString & _t1)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);

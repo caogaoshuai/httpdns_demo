@@ -1,21 +1,24 @@
+// worker.h
 
 #pragma once
+
 #include <QObject>
-#include <QByteArray>
+#include <QUrl>
 
 class Worker : public QObject
 {
     Q_OBJECT
+
 public:
-    Worker(QByteArray data, int statusCode);
+    explicit Worker(const QUrl& url, QObject* parent = nullptr);
+    ~Worker() {}
 
 public slots:
-    void process();  // 线程入口
+    void process();
 
 signals:
-    void finished(QString result);  // 发送处理结果给主线程
+    void finished(const QString& result);
 
 private:
-    QByteArray data_;
-    int statusCode_;
+    QUrl url_;
 };

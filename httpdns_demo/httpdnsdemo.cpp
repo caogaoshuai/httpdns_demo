@@ -6,7 +6,10 @@
 #include <QNetworkAccessManager>
 #include <QNetworkReply>
 #include <QTimer>
+#include <QThread>
+
 #include "HttpDns.h"
+#include "worker.h"
 
 
 HttpDnsDemo::HttpDnsDemo(QWidget *parent)
@@ -14,7 +17,7 @@ HttpDnsDemo::HttpDnsDemo(QWidget *parent)
 {
     ui.setupUi(this);
     ui.centralWidget->layout();
-
+    ui.lineEdit->setText("https://httpdns-sc.aliyuncs.com/139450/ss");
 	manager = new QNetworkAccessManager(this);
     connect(ui.pushButton, &QPushButton::clicked, this, &HttpDnsDemo::clickbutton);
 	connect(manager, &QNetworkAccessManager::finished, this, &HttpDnsDemo::onReplyFinished);
@@ -57,8 +60,12 @@ void HttpDnsDemo::clickbutton()
 
 }
 
+/*
+
 void HttpDnsDemo::onReplyFinished(QNetworkReply* reply)
 {
+    QThread::sleep(10);
+    
     int statusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
     QByteArray data = reply->readAll();
     QString errorString = reply->errorString();
@@ -75,4 +82,36 @@ void HttpDnsDemo::onReplyFinished(QNetworkReply* reply)
     ui.textEdit->append("响应内容:");
     ui.textEdit->append(data);
 }
+*/
+
+void HttpDnsDemo::onReplyFinished(QNetworkReply* reply)
+{
+    int statusCode = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
+    QByteArray data = reply->readAll();
+    QString errorString = reply->errorString();
+
+    reply->deleteLater();
+
+    // 创建子线程 + worker
+    QThread* thread = new QThread;
+    Worker* worker = new Worker(data, statusCode);
+    worker->moveToThread(thread);
+
+    // 线程启动后执行 worker 的 process
+    connect(thread, &QThread::started, worker, &Worker::process);
+
+    // worker 发出 finished 信号后更新 UI
+    connect(worker, &Worker::finished, this, [=](const QString& result) {
+        ui.textEdit->append(result);
+
+        // 清理线程和 worker
+        thread->quit();
+        thread->wait();
+        worker->deleteLater();
+        thread->deleteLater();
+        });
+
+    thread->start();
+}
+
 

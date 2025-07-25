@@ -1,11 +1,8 @@
-﻿  moc httpdnsdemo.h
-  httpdnsdemo.cpp
-  main.cpp
-  moc_httpdnsdemo.cpp
+﻿  httpdnsdemo.cpp
   正在生成代码
-  57 of 92 functions (62.0%) were compiled, the rest were copied from previous compilation.
-    40 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+  2 of 126 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
 qtmain.lib(qtmain_win.obj) : warning LNK4099: 未找到 PDB“”(使用“qtmain.lib(qtmain_win.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
   httpdns_demo.vcxproj -> D:\project\httpdns_demo\httpdns_demo\httpdns_demo\Release\httpdns_demo.exe
